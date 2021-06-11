@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GHZFlower"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "small_flowers",
+    "namespace": "minecraft"
+  }
+}

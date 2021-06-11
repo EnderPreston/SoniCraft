@@ -1,0 +1,39 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dispenser"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "minecraft:gold_block"
+    },
+    "4": {
+      "item": "sonicraft:cyclone_wing"
+    },
+    "5": {
+      "item": "minecraft:minecart"
+    },
+    "6": {
+      "item": "minecraft:gold_block"
+    },
+    "7": {
+      "item": "minecraft:redstone_block"
+    },
+    "8": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "result": {
+    "item": "sonicraft:cyclone_body",
+    "count": 1
+  }
+}

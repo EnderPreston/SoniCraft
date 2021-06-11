@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "red": {
+      "map": {
+        "0": "spring_yard_red_flashing_light"
+      },
+      "name": "red"
+    },
+    "default": {
+      "map": {
+        "0": "wechnia_block"
+      },
+      "name": "default"
+    },
+    "blue": {
+      "map": {
+        "0": "spring_yard_blue_flashing_light"
+      },
+      "name": "blue"
+    }
+  }
+}

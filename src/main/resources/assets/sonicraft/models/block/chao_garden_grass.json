@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "sonicraft:blocks/chao_garden_stone",
+    "top": "sonicraft:blocks/chao_garden_grass_block",
+    "side": "sonicraft:blocks/chao_garden_stone",
+    "overlay": "sonicraft:blocks/chao_garden_grass_side",
+    "particle": "sonicraft:blocks/chao_garden_stone"
+  }
+}

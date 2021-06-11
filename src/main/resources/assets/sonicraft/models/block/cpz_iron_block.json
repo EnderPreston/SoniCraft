@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/chemical_plant_iron_block",
+    "particle": "sonicraft:blocks/chemical_plant_iron_block"
+  }
+}

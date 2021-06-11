@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft:block/blue_labyrinth_zone_crystal"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/blue_labyrinth_zone_crystal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft:block/blue_labyrinth_zone_crystal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft:block/blue_labyrinth_zone_crystal",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "sonicraft:block/blue_labyrinth_zone_crystal",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "sonicraft:block/blue_labyrinth_zone_crystal",
+      "x": 90
+    }
+  }
+}

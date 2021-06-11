@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:chaostone_bricks"
+    },
+    "3": {
+      "item": "sonicraft:chaostone_bricks"
+    },
+    "4": {
+      "item": "sonicraft:chaostone_bricks"
+    },
+    "6": {
+      "item": "sonicraft:chaostone_bricks"
+    },
+    "7": {
+      "item": "sonicraft:chaostone_bricks"
+    },
+    "8": {
+      "item": "sonicraft:chaostone_bricks"
+    }
+  },
+  "result": {
+    "item": "sonicraft:chaostone_brick_stairs",
+    "count": 4
+  }
+}

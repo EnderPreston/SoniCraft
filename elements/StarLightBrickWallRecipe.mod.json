@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StarLightBricks"
+      },
+      {
+        "value": "CUSTOM:StarLightBricks"
+      },
+      {
+        "value": "CUSTOM:StarLightBricks"
+      },
+      {
+        "value": "CUSTOM:StarLightBricks"
+      },
+      {
+        "value": "CUSTOM:StarLightBricks"
+      },
+      {
+        "value": "CUSTOM:StarLightBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StarLightBrickWall"
+    },
+    "name": "star_light_brick_wall_recipe",
+    "namespace": "mod"
+  }
+}

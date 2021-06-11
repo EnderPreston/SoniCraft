@@ -1,0 +1,28 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "soft_serve_ice_cream",
+    "customModelName": "Normal",
+    "name": "Soft Serve Ice Cream",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "§9Amy loves these!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SonicraftMisc"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "saturation": 0.19999999999999998,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

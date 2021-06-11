@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "vent": "death_egg_vent",
+        "pipe": "death_egg_outer_shell_smooth"
+      },
+      "name": "default"
+    }
+  }
+}

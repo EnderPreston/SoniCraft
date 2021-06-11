@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/studiopolis_sign",
+  "textures": {
+    "all": "sonicraft:blocks/studiopolis_sign_egg_tv",
+    "particle": "sonicraft:blocks/studiopolis_sign_egg_tv",
+    "0": "sonicraft:blocks/studiopolis_sign_egg_tv"
+  }
+}

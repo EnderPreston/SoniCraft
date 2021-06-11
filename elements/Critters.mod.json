@@ -1,0 +1,35 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:Flicky"
+      },
+      {
+        "value": "CUSTOM:Cucky"
+      },
+      {
+        "value": "CUSTOM:Pecky"
+      },
+      {
+        "value": "CUSTOM:Picky"
+      },
+      {
+        "value": "CUSTOM:Pocky"
+      },
+      {
+        "value": "CUSTOM:Ricky"
+      },
+      {
+        "value": "CUSTOM:Rocky"
+      }
+    ],
+    "name": "critters",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft:block/aquatic_ruin_platform_slab"
+    },
+    "type=top": {
+      "model": "sonicraft:block/aquatic_ruin_platform_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft:block/aquatic_ruin_platform_slab_full"
+    }
+  }
+}

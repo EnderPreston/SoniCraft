@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/death_egg_outer_shell_smooth",
+    "particle": "sonicraft:blocks/death_egg_outer_shell_smooth"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "sonicraft:custom/studiopolis_clapperboard_spring_used",
+  "textures": {
+    "all": "sonicraft:blocks/studiopolis_clapperboard_spring_side_alt",
+    "particle": "sonicraft:blocks/studiopolis_clapperboard_spring_side_alt",
+    "hinge": "sonicraft:blocks/studiopolis_clapperboard_spring_side_hinge",
+    "side": "sonicraft:blocks/studiopolis_clapperboard_spring_side",
+    "top": "sonicraft:blocks/studiopolis_smooth_top_interior",
+    "side_alt": "sonicraft:blocks/studiopolis_clapperboard_spring_side_alt",
+    "missing": "sonicraft:blocks/nothing"
+  }
+}

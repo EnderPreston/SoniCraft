@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:green_hill_palm_planks"
+    },
+    "3": {
+      "item": "sonicraft:green_hill_palm_planks"
+    },
+    "4": {
+      "item": "sonicraft:green_hill_palm_planks"
+    },
+    "6": {
+      "item": "sonicraft:green_hill_palm_planks"
+    },
+    "7": {
+      "item": "sonicraft:green_hill_palm_planks"
+    },
+    "8": {
+      "item": "sonicraft:green_hill_palm_planks"
+    }
+  },
+  "result": {
+    "item": "sonicraft:green_hill_palm_stairs",
+    "count": 4
+  }
+}

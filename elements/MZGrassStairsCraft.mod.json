@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MarbleZoneGrass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MarbleZoneGrass"
+      },
+      {
+        "value": "CUSTOM:MarbleZoneGrass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MarbleZoneGrass"
+      },
+      {
+        "value": "CUSTOM:MarbleZoneGrass"
+      },
+      {
+        "value": "CUSTOM:MarbleZoneGrass"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MarbleZoneGrassStairs"
+    },
+    "name": "mz_grass_stairs_craft",
+    "namespace": "mod"
+  }
+}

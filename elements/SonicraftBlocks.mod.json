@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "SoniCraft Blocks",
+    "icon": {
+      "value": "CUSTOM:GHZGrass"
+    },
+    "showSearch": false
+  }
+}

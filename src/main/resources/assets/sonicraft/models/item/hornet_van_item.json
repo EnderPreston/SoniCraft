@@ -1,0 +1,7 @@
+{
+  "parent": "sonicraft:custom/hornet_van_item",
+  "textures": {
+    "0": "sonicraft:blocks/hornet_van",
+    "particle": "sonicraft:items/studiopolis_door"
+  }
+}

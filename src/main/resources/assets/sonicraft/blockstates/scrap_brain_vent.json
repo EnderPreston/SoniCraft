@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft:block/scrap_brain_vent"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/scrap_brain_vent",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft:block/scrap_brain_vent",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft:block/scrap_brain_vent",
+      "y": 270
+    }
+  }
+}

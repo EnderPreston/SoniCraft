@@ -1,0 +1,10 @@
+{
+  "parent": "sonicraft:custom/slot_machine_lever",
+  "textures": {
+    "all": "sonicraft:blocks/casino_night_stone_lever",
+    "particle": "sonicraft:blocks/casino_night_stone_lever",
+    "hole": "sonicraft:blocks/casino_night_stone_lever",
+    "lever": "sonicraft:blocks/casino_night_slot_lever",
+    "stone": "sonicraft:blocks/casino_night_stone"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "infinite_bullet",
+    "customModelName": "Normal",
+    "name": "item.infinite_blaster_controller.name",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 100000,
+    "actionSound": {
+      "value": "CUSTOM:phantomruby.action"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.2000000000000002,
+    "bulletDamage": 0.5,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:InfiniteBlasterController"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsPlayer": {
+      "name": "InfiniteBlasterControllerBulletHitsPlayer"
+    }
+  }
+}

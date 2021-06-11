@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.PRISMARINE_SHARD"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.PRISMARINE_SHARD"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.PRISMARINE_SHARD"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.PRISMARINE_SHARD"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SpringYardScaffolding"
+    },
+    "name": "spring_yard_scaffolding_recipe",
+    "namespace": "mod"
+  }
+}

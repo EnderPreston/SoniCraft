@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/casino_night_slot_wheel_shoes",
+    "up": "sonicraft:blocks/casino_night_slot_wheel_shoes",
+    "north": "sonicraft:blocks/casino_night_slot_wheel_shoes",
+    "east": "sonicraft:blocks/casino_night_slot_wheel_outside",
+    "south": "sonicraft:blocks/casino_night_slot_wheel_blank",
+    "west": "sonicraft:blocks/casino_night_slot_wheel_outside",
+    "particle": "sonicraft:blocks/casino_night_slot_wheel_shoes"
+  }
+}

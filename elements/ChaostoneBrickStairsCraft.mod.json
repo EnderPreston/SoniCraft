@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ChaostoneBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChaostoneBricks"
+      },
+      {
+        "value": "CUSTOM:ChaostoneBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChaostoneBricks"
+      },
+      {
+        "value": "CUSTOM:ChaostoneBricks"
+      },
+      {
+        "value": "CUSTOM:ChaostoneBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChaostoneBrickStairs"
+    },
+    "name": "chaostone_brick_stairs_craft",
+    "namespace": "mod"
+  }
+}

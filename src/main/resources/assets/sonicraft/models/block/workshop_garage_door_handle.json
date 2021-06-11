@@ -1,0 +1,9 @@
+{
+  "parent": "sonicraft:custom/workshop_garage_door",
+  "textures": {
+    "all": "sonicraft:blocks/workshop_door_handle",
+    "particle": "sonicraft:blocks/workshop_door",
+    "symbol": "sonicraft:blocks/workshop_door_handle",
+    "door": "sonicraft:blocks/workshop_door"
+  }
+}

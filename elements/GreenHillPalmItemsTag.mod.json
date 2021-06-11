@@ -1,0 +1,26 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GreenHillPalmWood"
+      },
+      {
+        "value": "CUSTOM:GreenHillPalmLog"
+      },
+      {
+        "value": "CUSTOM:StrippedGHZPalmWood"
+      },
+      {
+        "value": "CUSTOM:StrippedGHZPalmLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "greenhillpalm_log",
+    "namespace": "forge"
+  }
+}

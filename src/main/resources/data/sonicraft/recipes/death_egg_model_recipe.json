@@ -1,0 +1,42 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:death_egg_outer_shell"
+    },
+    "1": {
+      "item": "sonicraft:death_egg_outer_shell"
+    },
+    "2": {
+      "item": "sonicraft:death_egg_outer_shell"
+    },
+    "3": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "4": {
+      "item": "sonicraft:death_egg_outer_shell"
+    },
+    "5": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "6": {
+      "item": "sonicraft:death_egg_outer_shell"
+    },
+    "7": {
+      "item": "sonicraft:death_egg_outer_shell"
+    },
+    "8": {
+      "item": "sonicraft:death_egg_outer_shell"
+    }
+  },
+  "result": {
+    "item": "sonicraft:death_egg_model",
+    "count": 1
+  }
+}

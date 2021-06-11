@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "sonicraft:ghz_grass",
+    "sonicraft:ghz_grass_stairs",
+    "sonicraft:ghz_grass_slab",
+    "sonicraft:ghz_dirt",
+    "sonicraft:ghz_dirt_stairs",
+    "sonicraft:ghz_dirt_slab",
+    "sonicraft:ghz_grass_ring_spawner",
+    "sonicraft:marble_zone_grass",
+    "sonicraft:marble_zone_grass_stairs",
+    "sonicraft:marble_zone_grass_slab",
+    "sonicraft:marble_zone_ring_spawner",
+    "sonicraft:chao_garden_grass",
+    "sonicraft:cpz_road",
+    "sonicraft:cpz_road_stairs",
+    "sonicraft:cpz_road_slab",
+    "sonicraft:spring_yard_road",
+    "sonicraft:spring_yard_road_stairs",
+    "sonicraft:spring_yard_road_slab",
+    "sonicraft:aquatic_ruin_bricks",
+    "sonicraft:aquatic_ruin_brick_slab",
+    "sonicraft:aquatic_ruin_grass",
+    "sonicraft:aquatic_ruin_platform",
+    "sonicraft:aquatic_ruin_platform_slab"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/green_hill_palm_planks",
+    "particle": "sonicraft:blocks/green_hill_palm_planks"
+  }
+}

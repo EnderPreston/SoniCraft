@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "spring_yard_searchlight_side",
+        "top": "spring_yard_searchlight_top",
+        "light": "spring_yard_searchlight_bulb"
+      },
+      "name": "default"
+    }
+  }
+}

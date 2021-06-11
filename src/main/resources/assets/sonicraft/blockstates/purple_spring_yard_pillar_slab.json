@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft:block/purple_spring_yard_pillar_slab"
+    },
+    "type=top": {
+      "model": "sonicraft:block/purple_spring_yard_pillar_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft:block/purple_spring_yard_pillar_slab_full"
+    }
+  }
+}

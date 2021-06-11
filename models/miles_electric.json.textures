@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "back": "miles_electric_back",
+        "front": "miles_electric"
+      },
+      "name": "default"
+    }
+  }
+}

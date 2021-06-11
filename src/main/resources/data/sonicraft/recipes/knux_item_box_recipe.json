@@ -1,0 +1,19 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sonicraft:item_box"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "sonicraft:grapes"
+    }
+  ],
+  "result": {
+    "item": "sonicraft:item_box_knuckles",
+    "count": 1
+  }
+}

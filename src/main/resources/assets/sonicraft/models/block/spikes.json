@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/sonic_spikes",
+  "textures": {
+    "all": "sonicraft:blocks/spikes",
+    "particle": "sonicraft:blocks/spikes",
+    "crop": "sonicraft:blocks/spikes"
+  }
+}

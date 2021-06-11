@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/studiopolis_popcorn_shop_floor",
+    "particle": "sonicraft:blocks/studiopolis_gold_block"
+  }
+}

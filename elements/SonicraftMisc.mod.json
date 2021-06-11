@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "SoniCraft Items",
+    "icon": {
+      "value": "CUSTOM:SpeedShoes.boots"
+    },
+    "showSearch": false
+  }
+}

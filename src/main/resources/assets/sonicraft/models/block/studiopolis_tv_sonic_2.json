@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/studiopolis_tv_bottom",
+    "up": "sonicraft:blocks/studiopolis_tv_top",
+    "north": "sonicraft:blocks/studiopolis_tv_sonic_2",
+    "east": "sonicraft:blocks/studiopolis_tv_side",
+    "south": "sonicraft:blocks/studiopolis_tv_back",
+    "west": "sonicraft:blocks/studiopolis_tv_side",
+    "particle": "sonicraft:blocks/studiopolis_tv_bottom"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/studiopolis_road_bottom",
+    "up": "sonicraft:blocks/studiopolis_smooth_top",
+    "north": "sonicraft:blocks/studiopolis_popcorn_shop_ceiling",
+    "east": "sonicraft:blocks/studiopolis_popcorn_shop_ceiling",
+    "south": "sonicraft:blocks/studiopolis_popcorn_shop_ceiling",
+    "west": "sonicraft:blocks/studiopolis_popcorn_shop_ceiling",
+    "particle": "sonicraft:blocks/studiopolis_road_bottom"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spring_top"
+      },
+      "name": "default"
+    },
+    "casino_night": {
+      "map": {
+        "0": "casino_night_bumper"
+      },
+      "name": "casino_night"
+    }
+  }
+}

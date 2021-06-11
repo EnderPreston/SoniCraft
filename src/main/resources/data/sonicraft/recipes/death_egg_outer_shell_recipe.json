@@ -1,0 +1,13 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sonicraft:smooth_death_egg_outer_shell"
+    }
+  ],
+  "result": {
+    "item": "sonicraft:death_egg_outer_shell",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "sonicraft:blocks/death_egg_outer_shell_smooth",
+    "particle": "sonicraft:blocks/death_egg_outer_shell_smooth"
+  }
+}

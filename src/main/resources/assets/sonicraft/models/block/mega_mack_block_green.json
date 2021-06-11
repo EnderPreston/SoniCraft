@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/green_mega_mack",
+    "particle": "sonicraft:blocks/green_mega_mack"
+  }
+}

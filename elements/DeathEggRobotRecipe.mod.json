@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RepairedDeathEggRobotTorso"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeathEggRobotArm"
+      },
+      {
+        "value": "CUSTOM:BlastProcessing"
+      },
+      {
+        "value": "CUSTOM:DeathEggRobotArm"
+      },
+      {
+        "value": "CUSTOM:DeathEggRobotLeg"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeathEggRobotLeg"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RideableDeathEggRobot"
+    },
+    "name": "death_egg_robot_recipe",
+    "namespace": "mod"
+  }
+}

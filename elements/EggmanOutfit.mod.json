@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "eggman_mustache",
+    "enableBody": true,
+    "textureBody": "eggman_coat",
+    "enableLeggings": true,
+    "textureLeggings": "eggman_jumpsuit",
+    "enableBoots": false,
+    "textureBoots": "",
+    "creativeTab": {
+      "value": "CUSTOM:SonicraftMisc"
+    },
+    "armorTextureFile": "eggman",
+    "helmetName": "Eggman Mustache",
+    "bodyName": "Eggman's Blouse",
+    "leggingsName": "Eggman's Jumpsuit",
+    "bootsName": "",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modeleggman_mustache",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "eggman_goggles.png",
+    "bodyModelName": "Modeleggman_coat",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "eggman_coat.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 8,
+    "damageValueHelmet": 1,
+    "damageValueBody": 4,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 1,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_leather"
+    },
+    "repairItems": [
+      {
+        "value": "Items.LEATHER"
+      }
+    ]
+  }
+}

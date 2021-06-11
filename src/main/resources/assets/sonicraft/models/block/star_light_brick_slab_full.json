@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "sonicraft:blocks/star_light_brick",
+    "top": "sonicraft:blocks/star_light_brick",
+    "side": "sonicraft:blocks/star_light_brick"
+  }
+}

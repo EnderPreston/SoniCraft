@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "signpost_eggman"
+      },
+      "name": "default"
+    },
+    "tails": {
+      "map": {
+        "0": "signpost_tails"
+      },
+      "name": "tails"
+    },
+    "sonic": {
+      "map": {
+        "0": "signpost_sonic"
+      },
+      "name": "sonic"
+    },
+    "knuckles": {
+      "map": {
+        "0": "signpost_knuckles"
+      },
+      "name": "knuckles"
+    },
+    "player": {
+      "map": {
+        "0": "signpost_player"
+      },
+      "name": "player"
+    },
+    "amy": {
+      "map": {
+        "0": "signpost_amy"
+      },
+      "name": "amy"
+    },
+    "shadow": {
+      "map": {
+        "0": "signpost_shadow"
+      },
+      "name": "shadow"
+    },
+    "rouge": {
+      "map": {
+        "0": "signpost_rouge"
+      },
+      "name": "rouge"
+    }
+  }
+}

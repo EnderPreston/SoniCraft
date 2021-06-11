@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "cartridge": "wechnia_block"
+      },
+      "name": "default"
+    },
+    "sonic_3": {
+      "map": {
+        "cartridge": "cartridge_sonic_3"
+      },
+      "name": "sonic_3"
+    },
+    "sonic_2": {
+      "map": {
+        "cartridge": "cartridge_sonic_2"
+      },
+      "name": "sonic_2"
+    },
+    "sonic_1": {
+      "map": {
+        "cartridge": "cartridge_sonic_1"
+      },
+      "name": "sonic_1"
+    }
+  }
+}

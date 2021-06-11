@@ -1,0 +1,42 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "1": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "2": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "3": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "4": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "5": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "6": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "7": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "8": {
+      "item": "sonicraft:mega_mack_ball"
+    }
+  },
+  "result": {
+    "item": "sonicraft:mega_mack_block",
+    "count": 1
+  }
+}

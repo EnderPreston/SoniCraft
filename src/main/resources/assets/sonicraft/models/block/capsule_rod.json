@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "sonicraft:blocks/capsule_rod",
+    "particle": "sonicraft:blocks/capsule_rod"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "sonicraft:scrap_brain_stone"
+  },
+  "result": "sonicraft:chiseled_scrap_brain_stone"
+}

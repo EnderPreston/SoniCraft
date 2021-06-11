@@ -1,0 +1,16 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:death_egg_outer_shell"
+    }
+  },
+  "result": {
+    "item": "sonicraft:smooth_death_egg_outer_shell",
+    "count": 1
+  }
+}

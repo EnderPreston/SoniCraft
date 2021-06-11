@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MegaMackBall"
+      },
+      {
+        "value": "Items.COAL#0"
+      },
+      {
+        "value": "CUSTOM:MegaMackBall"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "CUSTOM:MegaMackBall"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:MegaMackBall"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlastProcessing"
+    },
+    "name": "blast_processing_recipe",
+    "namespace": "mod"
+  }
+}

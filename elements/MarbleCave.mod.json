@@ -1,0 +1,27 @@
+{
+  "_fv": 18,
+  "_type": "structure",
+  "definition": {
+    "structure": "marble_cave",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 90000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -21,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:Mobius"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MarbleZone"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

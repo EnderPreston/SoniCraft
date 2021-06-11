@@ -1,0 +1,26 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sandstone"
+    },
+    "1": {
+      "item": "minecraft:red_sandstone"
+    },
+    "2": {
+      "item": "minecraft:red_sandstone"
+    },
+    "3": {
+      "item": "minecraft:sandstone"
+    }
+  },
+  "result": {
+    "item": "sonicraft:aquatic_ruin_bricks",
+    "count": 4
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": false,
+    "textureBody": "",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": true,
+    "textureBoots": "speed_shoes",
+    "onBootsTick": {
+      "name": "SpeedShoesBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:SonicraftMisc"
+    },
+    "armorTextureFile": "sonic",
+    "helmetName": "Speed Shoes Helmet",
+    "bodyName": "Speed Shoes Body",
+    "leggingsName": "Speed Shoes Leggings",
+    "bootsName": "Speed Shoes",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 10,
+    "damageValueHelmet": 0,
+    "damageValueBody": 0,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 4,
+    "enchantability": 26,
+    "toughness": 0.0,
+    "knockbackResistance": 2.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:GoldRing"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_fv": 18,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "null_space_pillar",
+    "textureBottom": "",
+    "customModelName": "Cross model",
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "growapable",
+    "staticPlantGenerationType": "Flower",
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 14,
+    "doublePlantGenerationType": "Flower",
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [],
+    "name": "Null Space Pillar",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SonicraftMisc"
+    },
+    "hardness": 1.0,
+    "resistance": 3600000.0,
+    "luminance": 4,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "BASALT"
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": true,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DANGER_CACTUS",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [],
+    "frequencyOnChunks": 10,
+    "spawnWorldTypes": [
+      "CUSTOM:NullSpaceDimension",
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:NullSpace"
+      }
+    ],
+    "onEntityCollides": {
+      "name": "NullSpacePillarMobplayerCollidesWithPlant"
+    }
+  }
+}

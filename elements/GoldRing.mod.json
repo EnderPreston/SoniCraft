@@ -1,0 +1,115 @@
+{
+  "_fv": 18,
+  "_type": "block",
+  "definition": {
+    "texture": "gold_ring",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "sonic_ring:default",
+    "rotationMode": 0,
+    "emissiveRendering": false,
+    "displayFluidOverlay": true,
+    "itemTexture": "gold_ring",
+    "particleTexture": "ringtexturefront",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": true,
+    "transparencyType": "CUTOUT",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 3.2,
+        "my": 3.2,
+        "mz": 3.2,
+        "Mx": 12.8,
+        "My": 12.8,
+        "Mz": 12.8,
+        "subtract": false
+      }
+    ],
+    "name": "Ring",
+    "specialInfo": [],
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "hasGravity": false,
+    "isWaterloggable": true,
+    "creativeTab": {
+      "value": "CUSTOM:SonicraftMisc"
+    },
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "GLASS"
+    },
+    "tickRate": 10,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "GOLD",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": true,
+    "soundOnStep": {
+      "value": "LANTERN"
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onEntityCollides": {
+      "name": "GoldRingEntityCollidesInTheBlock"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

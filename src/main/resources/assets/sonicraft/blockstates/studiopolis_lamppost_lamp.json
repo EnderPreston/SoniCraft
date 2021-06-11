@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft:block/studiopolis_lamppost_lamp"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/studiopolis_lamppost_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft:block/studiopolis_lamppost_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft:block/studiopolis_lamppost_lamp",
+      "y": 270
+    }
+  }
+}

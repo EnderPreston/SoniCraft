@@ -1,0 +1,19 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:green_hill_palm_log"
+    },
+    "1": {
+      "item": "sonicraft:green_hill_palm_log"
+    }
+  },
+  "result": {
+    "item": "sonicraft:ghz_bridge",
+    "count": 4
+  }
+}

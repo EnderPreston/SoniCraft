@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StarPanel"
+      },
+      {
+        "value": "CUSTOM:StarPanel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StarPanel"
+      },
+      {
+        "value": "CUSTOM:StarPanel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BumperSonic2"
+    },
+    "name": "bumper_sonic_2_recipe",
+    "namespace": "mod"
+  }
+}

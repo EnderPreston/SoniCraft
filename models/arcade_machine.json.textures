@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "machine": "arcade_machine_sonic_the_fighters",
+        "screen": "arcade_screen_sonic_the_fighters"
+      },
+      "name": "default"
+    },
+    "slots": {
+      "map": {
+        "machine": "arcade_machine_slots",
+        "screen": "arcade_screen_slots"
+      },
+      "name": "slots"
+    }
+  }
+}

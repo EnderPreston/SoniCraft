@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/death_egg_pipe",
+  "textures": {
+    "all": "sonicraft:blocks/death_egg_outer_shell_smooth",
+    "particle": "sonicraft:blocks/death_egg_outer_shell_smooth",
+    "0": "sonicraft:blocks/death_egg_outer_shell_smooth"
+  }
+}

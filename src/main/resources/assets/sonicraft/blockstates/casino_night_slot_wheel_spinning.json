@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft:block/casino_night_slot_wheel_spinning"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/casino_night_slot_wheel_spinning",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft:block/casino_night_slot_wheel_spinning",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft:block/casino_night_slot_wheel_spinning",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SpringYardLamp"
+      },
+      {
+        "value": "CUSTOM:SpringYardLamp"
+      },
+      {
+        "value": "CUSTOM:SpringYardLamp"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SpringYardLampSlab"
+    },
+    "name": "spring_yard_lamp_slab_recipe",
+    "namespace": "mod"
+  }
+}

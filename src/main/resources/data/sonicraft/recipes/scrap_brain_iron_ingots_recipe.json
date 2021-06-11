@@ -1,0 +1,13 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sonicraft:scrap_brain_iron_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_ingot",
+    "count": 9
+  }
+}

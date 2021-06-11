@@ -1,0 +1,91 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 480,
+    "height": 240,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Coordinates: <x> <y> <z>",
+          "color": {
+            "value": -12985177,
+            "falpha": 0.0
+          },
+          "name": "Coordinates: <x> <y> <z>",
+          "x": 141,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Time: <VAR:integer:game_time>",
+          "color": {
+            "value": -12985177,
+            "falpha": 0.0
+          },
+          "name": "Time: <VAR:integer:game_time>",
+          "x": 141,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Temperature: <VAR:integer:biome_temperature>",
+          "color": {
+            "value": -12985177,
+            "falpha": 0.0
+          },
+          "name": "Temperature: <VAR:integer:biome_temperature>",
+          "x": 141,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "miles_electric_overlay.png",
+          "use1Xscale": true,
+          "name": "miles_electric_overlay.png",
+          "x": 78,
+          "y": -1
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Biome: §kWorkIn Progress",
+          "color": {
+            "value": -12985177,
+            "falpha": 0.0
+          },
+          "name": "Biome: §kWorkIn Progress",
+          "x": 141,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Close",
+          "onClick": {
+            "name": "MilesElectricInterfaceWhileThisGUIIsOpenTick"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Close",
+          "x": 299,
+          "y": 125
+        }
+      }
+    ]
+  }
+}

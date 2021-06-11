@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/studiopolis_speaker_side",
+    "up": "sonicraft:blocks/studiopolis_speaker_side",
+    "north": "sonicraft:blocks/studiopolis_speaker",
+    "east": "sonicraft:blocks/studiopolis_speaker",
+    "south": "sonicraft:blocks/studiopolis_speaker",
+    "west": "sonicraft:blocks/studiopolis_speaker",
+    "particle": "sonicraft:blocks/studiopolis_speaker_side"
+  }
+}

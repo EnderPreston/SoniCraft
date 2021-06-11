@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "cross": "grape_bush_stage0"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "_fv": 18,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"300\" y=\"85\"><field name=\"trigger\">world_ticks</field><next><block type=\"return_logic\"><value name=\"return\"><block type=\"math_binary_ops\"><field name=\"OP\">EQ</field><value name=\"A\"><block type=\"variables_get_number\"><field name=\"VAR\">global:game_time</field></block></value><value name=\"B\"><block type=\"world_data_current_time\"></block></value></block></value></block></next></block></xml>"
+  }
+}

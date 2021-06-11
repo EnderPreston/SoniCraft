@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/double_plant_cross",
+  "textures": {
+    "all": "sonicraft:blocks/green_hill_sunflower_top",
+    "particle": "sonicraft:blocks/green_hill_sunflower_top",
+    "0": "sonicraft:blocks/green_hill_sunflower"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "amy_headband",
+    "enableBody": true,
+    "textureBody": "amy_dress",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": true,
+    "textureBoots": "amy_shoes",
+    "creativeTab": {
+      "value": "CUSTOM:SonicraftMisc"
+    },
+    "armorTextureFile": "blank",
+    "helmetName": "Amy's Headband",
+    "bodyName": "Amy Rose's Dress",
+    "leggingsName": "",
+    "bootsName": "Amy's Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelfox_ear_headband",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "amy_headband.png",
+    "bodyModelName": "Modelamy_dress",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "amy_layer_3.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Modelcustom_boots",
+    "bootsModelPartL": "LeftLeg",
+    "bootsModelPartR": "RightLeg",
+    "bootsModelTexture": "amy_boots.png",
+    "maxDamage": 8,
+    "damageValueHelmet": 1,
+    "damageValueBody": 4,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 1,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_leather"
+    },
+    "repairItems": [
+      {
+        "value": "Items.LEATHER"
+      }
+    ]
+  }
+}

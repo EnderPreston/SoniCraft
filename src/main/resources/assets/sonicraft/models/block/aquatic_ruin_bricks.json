@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/aquatic_ruin_bricks",
+    "particle": "sonicraft:blocks/aquatic_ruin_bricks"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "sonicraft:custom/studiopolis_lamppost_lamp",
+  "textures": {
+    "all": "sonicraft:blocks/studiopolis_lamppost_light",
+    "particle": "sonicraft:blocks/studiopolis_lamppost_light",
+    "side": "sonicraft:blocks/studiopolis_lamppost_glass_side",
+    "top": "sonicraft:blocks/studiopolis_lamppost_glass_top",
+    "light": "sonicraft:blocks/studiopolis_lamppost_light",
+    "ring": "sonicraft:blocks/studiopolis_lamppost_ring"
+  }
+}

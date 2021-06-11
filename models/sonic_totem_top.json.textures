@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "face": "green_hill_totem_face_2",
+        "side": "green_hill_totem_side",
+        "top": "green_hill_totem_top",
+        "bottom": "green_hill_totem_bottom",
+        "wing": "green_hill_totem_wing"
+      },
+      "name": "default"
+    }
+  }
+}

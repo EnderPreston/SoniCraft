@@ -1,0 +1,16 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sonicraft:red_iron_block"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_block",
+    "count": 1
+  }
+}

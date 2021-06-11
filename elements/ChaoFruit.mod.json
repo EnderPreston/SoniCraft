@@ -1,0 +1,35 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:RedChaoFruit"
+      },
+      {
+        "value": "CUSTOM:OrangeChaoFruit"
+      },
+      {
+        "value": "CUSTOM:YellowChaoFruit"
+      },
+      {
+        "value": "CUSTOM:GreenChaoFruit"
+      },
+      {
+        "value": "CUSTOM:BlueChaoFruit"
+      },
+      {
+        "value": "CUSTOM:PurpleChaoFruit"
+      },
+      {
+        "value": "CUSTOM:PinkChaoFruit"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "chao_fruit",
+    "namespace": "mod"
+  }
+}

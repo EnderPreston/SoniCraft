@@ -1,0 +1,22 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:aquatic_ruin_bricks"
+    },
+    "1": {
+      "item": "sonicraft:aquatic_ruin_bricks"
+    },
+    "2": {
+      "item": "sonicraft:aquatic_ruin_bricks"
+    }
+  },
+  "result": {
+    "item": "sonicraft:aquatic_ruin_brick_slab",
+    "count": 6
+  }
+}

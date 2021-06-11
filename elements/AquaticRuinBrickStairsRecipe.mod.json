@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AquaticRuinBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AquaticRuinBricks"
+      },
+      {
+        "value": "CUSTOM:AquaticRuinBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AquaticRuinBricks"
+      },
+      {
+        "value": "CUSTOM:AquaticRuinBricks"
+      },
+      {
+        "value": "CUSTOM:AquaticRuinBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AquaticRuinBrickStairs"
+    },
+    "name": "aquatic_ruin_brick_stairs_recipe",
+    "namespace": "mod"
+  }
+}

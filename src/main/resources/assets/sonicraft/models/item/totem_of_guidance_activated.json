@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sonicraft:items/totem_of_guidance_activated"
+  }
+}

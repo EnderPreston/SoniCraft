@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "knuckles_hat",
+    "enableBody": true,
+    "textureBody": "knuckles_gloves",
+    "enableLeggings": true,
+    "textureLeggings": "knuckles_outfit",
+    "enableBoots": true,
+    "textureBoots": "knuckles_shoes",
+    "creativeTab": {
+      "value": "CUSTOM:SonicraftMisc"
+    },
+    "armorTextureFile": "knuckles",
+    "helmetName": "Knuckles' Hat",
+    "bodyName": "Knuckles' Gloves",
+    "leggingsName": "Knuckles Tank Top and Pants",
+    "bootsName": "Knuckles' Shoes",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelknuckles_hat",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "knuckles_hat.png",
+    "bodyModelName": "Modelknuckles_gloves",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "knuckles_gloves.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 8,
+    "damageValueHelmet": 1,
+    "damageValueBody": 4,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 1,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_leather"
+    },
+    "repairItems": [
+      {
+        "value": "Items.LEATHER"
+      }
+    ]
+  }
+}

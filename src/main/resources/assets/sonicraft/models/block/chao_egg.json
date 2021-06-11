@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/chao_egg",
+  "textures": {
+    "all": "sonicraft:blocks/chao_egg",
+    "particle": "sonicraft:blocks/chao_egg",
+    "0": "sonicraft:blocks/chao_egg"
+  }
+}

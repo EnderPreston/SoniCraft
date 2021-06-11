@@ -1,0 +1,45 @@
+{
+  "_fv": 18,
+  "_type": "structure",
+  "definition": {
+    "structure": "death_egg_magnet",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 250,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:Mobius"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:GreenHillZone"
+      },
+      {
+        "value": "CUSTOM:MarbleZone"
+      },
+      {
+        "value": "CUSTOM:ChemicalPlantZone"
+      },
+      {
+        "value": "CUSTOM:SpringYard"
+      },
+      {
+        "value": "CUSTOM:AquaticRuinZone"
+      },
+      {
+        "value": "CUSTOM:ScrapBrainZone"
+      },
+      {
+        "value": "CUSTOM:CasinoNightZone"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

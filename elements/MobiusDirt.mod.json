@@ -1,0 +1,83 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GHZGrass"
+      },
+      {
+        "value": "CUSTOM:GHZGrassStairs"
+      },
+      {
+        "value": "CUSTOM:GHZGrassSlab"
+      },
+      {
+        "value": "CUSTOM:GHZDirt"
+      },
+      {
+        "value": "CUSTOM:GHZDirtStairs"
+      },
+      {
+        "value": "CUSTOM:GHZDirtSlab"
+      },
+      {
+        "value": "CUSTOM:GHZGrassRingSpawner"
+      },
+      {
+        "value": "CUSTOM:MarbleZoneGrass"
+      },
+      {
+        "value": "CUSTOM:MarbleZoneGrassStairs"
+      },
+      {
+        "value": "CUSTOM:MarbleZoneGrassSlab"
+      },
+      {
+        "value": "CUSTOM:MarbleZoneRingSpawner"
+      },
+      {
+        "value": "CUSTOM:ChaoGardenGrass"
+      },
+      {
+        "value": "CUSTOM:CPZRoad"
+      },
+      {
+        "value": "CUSTOM:CPZRoadStairs"
+      },
+      {
+        "value": "CUSTOM:CPZRoadSlab"
+      },
+      {
+        "value": "CUSTOM:SpringYardRoad"
+      },
+      {
+        "value": "CUSTOM:SpringYardRoadStairs"
+      },
+      {
+        "value": "CUSTOM:SpringYardRoadSlab"
+      },
+      {
+        "value": "CUSTOM:AquaticRuinBricks"
+      },
+      {
+        "value": "CUSTOM:AquaticRuinBrickSlab"
+      },
+      {
+        "value": "CUSTOM:AquaticRuinGrass"
+      },
+      {
+        "value": "CUSTOM:AquaticRuinPlatform"
+      },
+      {
+        "value": "CUSTOM:AquaticRuinPlatformSlab"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "dirt",
+    "namespace": "forge"
+  }
+}

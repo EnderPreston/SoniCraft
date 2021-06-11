@@ -1,0 +1,93 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "sonicraft:blocks/spikes",
+		"crop": "sonicraft:blocks/spikes"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 1],
+			"to": [4, 16, 17],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#crop"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#crop"}
+			}
+		},
+		{
+			"from": [12, 0, 1],
+			"to": [12, 16, 17],
+			"shade": false,
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#crop"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#crop"}
+			}
+		},
+		{
+			"from": [0, 4, 1],
+			"to": [16, 4, 17],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#crop"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#crop"}
+			}
+		},
+		{
+			"from": [0, 12, 1],
+			"to": [16, 12, 17],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#crop"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#crop"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-19, 0, 0],
+			"translation": [0, 0.25, -2.25],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-19, 0, 0],
+			"translation": [0, 0.25, -2.25],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [90, 12, 0],
+			"translation": [0, 2.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, 12, 0],
+			"translation": [0, 2.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 1.25, 0],
+			"scale": [0.71, 0.71, 0.71]
+		},
+		"head": {
+			"translation": [0, 0, -13.75]
+		},
+		"fixed": {
+			"rotation": [90, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "crop",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

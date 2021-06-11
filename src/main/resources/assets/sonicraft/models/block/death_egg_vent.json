@@ -1,0 +1,9 @@
+{
+  "parent": "sonicraft:custom/death_egg_vent",
+  "textures": {
+    "all": "sonicraft:blocks/death_egg_vent",
+    "particle": "sonicraft:blocks/death_egg_vent",
+    "vent": "sonicraft:blocks/death_egg_vent",
+    "pipe": "sonicraft:blocks/death_egg_outer_shell_smooth"
+  }
+}

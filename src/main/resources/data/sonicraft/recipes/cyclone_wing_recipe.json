@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "4": {
+      "item": "minecraft:orange_dye"
+    },
+    "5": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "6": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "7": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "8": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "sonicraft:cyclone_wing",
+    "count": 1
+  }
+}

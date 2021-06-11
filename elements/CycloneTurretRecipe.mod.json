@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Blocks.DISPENSER"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.DYE#4"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CycloneTurret"
+    },
+    "name": "cyclone_turret_recipe",
+    "namespace": "mod"
+  }
+}

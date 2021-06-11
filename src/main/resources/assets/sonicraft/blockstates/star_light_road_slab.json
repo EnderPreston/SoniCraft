@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft:block/star_light_road_slab"
+    },
+    "type=top": {
+      "model": "sonicraft:block/star_light_road_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft:block/star_light_road_slab_full"
+    }
+  }
+}

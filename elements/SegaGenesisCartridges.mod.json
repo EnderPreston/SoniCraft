@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CartridgeSonic1"
+      },
+      {
+        "value": "CUSTOM:CartridgeSonic2"
+      },
+      {
+        "value": "CUSTOM:CartridgeSonic3"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "sega_genesis_cartridges",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 18,
+  "_type": "potion",
+  "definition": {
+    "name": "False Reality",
+    "effectName": "False Reality",
+    "icon": "false_reality.png",
+    "color": {
+      "value": -65485,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "FalseRealityPotionStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "FalseRealityOnPotionActiveTick"
+    }
+  }
+}

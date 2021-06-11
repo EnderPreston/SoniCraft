@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "sonicraft:blocks/death_egg_floor_bottom",
+    "top": "sonicraft:blocks/death_egg_floor_top",
+    "side": "sonicraft:blocks/death_egg_floor_side"
+  }
+}

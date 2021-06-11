@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "sonicman_helmet",
+    "enableBody": true,
+    "textureBody": "sonic_hoodie",
+    "enableLeggings": true,
+    "textureLeggings": "sonic_pants",
+    "enableBoots": true,
+    "textureBoots": "soap_shoes",
+    "creativeTab": {
+      "value": "CUSTOM:SonicraftMisc"
+    },
+    "armorTextureFile": "soap",
+    "helmetName": "Sonic Man Helmet",
+    "bodyName": "Sonic Hoodie",
+    "leggingsName": "Hatsune Miku's Sonic Pants",
+    "bootsName": "Soap Shoes",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelsonicman_helmet",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "sonicman_layer_3.png",
+    "bodyModelName": "Modelhoodie",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "sonic_hoodie_layer_3.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 8,
+    "damageValueHelmet": 1,
+    "damageValueBody": 4,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 1,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_leather"
+    },
+    "repairItems": [
+      {
+        "value": "Items.LEATHER"
+      }
+    ]
+  }
+}

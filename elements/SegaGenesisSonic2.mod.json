@@ -1,0 +1,127 @@
+{
+  "_fv": 18,
+  "_type": "block",
+  "definition": {
+    "texture": "signpost_tails",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "sega_genesis:sonic_2",
+    "rotationMode": 1,
+    "emissiveRendering": false,
+    "displayFluidOverlay": true,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 2.0,
+        "my": 0.0,
+        "mz": 4.0,
+        "Mx": 14.0,
+        "My": 2.0,
+        "Mz": 12.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 2.0,
+        "mz": 5.0,
+        "Mx": 9.0,
+        "My": 2.5,
+        "Mz": 11.0,
+        "subtract": false
+      }
+    ],
+    "name": "Sega Genesis",
+    "specialInfo": [],
+    "hardness": 0.5,
+    "resistance": 2.0,
+    "hasGravity": false,
+    "isWaterloggable": true,
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": "CUSTOM:SegaGenesis"
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "ROCK"
+    },
+    "tickRate": 10,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "GRAY",
+    "creativePickItem": {
+      "value": "CUSTOM:SegaGenesis"
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "LANTERN"
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "breakHarvestLevel": 0,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:InvincibilityStars"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "SegaGenesisSonic2OnBlockRightClicked"
+    },
+    "onDestroyedByPlayer": {
+      "name": "SegaGenesisSonic2BlockDestroyedByPlayer"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

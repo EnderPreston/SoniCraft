@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/workshop_iron_block_top",
+    "up": "sonicraft:blocks/workshop_iron_block_top",
+    "north": "sonicraft:blocks/workshop_iron_block",
+    "east": "sonicraft:blocks/workshop_iron_block",
+    "south": "sonicraft:blocks/workshop_iron_block",
+    "west": "sonicraft:blocks/workshop_iron_block",
+    "particle": "sonicraft:blocks/workshop_iron_block_top"
+  }
+}

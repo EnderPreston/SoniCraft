@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "sonicraft:block/power_generator_fake"
+    }
+  }
+}

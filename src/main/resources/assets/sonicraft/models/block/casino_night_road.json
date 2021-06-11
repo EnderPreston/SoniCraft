@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/casino_night_stone",
+    "up": "sonicraft:blocks/casino_night_road_top",
+    "north": "sonicraft:blocks/casino_night_road_side",
+    "east": "sonicraft:blocks/casino_night_road_side",
+    "south": "sonicraft:blocks/casino_night_road_side",
+    "west": "sonicraft:blocks/casino_night_road_side",
+    "particle": "sonicraft:blocks/casino_night_stone"
+  }
+}

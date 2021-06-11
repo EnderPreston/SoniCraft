@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "scrap_brain_side",
+        "3": "death_egg_magnet_button",
+        "top": "scrap_brain_top",
+        "bottom": "scrap_brain_bottom"
+      },
+      "name": "default"
+    },
+    "chemical_plant": {
+      "map": {
+        "side": "chemical_plant_iron_block",
+        "3": "chemical_plant_button",
+        "top": "chemical_plant_iron_block",
+        "bottom": "chemical_plant_iron_block"
+      },
+      "name": "chemical_plant"
+    }
+  }
+}

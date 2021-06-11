@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/scrap_brain_bottom",
+    "up": "sonicraft:blocks/scrap_brain_top",
+    "north": "sonicraft:blocks/scrap_brain_side3",
+    "east": "sonicraft:blocks/scrap_brain_side1",
+    "south": "sonicraft:blocks/scrap_brain_side4",
+    "west": "sonicraft:blocks/scrap_brain_side2",
+    "particle": "sonicraft:blocks/scrap_brain_bottom"
+  }
+}

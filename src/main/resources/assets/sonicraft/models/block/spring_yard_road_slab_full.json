@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "sonicraft:blocks/spring_yard_road_bottom",
+    "top": "sonicraft:blocks/spring_yard_road_top",
+    "side": "sonicraft:blocks/spring_yard_road_side"
+  }
+}

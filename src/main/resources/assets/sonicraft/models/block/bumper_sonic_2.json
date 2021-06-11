@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/sonic_bumper",
+  "textures": {
+    "all": "sonicraft:blocks/casino_night_bumper",
+    "particle": "sonicraft:blocks/casino_night_bumper",
+    "0": "sonicraft:blocks/casino_night_bumper"
+  }
+}

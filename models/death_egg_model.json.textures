@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "eye": "death_egg_eye",
+        "side": "death_egg_model_side",
+        "bottom": "death_egg_model_bottom",
+        "missing": "death_egg_model_bottom",
+        "inside": "death_egg_model_inside"
+      },
+      "name": "default"
+    }
+  }
+}

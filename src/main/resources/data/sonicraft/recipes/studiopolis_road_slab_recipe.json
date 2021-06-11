@@ -1,0 +1,22 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:studiopolis_road"
+    },
+    "1": {
+      "item": "sonicraft:studiopolis_road"
+    },
+    "2": {
+      "item": "sonicraft:studiopolis_road"
+    }
+  },
+  "result": {
+    "item": "sonicraft:studiopolis_road_slab",
+    "count": 6
+  }
+}

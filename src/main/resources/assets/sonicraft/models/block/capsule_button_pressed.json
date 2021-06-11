@@ -1,0 +1,9 @@
+{
+  "parent": "sonicraft:custom/sonic_capsule_button_pressed",
+  "textures": {
+    "all": "sonicraft:blocks/capsule_button_top",
+    "particle": "sonicraft:blocks/capsule_button_top",
+    "side": "sonicraft:blocks/capsule_button_side",
+    "top": "sonicraft:blocks/capsule_button_top"
+  }
+}

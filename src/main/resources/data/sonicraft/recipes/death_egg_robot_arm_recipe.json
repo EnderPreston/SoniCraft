@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:piston"
+    },
+    "1": {
+      "item": "minecraft:piston"
+    },
+    "2": {
+      "item": "sonicraft:red_iron_block"
+    },
+    "3": {
+      "item": "sonicraft:red_iron_block"
+    },
+    "4": {
+      "item": "sonicraft:spikes"
+    },
+    "5": {
+      "item": "sonicraft:spikes"
+    }
+  },
+  "result": {
+    "item": "sonicraft:death_egg_robot_arm",
+    "count": 1
+  }
+}

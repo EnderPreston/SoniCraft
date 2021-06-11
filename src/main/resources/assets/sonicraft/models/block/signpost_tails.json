@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/sonic_signpost",
+  "textures": {
+    "all": "sonicraft:blocks/signpost_tails",
+    "particle": "sonicraft:blocks/signpost_tails",
+    "0": "sonicraft:blocks/signpost_tails"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "sonicraft:blocks/capsule_wall_bottom",
+    "top": "sonicraft:blocks/capsule_wall_top",
+    "side": "sonicraft:blocks/capsule_wall"
+  }
+}

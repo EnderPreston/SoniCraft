@@ -1,0 +1,9 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "sonicraft:aquatic_ruin_bricks"
+  },
+  "result": "sonicraft:aquatic_ruin_pillar"
+}

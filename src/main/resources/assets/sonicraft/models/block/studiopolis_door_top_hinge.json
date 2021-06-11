@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "sonicraft:blocks/studiopolis_door_bottom",
+    "top": "sonicraft:blocks/studiopolis_door_top"
+  }
+}

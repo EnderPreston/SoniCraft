@@ -1,0 +1,12 @@
+{
+  "parent": "sonicraft:custom/sonic_monitor",
+  "textures": {
+    "all": "sonicraft:blocks/monitor_speed_shoes",
+    "particle": "sonicraft:blocks/monitor_side",
+    "side": "sonicraft:blocks/monitor_side",
+    "top": "sonicraft:blocks/monitor_top",
+    "bottom": "sonicraft:blocks/monitor_bottom",
+    "screen": "sonicraft:blocks/monitor_speed_shoes",
+    "front": "sonicraft:blocks/monitor_front"
+  }
+}

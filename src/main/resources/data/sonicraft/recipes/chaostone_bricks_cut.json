@@ -1,0 +1,9 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "sonicraft:chaostone"
+  },
+  "result": "sonicraft:chaostone_bricks"
+}

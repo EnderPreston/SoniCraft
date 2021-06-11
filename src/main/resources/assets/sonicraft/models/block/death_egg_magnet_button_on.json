@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/scrap_brain_bottom",
+    "up": "sonicraft:blocks/scrap_brain_top",
+    "north": "sonicraft:blocks/death_egg_magnet_button_on",
+    "east": "sonicraft:blocks/scrap_brain_side",
+    "south": "sonicraft:blocks/scrap_brain_side",
+    "west": "sonicraft:blocks/scrap_brain_side",
+    "particle": "sonicraft:blocks/scrap_brain_bottom"
+  }
+}

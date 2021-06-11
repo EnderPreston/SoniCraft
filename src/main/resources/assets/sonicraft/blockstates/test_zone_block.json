@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "sonicraft:block/test_zone_block"
+    }
+  }
+}

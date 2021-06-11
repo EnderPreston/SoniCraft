@@ -1,0 +1,25 @@
+{
+  "mappings": {
+    "symbol": {
+      "map": {
+        "symbol": "workshop_door_symbol",
+        "door": "workshop_door"
+      },
+      "name": "symbol"
+    },
+    "default": {
+      "map": {
+        "symbol": "workshop_door",
+        "door": "workshop_door"
+      },
+      "name": "default"
+    },
+    "handle": {
+      "map": {
+        "symbol": "workshop_door_handle",
+        "door": "workshop_door"
+      },
+      "name": "handle"
+    }
+  }
+}

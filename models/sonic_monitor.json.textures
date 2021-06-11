@@ -1,0 +1,174 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_blank",
+        "front": "monitor_front"
+      },
+      "name": "default"
+    },
+    "tails": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_tails",
+        "front": "monitor_front"
+      },
+      "name": "tails"
+    },
+    "rings": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_rings",
+        "front": "monitor_front"
+      },
+      "name": "rings"
+    },
+    "sonic": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_sonic",
+        "front": "monitor_front"
+      },
+      "name": "sonic"
+    },
+    "speedshoes": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_speed_shoes",
+        "front": "monitor_front"
+      },
+      "name": "speedshoes"
+    },
+    "knuckles": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_knuckles",
+        "front": "monitor_front"
+      },
+      "name": "knuckles"
+    },
+    "invincibility": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_invincibility",
+        "front": "monitor_front"
+      },
+      "name": "invincibility"
+    },
+    "water": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_water",
+        "front": "monitor_front"
+      },
+      "name": "water"
+    },
+    "fire": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_fire",
+        "front": "monitor_front"
+      },
+      "name": "fire"
+    },
+    "lightning": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_lightning",
+        "screen": "monitor_bottom",
+        "front": "monitor_front"
+      },
+      "name": "lightning"
+    },
+    "shield": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_shield",
+        "front": "monitor_front"
+      },
+      "name": "shield"
+    },
+    "amy": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_amy",
+        "front": "monitor_front"
+      },
+      "name": "amy"
+    },
+    "shadow": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_shadow",
+        "front": "monitor_front"
+      },
+      "name": "shadow"
+    },
+    "rouge": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_rouge",
+        "front": "monitor_front"
+      },
+      "name": "rouge"
+    },
+    "sonic_1": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_sonic_1",
+        "front": "monitor_front"
+      },
+      "name": "sonic_1"
+    },
+    "sonic_2": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_sonic_2",
+        "front": "monitor_front"
+      },
+      "name": "sonic_2"
+    },
+    "sonic_3": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_sonic_3",
+        "front": "monitor_front"
+      },
+      "name": "sonic_3"
+    }
+  }
+}

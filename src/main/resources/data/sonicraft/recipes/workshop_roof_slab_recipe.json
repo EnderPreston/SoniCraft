@@ -1,0 +1,22 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:workshop_roof_block"
+    },
+    "1": {
+      "item": "sonicraft:workshop_roof_block"
+    },
+    "2": {
+      "item": "sonicraft:workshop_roof_block"
+    }
+  },
+  "result": {
+    "item": "sonicraft:workshop_roof_slab",
+    "count": 6
+  }
+}

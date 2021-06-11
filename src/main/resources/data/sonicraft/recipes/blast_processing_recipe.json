@@ -1,0 +1,42 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "1": {
+      "item": "minecraft:coal"
+    },
+    "2": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "3": {
+      "item": "minecraft:redstone"
+    },
+    "4": {
+      "item": "minecraft:tnt"
+    },
+    "5": {
+      "item": "minecraft:redstone"
+    },
+    "6": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "7": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "8": {
+      "item": "sonicraft:mega_mack_ball"
+    }
+  },
+  "result": {
+    "item": "sonicraft:blast_processing",
+    "count": 1
+  }
+}

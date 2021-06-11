@@ -1,0 +1,21 @@
+{
+  "_fv": 18,
+  "_type": "particle",
+  "definition": {
+    "texture": "invincibility_stars.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 1.5999999999999999,
+    "speedFactor": 0.0,
+    "gravity": 0.0,
+    "maxAge": 7,
+    "maxAgeDiff": 20,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": false,
+    "alwaysShow": true,
+    "renderType": "LIT"
+  }
+}

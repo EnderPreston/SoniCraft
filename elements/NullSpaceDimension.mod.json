@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:NullSpace"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:NullSpaceStone"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:NullSpaceStone"
+    },
+    "airColor": {
+      "value": -15070934,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.PURPUR_BLOCK"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:EnergyCubes"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "CUSTOM:music.game.nullspace.additions"
+    },
+    "igniterName": "Null Space Dimension Portal Igniter",
+    "igniterTab": {
+      "value": "No creative tab entry"
+    },
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "sonicraft:blocks/aquatic_ruin_bricks",
+    "top": "sonicraft:blocks/aquatic_ruin_bricks",
+    "side": "sonicraft:blocks/aquatic_ruin_bricks"
+  }
+}

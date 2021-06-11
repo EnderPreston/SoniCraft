@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ScrapBrainIronBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ScrapBrainIronBlock"
+      },
+      {
+        "value": "CUSTOM:ScrapBrainIronBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ScrapBrainIronBlock"
+      },
+      {
+        "value": "CUSTOM:ScrapBrainIronBlock"
+      },
+      {
+        "value": "CUSTOM:ScrapBrainIronBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ScrapBrainIronStairs"
+    },
+    "name": "scrap_brain_iron_stairs_recipe",
+    "namespace": "mod"
+  }
+}

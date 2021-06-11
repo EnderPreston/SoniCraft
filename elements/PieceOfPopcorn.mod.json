@@ -1,0 +1,26 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "piece_of_popcorn",
+    "customModelName": "Normal",
+    "name": "Piece of Popcorn",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SonicraftMisc"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 1,
+    "saturation": 0.1,
+    "eatingSpeed": 10,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

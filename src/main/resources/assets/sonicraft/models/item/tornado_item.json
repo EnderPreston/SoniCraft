@@ -1,0 +1,7 @@
+{
+  "parent": "sonicraft:custom/tornado_plane_item",
+  "textures": {
+    "0": "sonicraft:blocks/tornado",
+    "particle": "sonicraft:items/cyclone_item"
+  }
+}

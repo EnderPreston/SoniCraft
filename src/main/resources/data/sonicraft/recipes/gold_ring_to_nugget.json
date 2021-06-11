@@ -1,0 +1,13 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sonicraft:gold_ring"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_nugget",
+    "count": 4
+  }
+}

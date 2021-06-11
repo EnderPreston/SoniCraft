@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft:block/workshop_floor_slab"
+    },
+    "type=top": {
+      "model": "sonicraft:block/workshop_floor_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft:block/workshop_floor_slab_full"
+    }
+  }
+}

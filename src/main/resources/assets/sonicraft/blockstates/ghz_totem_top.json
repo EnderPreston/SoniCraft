@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft:block/ghz_totem_top"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/ghz_totem_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft:block/ghz_totem_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft:block/ghz_totem_top",
+      "y": 270
+    }
+  }
+}

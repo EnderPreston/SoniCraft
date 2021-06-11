@@ -1,0 +1,7 @@
+{
+  "parent": "sonicraft:custom/totem_of_guidance",
+  "textures": {
+    "0": "sonicraft:blocks/totem_of_guidance",
+    "particle": "sonicraft:items/totem_of_guidance"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "sonicraft:labyrinth_zone_stone"
+  },
+  "result": "sonicraft:labyrinth_zone_stone_slab"
+}

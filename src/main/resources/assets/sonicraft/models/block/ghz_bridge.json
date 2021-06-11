@@ -1,0 +1,9 @@
+{
+  "parent": "sonicraft:custom/sonic_ghz_bridge",
+  "textures": {
+    "all": "sonicraft:blocks/green_hill_bridge_side",
+    "particle": "sonicraft:blocks/green_hill_palm_planks",
+    "side": "sonicraft:blocks/green_hill_bridge_side",
+    "top": "sonicraft:blocks/green_hill_palm_planks"
+  }
+}

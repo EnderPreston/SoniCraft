@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "sonicraft:blocks/star_light_road_bottom",
+    "top": "sonicraft:blocks/star_light_road_top",
+    "side": "sonicraft:blocks/star_light_road_side_no_light"
+  }
+}

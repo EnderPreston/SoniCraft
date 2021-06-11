@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft:block/spring_yard_road_slab"
+    },
+    "type=top": {
+      "model": "sonicraft:block/spring_yard_road_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft:block/spring_yard_road_slab_full"
+    }
+  }
+}

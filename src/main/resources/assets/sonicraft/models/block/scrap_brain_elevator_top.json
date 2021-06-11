@@ -1,0 +1,11 @@
+{
+  "parent": "sonicraft:custom/scrap_brain_elevator",
+  "textures": {
+    "all": "sonicraft:blocks/scrap_brain_elevator_back",
+    "particle": "sonicraft:blocks/scrap_brain_elevator_back",
+    "side": "sonicraft:blocks/scrap_brain_elevator_back",
+    "back": "sonicraft:blocks/scrap_brain_elevator_back",
+    "front": "sonicraft:blocks/scrap_brain_elevator_front_top",
+    "inside": "sonicraft:blocks/scrap_brain_bottom"
+  }
+}

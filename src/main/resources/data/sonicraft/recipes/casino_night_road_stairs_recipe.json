@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:casino_night_road"
+    },
+    "3": {
+      "item": "sonicraft:casino_night_road"
+    },
+    "4": {
+      "item": "sonicraft:casino_night_road"
+    },
+    "6": {
+      "item": "sonicraft:casino_night_road"
+    },
+    "7": {
+      "item": "sonicraft:casino_night_road"
+    },
+    "8": {
+      "item": "sonicraft:casino_night_road"
+    }
+  },
+  "result": {
+    "item": "sonicraft:casino_night_road_stairs",
+    "count": 4
+  }
+}

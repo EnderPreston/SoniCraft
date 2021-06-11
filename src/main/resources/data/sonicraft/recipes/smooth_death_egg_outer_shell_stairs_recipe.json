@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:smooth_death_egg_outer_shell"
+    },
+    "3": {
+      "item": "sonicraft:smooth_death_egg_outer_shell"
+    },
+    "4": {
+      "item": "sonicraft:smooth_death_egg_outer_shell"
+    },
+    "6": {
+      "item": "sonicraft:smooth_death_egg_outer_shell"
+    },
+    "7": {
+      "item": "sonicraft:smooth_death_egg_outer_shell"
+    },
+    "8": {
+      "item": "sonicraft:smooth_death_egg_outer_shell"
+    }
+  },
+  "result": {
+    "item": "sonicraft:smooth_death_egg_outer_shell_stairs",
+    "count": 4
+  }
+}

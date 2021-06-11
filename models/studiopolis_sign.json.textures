@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wechnia_block"
+      },
+      "name": "default"
+    },
+    "popcorn": {
+      "map": {
+        "0": "studiopolis_popcorn_shop_big_wall"
+      },
+      "name": "popcorn"
+    },
+    "pink_bot": {
+      "map": {
+        "0": "studiopolis_sign_pink_bot"
+      },
+      "name": "pink_bot"
+    },
+    "eggnog": {
+      "map": {
+        "0": "studiopolis_sign_eggnog"
+      },
+      "name": "eggnog"
+    },
+    "spin_club": {
+      "map": {
+        "0": "studiopolis_sign_club_spin"
+      },
+      "name": "spin_club"
+    },
+    "egg_tv": {
+      "map": {
+        "0": "studiopolis_sign_egg_tv"
+      },
+      "name": "egg_tv"
+    },
+    "wall_tv": {
+      "map": {
+        "0": "studiopolis_wall_display"
+      },
+      "name": "wall_tv"
+    },
+    "clapperboard_side": {
+      "map": {
+        "0": "studiopolis_clapperboard_cover"
+      },
+      "name": "clapperboard_side"
+    }
+  }
+}

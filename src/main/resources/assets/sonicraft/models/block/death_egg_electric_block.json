@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/death_egg_electric_block",
+    "particle": "sonicraft:blocks/death_egg_electric_block"
+  }
+}

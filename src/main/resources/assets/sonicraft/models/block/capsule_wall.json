@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/capsule_wall_bottom",
+    "up": "sonicraft:blocks/capsule_wall_top",
+    "north": "sonicraft:blocks/capsule_wall",
+    "east": "sonicraft:blocks/capsule_wall",
+    "south": "sonicraft:blocks/capsule_wall",
+    "west": "sonicraft:blocks/capsule_wall",
+    "particle": "sonicraft:blocks/capsule_wall_bottom"
+  }
+}

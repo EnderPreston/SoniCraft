@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "chamber": "chemical_plant_robot_chamber",
+        "silver_sonic": "silver_sonic"
+      },
+      "name": "default"
+    }
+  }
+}

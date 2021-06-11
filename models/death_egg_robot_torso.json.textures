@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "death_egg_robot_damaged"
+      },
+      "name": "default"
+    },
+    "player": {
+      "map": {
+        "0": "death_egg_robot_player"
+      },
+      "name": "player"
+    }
+  }
+}

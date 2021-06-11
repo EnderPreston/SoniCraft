@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "edge": "sonicraft:blocks/studiopolis_pillar_top",
+    "pane": "sonicraft:blocks/studiopolis_iron_bars"
+  }
+}

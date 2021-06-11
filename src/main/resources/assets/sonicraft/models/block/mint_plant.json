@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "sonicraft:blocks/mint_plant",
+    "particle": "sonicraft:blocks/mint_plant"
+  }
+}

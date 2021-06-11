@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "sonicraft:signpost",
+    "sonicraft:signpost_sonic",
+    "sonicraft:signpost_tails",
+    "sonicraft:signpost_knuckles",
+    "sonicraft:signpost_player",
+    "sonicraft:signpost_amy",
+    "sonicraft:signpost_shadow",
+    "sonicraft:signpost_rouge"
+  ]
+}

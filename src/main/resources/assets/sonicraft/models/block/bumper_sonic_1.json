@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/sonic_bumper",
+  "textures": {
+    "all": "sonicraft:blocks/spring_top",
+    "particle": "sonicraft:blocks/spring_top",
+    "0": "sonicraft:blocks/spring_top"
+  }
+}

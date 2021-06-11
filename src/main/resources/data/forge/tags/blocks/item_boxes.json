@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "sonicraft:item_box",
+    "sonicraft:item_box_rings",
+    "sonicraft:item_box_speed_shoes",
+    "sonicraft:item_box_invincibility",
+    "sonicraft:item_box_sonic",
+    "sonicraft:item_box_tails",
+    "sonicraft:item_box_knuckles",
+    "sonicraft:item_box_shield",
+    "sonicraft:item_box_amy",
+    "sonicraft:item_box_shadow",
+    "sonicraft:item_box_rouge"
+  ]
+}

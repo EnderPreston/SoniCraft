@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "chao_egg"
+      },
+      "name": "default"
+    }
+  }
+}

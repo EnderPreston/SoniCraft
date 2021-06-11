@@ -1,0 +1,39 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "stone_crafting_materials"
+    },
+    "1": {
+      "item": "minecraft:observer"
+    },
+    "2": {
+      "tag": "stone_crafting_materials"
+    },
+    "3": {
+      "item": "minecraft:glass"
+    },
+    "5": {
+      "item": "minecraft:glass"
+    },
+    "6": {
+      "tag": "stone_crafting_materials"
+    },
+    "7": {
+      "item": "minecraft:observer"
+    },
+    "8": {
+      "tag": "stone_crafting_materials"
+    }
+  },
+  "result": {
+    "item": "sonicraft:power_generator",
+    "count": 1
+  }
+}

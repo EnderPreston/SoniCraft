@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "wechnia_block",
+        "top": "wechnia_block",
+        "overlay": "wechnia_block",
+        "bottom": "wechnia_block"
+      },
+      "name": "default"
+    },
+    "chao_garden": {
+      "map": {
+        "side": "chao_garden_stone",
+        "top": "chao_garden_grass_block",
+        "overlay": "chao_garden_grass_side",
+        "bottom": "chao_garden_stone"
+      },
+      "name": "chao_garden"
+    }
+  }
+}

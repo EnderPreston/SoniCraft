@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 2.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:MegaMackOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:MegaMackBall"
+    },
+    "name": "mega_mack_ore_blast",
+    "namespace": "mod"
+  }
+}

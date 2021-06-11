@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DeathEggOuterShell"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeathEggOuterShell"
+      },
+      {
+        "value": "CUSTOM:DeathEggOuterShell"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeathEggOuterShell"
+      },
+      {
+        "value": "CUSTOM:DeathEggOuterShell"
+      },
+      {
+        "value": "CUSTOM:DeathEggOuterShell"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DeathEggOuterShellStairs"
+    },
+    "name": "death_egg_outer_shell_stairs_recipe",
+    "namespace": "mod"
+  }
+}

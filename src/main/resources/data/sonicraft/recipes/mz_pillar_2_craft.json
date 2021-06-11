@@ -1,0 +1,20 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:chiseled_marble_zone_bricks"
+    },
+    "1": {
+      "item": "sonicraft:chiseled_marble_zone_bricks"
+    }
+  },
+  "result": {
+    "item": "sonicraft:decorative_marble_zone_brick_pillar",
+    "count": 2
+  }
+}

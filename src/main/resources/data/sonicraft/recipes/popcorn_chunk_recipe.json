@@ -1,0 +1,26 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:piece_of_popcorn"
+    },
+    "1": {
+      "item": "sonicraft:piece_of_popcorn"
+    },
+    "2": {
+      "item": "sonicraft:piece_of_popcorn"
+    },
+    "3": {
+      "item": "sonicraft:piece_of_popcorn"
+    }
+  },
+  "result": {
+    "item": "sonicraft:chunk_of_popcorn",
+    "count": 1
+  }
+}

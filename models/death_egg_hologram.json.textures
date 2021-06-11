@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "eye": "death_egg_hologram_eye",
+        "side": "death_egg_hologram_side",
+        "4": "death_egg_hologram_projector",
+        "bottom": "death_egg_hologram_bottom",
+        "inside": "death_egg_hologram_inside"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:death_egg_outer_shell"
+    },
+    "1": {
+      "item": "sonicraft:death_egg_outer_shell"
+    },
+    "2": {
+      "item": "sonicraft:death_egg_outer_shell"
+    }
+  },
+  "result": {
+    "item": "sonicraft:death_egg_outer_shell_slab",
+    "count": 6
+  }
+}

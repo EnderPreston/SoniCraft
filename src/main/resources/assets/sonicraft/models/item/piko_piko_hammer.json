@@ -1,0 +1,7 @@
+{
+  "parent": "sonicraft:custom/piko_piko_hammer",
+  "textures": {
+    "0": "sonicraft:blocks/piko_piko_hammer",
+    "particle": "sonicraft:items/piko_piko_hammer"
+  }
+}

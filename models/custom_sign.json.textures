@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wechnia_block"
+      },
+      "name": "default"
+    },
+    "black_market": {
+      "map": {
+        "0": "black_market_sign"
+      },
+      "name": "black_market"
+    }
+  }
+}

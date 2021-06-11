@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft:block/death_egg_hologram"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/death_egg_hologram",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft:block/death_egg_hologram",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft:block/death_egg_hologram",
+      "y": 270
+    }
+  }
+}

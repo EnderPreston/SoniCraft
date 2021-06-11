@@ -1,0 +1,28 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "chili_dog",
+    "customModelName": "Normal",
+    "name": "Chili Dog",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "§9Sonic loves these!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SonicraftMisc"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 6,
+    "saturation": 0.4,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

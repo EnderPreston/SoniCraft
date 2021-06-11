@@ -1,0 +1,9 @@
+{
+  "parent": "sonicraft:custom/sega_genesis",
+  "textures": {
+    "all": "sonicraft:blocks/signpost_tails",
+    "particle": "sonicraft:blocks/signpost_tails",
+    "console": "sonicraft:blocks/sega_genesis",
+    "cartridge": "sonicraft:blocks/cartridge_sonic_2"
+  }
+}

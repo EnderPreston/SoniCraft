@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Allow travel to the Null Space dimension",
+    "description": "Allow travel to the Null Space dimension",
+    "category": "MISC",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

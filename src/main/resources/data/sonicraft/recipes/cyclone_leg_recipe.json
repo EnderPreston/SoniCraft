@@ -1,0 +1,39 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_block"
+    },
+    "1": {
+      "item": "minecraft:lapis_block"
+    },
+    "2": {
+      "item": "sonicraft:cyclone_wing"
+    },
+    "4": {
+      "item": "minecraft:netherite_block"
+    },
+    "5": {
+      "item": "sonicraft:cyclone_wing"
+    },
+    "6": {
+      "item": "minecraft:gold_ingot"
+    },
+    "7": {
+      "item": "minecraft:lapis_block"
+    },
+    "8": {
+      "item": "sonicraft:cyclone_wheel"
+    }
+  },
+  "result": {
+    "item": "sonicraft:cyclone_leg",
+    "count": 1
+  }
+}

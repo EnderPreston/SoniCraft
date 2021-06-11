@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft:block/labyrinth_zone_stone"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/labyrinth_zone_stone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft:block/labyrinth_zone_stone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft:block/labyrinth_zone_stone",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "mappings": {
+    "red": {
+      "map": {
+        "side": "chaos_emerald_power_generator",
+        "top": "chaos_emerald_power_generator_top",
+        "bottom": "chaos_emerald_power_generator_bottom",
+        "emerald": "chaos_emerald_red"
+      },
+      "name": "red"
+    },
+    "default": {
+      "map": {
+        "side": "chaos_emerald_power_generator_off",
+        "top": "chaos_emerald_power_generator_top_off",
+        "bottom": "chaos_emerald_power_generator_bottom_off",
+        "emerald": "nothing"
+      },
+      "name": "default"
+    },
+    "green": {
+      "map": {
+        "side": "chaos_emerald_power_generator",
+        "top": "chaos_emerald_power_generator_top",
+        "bottom": "chaos_emerald_power_generator_bottom",
+        "emerald": "chaos_emerald_green"
+      },
+      "name": "green"
+    },
+    "blue": {
+      "map": {
+        "side": "chaos_emerald_power_generator",
+        "top": "chaos_emerald_power_generator_top",
+        "bottom": "chaos_emerald_power_generator_bottom",
+        "emerald": "chaos_emerald_blue"
+      },
+      "name": "blue"
+    },
+    "white": {
+      "map": {
+        "side": "chaos_emerald_power_generator",
+        "top": "chaos_emerald_power_generator_top",
+        "bottom": "chaos_emerald_power_generator_bottom",
+        "emerald": "chaos_emerald_white"
+      },
+      "name": "white"
+    },
+    "yellow": {
+      "map": {
+        "side": "chaos_emerald_power_generator",
+        "top": "chaos_emerald_power_generator_top",
+        "bottom": "chaos_emerald_power_generator_bottom",
+        "emerald": "chaos_emerald_fake"
+      },
+      "name": "yellow"
+    },
+    "purple": {
+      "map": {
+        "side": "chaos_emerald_power_generator",
+        "top": "chaos_emerald_power_generator_top",
+        "bottom": "chaos_emerald_power_generator_bottom",
+        "emerald": "chaos_emerald_purple"
+      },
+      "name": "purple"
+    },
+    "light_blue": {
+      "map": {
+        "side": "chaos_emerald_power_generator",
+        "top": "chaos_emerald_power_generator_top",
+        "bottom": "chaos_emerald_power_generator_bottom",
+        "emerald": "chaos_emerald_light_blue"
+      },
+      "name": "light_blue"
+    },
+    "fake": {
+      "map": {
+        "side": "chaos_emerald_power_generator",
+        "top": "chaos_emerald_power_generator_top",
+        "bottom": "chaos_emerald_power_generator_bottom",
+        "emerald": "chaos_emerald_fake"
+      },
+      "name": "fake"
+    }
+  }
+}

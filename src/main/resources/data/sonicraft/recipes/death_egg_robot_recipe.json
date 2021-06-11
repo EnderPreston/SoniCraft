@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "sonicraft:repaired_death_egg_robot_torso"
+    },
+    "3": {
+      "item": "sonicraft:death_egg_robot_arm"
+    },
+    "4": {
+      "item": "sonicraft:blast_processing"
+    },
+    "5": {
+      "item": "sonicraft:death_egg_robot_arm"
+    },
+    "6": {
+      "item": "sonicraft:death_egg_robot_leg"
+    },
+    "8": {
+      "item": "sonicraft:death_egg_robot_leg"
+    }
+  },
+  "result": {
+    "item": "sonicraft:rideable_death_egg_robot",
+    "count": 1
+  }
+}

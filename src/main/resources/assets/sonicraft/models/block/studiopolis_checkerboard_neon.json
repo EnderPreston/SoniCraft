@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/studiopolis_smooth_top",
+    "up": "sonicraft:blocks/studiopolis_smooth_top",
+    "north": "sonicraft:blocks/studiopolis_checkerboard_neon",
+    "east": "sonicraft:blocks/studiopolis_checkerboard_neon",
+    "south": "sonicraft:blocks/studiopolis_checkerboard_neon",
+    "west": "sonicraft:blocks/studiopolis_checkerboard_neon",
+    "particle": "sonicraft:blocks/studiopolis_smooth_top"
+  }
+}

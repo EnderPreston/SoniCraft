@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "sonicraft:blocks/workshop_floor",
+    "top": "sonicraft:blocks/workshop_floor",
+    "side": "sonicraft:blocks/workshop_floor"
+  }
+}

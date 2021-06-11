@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "casino_night_slot_frame"
+      },
+      "name": "default"
+    }
+  }
+}

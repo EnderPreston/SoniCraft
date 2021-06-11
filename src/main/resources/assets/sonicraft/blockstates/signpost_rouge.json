@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft:block/signpost_rouge"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/signpost_rouge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft:block/signpost_rouge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft:block/signpost_rouge",
+      "y": 270
+    }
+  }
+}

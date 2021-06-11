@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/studiopolis_pillar_top",
+    "up": "sonicraft:blocks/studiopolis_pillar_top",
+    "north": "sonicraft:blocks/studiopolis_pillar",
+    "east": "sonicraft:blocks/studiopolis_pillar",
+    "south": "sonicraft:blocks/studiopolis_pillar",
+    "west": "sonicraft:blocks/studiopolis_pillar",
+    "particle": "sonicraft:blocks/studiopolis_pillar_top"
+  }
+}

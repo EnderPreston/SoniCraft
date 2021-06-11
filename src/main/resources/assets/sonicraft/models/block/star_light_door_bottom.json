@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "sonicraft:blocks/star_light_brick_door_bottom",
+    "top": "sonicraft:blocks/star_light_brick_door_top"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hole": "casino_night_stone_lever",
+        "lever": "casino_night_slot_lever",
+        "stone": "casino_night_stone"
+      },
+      "name": "default"
+    }
+  }
+}

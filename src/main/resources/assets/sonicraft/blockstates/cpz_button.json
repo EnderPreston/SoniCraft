@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft:block/cpz_button"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/cpz_button",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft:block/cpz_button",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft:block/cpz_button",
+      "y": 270
+    }
+  }
+}

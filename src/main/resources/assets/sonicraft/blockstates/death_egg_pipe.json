@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "sonicraft:block/death_egg_pipe"
+    },
+    "facing=north": {
+      "model": "sonicraft:block/death_egg_pipe"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/death_egg_pipe",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "sonicraft:block/death_egg_pipe",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "sonicraft:block/death_egg_pipe",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "sonicraft:block/death_egg_pipe",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

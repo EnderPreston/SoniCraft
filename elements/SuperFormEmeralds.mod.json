@@ -1,0 +1,42 @@
+{
+  "_fv": 18,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "super_form",
+    "customModelName": "Normal",
+    "name": "Super Form",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§9Requires rings!",
+      "§9(50 or more rings are strongly recommended!)"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "SuperFormEmeraldsRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "SuperFormEmeraldsRightClickedInAir"
+    }
+  }
+}

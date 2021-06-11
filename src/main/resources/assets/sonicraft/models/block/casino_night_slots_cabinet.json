@@ -1,0 +1,9 @@
+{
+  "parent": "sonicraft:custom/arcade_machine",
+  "textures": {
+    "all": "sonicraft:blocks/arcade_screen_slots",
+    "particle": "sonicraft:blocks/arcade_screen_slots",
+    "machine": "sonicraft:blocks/arcade_machine_slots",
+    "screen": "sonicraft:blocks/arcade_screen_slots"
+  }
+}

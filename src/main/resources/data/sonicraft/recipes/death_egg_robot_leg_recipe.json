@@ -1,0 +1,36 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:piston"
+    },
+    "2": {
+      "item": "minecraft:piston"
+    },
+    "4": {
+      "item": "sonicraft:red_iron_block"
+    },
+    "5": {
+      "item": "minecraft:redstone_block"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    },
+    "8": {
+      "item": "sonicraft:red_iron_block"
+    }
+  },
+  "result": {
+    "item": "sonicraft:death_egg_robot_leg",
+    "count": 1
+  }
+}

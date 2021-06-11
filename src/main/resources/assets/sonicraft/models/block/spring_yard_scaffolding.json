@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/spring_yard_scaffolding",
+    "particle": "sonicraft:blocks/spring_yard_scaffolding"
+  }
+}

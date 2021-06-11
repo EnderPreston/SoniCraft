@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "scrap_brain_pillar",
+        "back": "scrap_brain_pillar",
+        "front": "scrap_brain_pillar",
+        "inside": "scrap_brain_bottom"
+      },
+      "name": "default"
+    }
+  }
+}

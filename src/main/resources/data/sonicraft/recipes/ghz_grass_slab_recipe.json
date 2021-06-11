@@ -1,0 +1,22 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:ghz_grass"
+    },
+    "1": {
+      "item": "sonicraft:ghz_grass"
+    },
+    "2": {
+      "item": "sonicraft:ghz_grass"
+    }
+  },
+  "result": {
+    "item": "sonicraft:ghz_grass_slab",
+    "count": 6
+  }
+}

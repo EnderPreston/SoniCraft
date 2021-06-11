@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "sonicraft:blocks/workshop_roof_block_top",
+    "top": "sonicraft:blocks/workshop_roof_block_top",
+    "side": "sonicraft:blocks/workshop_roof_block_side"
+  }
+}

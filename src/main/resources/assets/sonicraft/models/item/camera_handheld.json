@@ -1,0 +1,11 @@
+{
+  "parent": "sonicraft:custom/studiopolis_camera_block",
+  "textures": {
+    "side": "sonicraft:blocks/camera_side",
+    "top": "sonicraft:blocks/camera_top",
+    "4": "sonicraft:blocks/camera_bottom",
+    "back": "sonicraft:blocks/camera_back",
+    "front": "sonicraft:blocks/camera_front",
+    "particle": "sonicraft:items/diamond_ring"
+  }
+}

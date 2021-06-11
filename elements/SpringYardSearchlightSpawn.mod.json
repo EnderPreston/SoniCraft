@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "structure",
+  "definition": {
+    "structure": "spring_yard_searchlight",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 400000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 1,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:Mobius"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:SpringYardRoad"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SpringYard"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

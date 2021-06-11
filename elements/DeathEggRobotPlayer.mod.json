@@ -1,0 +1,127 @@
+{
+  "_fv": 18,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Death Egg Robot",
+    "mobLabel": "",
+    "mobModelName": "Modeldeath_egg_robot_player",
+    "mobModelTexture": "death_egg_robot_player.png",
+    "mobModelGlowTexture": "death_egg_robot_player_glow.png",
+    "modelWidth": 1.7999999999999998,
+    "modelHeight": 9.0,
+    "modelShadowSize": 2.8,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": false,
+    "spawnEggBaseColor": {
+      "value": -4059120,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -3421237,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 5,
+    "attackKnockback": 0.4,
+    "knockbackResistance": 24.0,
+    "movementSpeed": 0.15,
+    "armorBaseValue": 8.0,
+    "trackingRange": 128,
+    "health": 150,
+    "xpAmount": 0,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": true,
+    "canControlForward": true,
+    "canControlStrafe": true,
+    "immuneToFire": true,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": true,
+    "immuneToTrident": false,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "CUSTOM:mob.eggmanhit"
+    },
+    "deathSound": {
+      "value": "entity.generic.explode"
+    },
+    "stepSound": {
+      "value": "CUSTOM:mob.deatheggrobotstomp"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:InvincibilityStars"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "whenMobDies": {
+      "name": "DeathEggRobotPlayerEntityDies"
+    },
+    "onMobTickUpdate": {
+      "name": "DeathEggRobotPlayerOnEntityTickUpdate"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"346\" y=\"47\"></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

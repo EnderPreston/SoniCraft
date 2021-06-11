@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft:block/scrap_brain_stone_slab"
+    },
+    "type=top": {
+      "model": "sonicraft:block/scrap_brain_stone_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft:block/scrap_brain_stone_slab_full"
+    }
+  }
+}

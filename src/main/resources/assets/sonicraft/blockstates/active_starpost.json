@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft:block/active_starpost"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/active_starpost",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft:block/active_starpost",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft:block/active_starpost",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Blocks.LANTERN"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Items.EMERALD"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SpringYardSearchlight"
+    },
+    "name": "spring_yard_searchlight_recipe",
+    "namespace": "mod"
+  }
+}

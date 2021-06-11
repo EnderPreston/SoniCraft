@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "starpost"
+      },
+      "name": "default"
+    },
+    "spinning": {
+      "map": {
+        "0": "starpost_animated"
+      },
+      "name": "spinning"
+    },
+    "activated": {
+      "map": {
+        "0": "starpost_activated"
+      },
+      "name": "activated"
+    }
+  }
+}

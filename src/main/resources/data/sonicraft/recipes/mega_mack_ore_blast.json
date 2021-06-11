@@ -1,0 +1,12 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:blasting",
+  "experience": 2,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "sonicraft:mega_mack_ore"
+  },
+  "result": {
+    "item": "sonicraft:mega_mack_ball"
+  }
+}

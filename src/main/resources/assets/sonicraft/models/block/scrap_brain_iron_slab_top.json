@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "sonicraft:blocks/scrap_brain_bottom",
+    "top": "sonicraft:blocks/scrap_brain_top",
+    "side": "sonicraft:blocks/scrap_brain_side"
+  }
+}

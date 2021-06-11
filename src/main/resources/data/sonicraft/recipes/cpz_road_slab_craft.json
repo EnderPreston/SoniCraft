@@ -1,0 +1,22 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:cpz_road"
+    },
+    "1": {
+      "item": "sonicraft:cpz_road"
+    },
+    "2": {
+      "item": "sonicraft:cpz_road"
+    }
+  },
+  "result": {
+    "item": "sonicraft:cpz_road_slab",
+    "count": 6
+  }
+}

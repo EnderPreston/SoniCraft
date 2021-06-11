@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "monitor_side_broken",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "front": "monitor_front_broken"
+      },
+      "name": "default"
+    }
+  }
+}

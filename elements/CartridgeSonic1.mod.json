@@ -1,0 +1,36 @@
+{
+  "_fv": 18,
+  "_type": "item",
+  "definition": {
+    "renderType": 1,
+    "texture": "monitor_sonic",
+    "customModelName": "sega_genesis_cartridge:sonic_1",
+    "name": "Sega Genesis Cartridge",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "CUSTOM:SonicraftMisc"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§7Sonic The Hedgehog",
+      "§71991"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64
+  }
+}

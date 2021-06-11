@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/workshop_satellite",
+  "textures": {
+    "all": "sonicraft:blocks/workshop_satellite",
+    "particle": "sonicraft:blocks/workshop_satellite",
+    "0": "sonicraft:blocks/workshop_satellite"
+  }
+}

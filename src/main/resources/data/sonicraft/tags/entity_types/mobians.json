@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "sonicraft:sonic",
+    "sonicraft:tails",
+    "sonicraft:tails_flying",
+    "sonicraft:knuckles",
+    "sonicraft:amy_rose",
+    "sonicraft:shadow"
+  ]
+}

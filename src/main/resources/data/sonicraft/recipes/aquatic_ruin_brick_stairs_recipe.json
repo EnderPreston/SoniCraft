@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:aquatic_ruin_bricks"
+    },
+    "3": {
+      "item": "sonicraft:aquatic_ruin_bricks"
+    },
+    "4": {
+      "item": "sonicraft:aquatic_ruin_bricks"
+    },
+    "6": {
+      "item": "sonicraft:aquatic_ruin_bricks"
+    },
+    "7": {
+      "item": "sonicraft:aquatic_ruin_bricks"
+    },
+    "8": {
+      "item": "sonicraft:aquatic_ruin_bricks"
+    }
+  },
+  "result": {
+    "item": "sonicraft:aquatic_ruin_brick_stairs",
+    "count": 4
+  }
+}

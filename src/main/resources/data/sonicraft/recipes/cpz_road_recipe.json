@@ -1,0 +1,42 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_ingot"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "4": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "5": {
+      "item": "sonicraft:mega_mack_ball"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "sonicraft:cpz_road",
+    "count": 2
+  }
+}

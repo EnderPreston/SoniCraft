@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "sonicraft:blocks/green_hill_door_bottom",
+    "top": "sonicraft:blocks/green_hill_door_top"
+  }
+}

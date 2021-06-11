@@ -1,0 +1,25 @@
+{
+  "_fv": 18,
+  "_type": "potion",
+  "definition": {
+    "name": "Invincibility",
+    "effectName": "Invincibility",
+    "icon": "invincibility.png",
+    "color": {
+      "value": -10053121,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "registerPotionType": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "InvincibilityPotionStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "InvincibilityOnPotionActiveTick"
+    }
+  }
+}

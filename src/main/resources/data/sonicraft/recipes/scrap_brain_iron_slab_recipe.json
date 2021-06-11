@@ -1,0 +1,22 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:scrap_brain_iron_block"
+    },
+    "1": {
+      "item": "sonicraft:scrap_brain_iron_block"
+    },
+    "2": {
+      "item": "sonicraft:scrap_brain_iron_block"
+    }
+  },
+  "result": {
+    "item": "sonicraft:scrap_brain_iron_slab",
+    "count": 6
+  }
+}

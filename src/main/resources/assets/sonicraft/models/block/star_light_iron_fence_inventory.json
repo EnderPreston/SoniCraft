@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "sonicraft:blocks/star_light_road_top",
+    "particle": "sonicraft:blocks/star_light_road_top"
+  }
+}

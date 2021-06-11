@@ -1,0 +1,21 @@
+{
+  "_fv": 18,
+  "_type": "particle",
+  "definition": {
+    "texture": "death_egg_electricity.png",
+    "animate": true,
+    "frameDuration": 2,
+    "width": 0.8,
+    "height": 0.8,
+    "scale": 10.0,
+    "speedFactor": 0.0,
+    "gravity": 0.0,
+    "maxAge": 8,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": false,
+    "alwaysShow": true,
+    "renderType": "LIT"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:chaostone"
+    },
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "2": {
+      "item": "sonicraft:chaostone"
+    },
+    "3": {
+      "item": "sonicraft:chaostone"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "sonicraft:chaostone"
+    },
+    "7": {
+      "item": "sonicraft:chaostone"
+    }
+  },
+  "result": {
+    "item": "sonicraft:totem_of_guidance",
+    "count": 1
+  }
+}

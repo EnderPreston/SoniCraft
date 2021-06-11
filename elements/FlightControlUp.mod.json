@@ -1,0 +1,15 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "SPACE",
+    "keyBindingName": "SoniCraft Vehicle Jump/Fly",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": {
+      "name": "FlightControlUpOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "FlightControlUpOnKeyReleased"
+    }
+  }
+}

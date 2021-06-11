@@ -1,0 +1,15 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Cyclone Turret",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "CycloneShootOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "CycloneShootOnKeyReleased"
+    }
+  }
+}

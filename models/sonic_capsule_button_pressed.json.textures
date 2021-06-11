@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "capsule_button_side",
+        "top": "capsule_button_top"
+      },
+      "name": "default"
+    }
+  }
+}

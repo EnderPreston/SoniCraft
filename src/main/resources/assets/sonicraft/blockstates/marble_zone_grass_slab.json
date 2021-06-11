@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft:block/marble_zone_grass_slab"
+    },
+    "type=top": {
+      "model": "sonicraft:block/marble_zone_grass_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft:block/marble_zone_grass_slab_full"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PISTON"
+      },
+      {
+        "value": "Blocks.PISTON"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RedIronBlock"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:RedIronBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DeathEggRobotLeg"
+    },
+    "name": "death_egg_robot_leg_recipe",
+    "namespace": "mod"
+  }
+}

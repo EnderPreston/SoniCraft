@@ -1,0 +1,36 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_carpet"
+    },
+    "1": {
+      "item": "minecraft:yellow_carpet"
+    },
+    "2": {
+      "item": "minecraft:yellow_carpet"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "minecraft:slime_block"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "sonicraft:yellow_spring",
+    "count": 1
+  }
+}

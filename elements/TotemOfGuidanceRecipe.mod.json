@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Chaostone"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:Chaostone"
+      },
+      {
+        "value": "CUSTOM:Chaostone"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:Chaostone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Chaostone"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TotemOfGuidance"
+    },
+    "name": "totem_of_guidance_recipe",
+    "namespace": "mod"
+  }
+}

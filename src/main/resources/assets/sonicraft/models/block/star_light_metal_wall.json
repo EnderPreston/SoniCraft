@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "sonicraft:blocks/star_light_road_bottom",
+    "particle": "sonicraft:blocks/star_light_road_bottom"
+  }
+}

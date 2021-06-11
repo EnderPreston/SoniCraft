@@ -1,0 +1,12 @@
+{
+  "parent": "sonicraft:custom/death_egg_hologram",
+  "textures": {
+    "all": "sonicraft:blocks/death_egg_hologram_projector",
+    "particle": "sonicraft:blocks/death_egg_hologram_projector",
+    "eye": "sonicraft:blocks/death_egg_hologram_eye",
+    "side": "sonicraft:blocks/death_egg_hologram_side",
+    "4": "sonicraft:blocks/death_egg_hologram_projector",
+    "bottom": "sonicraft:blocks/death_egg_hologram_bottom",
+    "inside": "sonicraft:blocks/death_egg_hologram_inside"
+  }
+}

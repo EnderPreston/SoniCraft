@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "sonicraft:blocks/star_light_cone",
+    "particle": "sonicraft:blocks/star_light_cone"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "_fv": 18,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"160\" y=\"153\"><field name=\"trigger\">no_ext_trigger</field></block><block type=\"entity_set_spawn\" x=\"237\" y=\"402\"><value name=\"entity\"><block type=\"world_entity_inrange\"><field name=\"entity\">EntityPlayer</field><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value><value name=\"range\"><block type=\"math_number\"><field name=\"NUM\">24</field></block></value></block></value><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value></block></xml>"
+  }
+}

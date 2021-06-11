@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_open",
+  "textures": {
+    "texture": "sonicraft:blocks/green_hill_trapdoor",
+    "particle": "sonicraft:blocks/green_hill_trapdoor"
+  }
+}

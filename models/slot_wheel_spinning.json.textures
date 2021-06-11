@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "wheel_side": "casino_night_slot_wheel_side_spinning",
+        "wheel": "casino_night_slot_wheel_spinning",
+        "sides": "casino_night_slot_wheel_blank"
+      },
+      "name": "default"
+    }
+  }
+}

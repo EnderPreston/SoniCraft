@@ -1,0 +1,20 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:green_hill_palm_planks"
+    },
+    "1": {
+      "item": "sonicraft:green_hill_palm_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 4
+  }
+}

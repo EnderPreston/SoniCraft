@@ -1,0 +1,25 @@
+{
+  "mappings": {
+    "red": {
+      "map": {
+        "spring": "red_spring",
+        "top": "red_spring_top"
+      },
+      "name": "red"
+    },
+    "default": {
+      "map": {
+        "spring": "spring",
+        "top": "spring_top"
+      },
+      "name": "default"
+    },
+    "yellow": {
+      "map": {
+        "spring": "yellow_spring",
+        "top": "yellow_spring_top"
+      },
+      "name": "yellow"
+    }
+  }
+}

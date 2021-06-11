@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/green_hill_dirt",
+    "up": "sonicraft:blocks/green_hill_grass_block_top",
+    "north": "sonicraft:blocks/green_hill_grass_block_side",
+    "east": "sonicraft:blocks/green_hill_grass_block_side",
+    "south": "sonicraft:blocks/green_hill_grass_block_side",
+    "west": "sonicraft:blocks/green_hill_grass_block_side",
+    "particle": "sonicraft:blocks/green_hill_dirt"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "sonicraft:blocks/green_hill_palm_planks",
+    "top": "sonicraft:blocks/green_hill_palm_planks",
+    "side": "sonicraft:blocks/green_hill_palm_planks"
+  }
+}

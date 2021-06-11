@@ -1,0 +1,31 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "wechnia_block",
+        "back": "wechnia_block",
+        "front": "wechnia_block",
+        "inside": "wechnia_block"
+      },
+      "name": "default"
+    },
+    "top": {
+      "map": {
+        "side": "scrap_brain_elevator_back",
+        "back": "scrap_brain_elevator_back",
+        "front": "scrap_brain_elevator_front_top",
+        "inside": "scrap_brain_bottom"
+      },
+      "name": "top"
+    },
+    "bottom": {
+      "map": {
+        "side": "scrap_brain_elevator_side",
+        "back": "scrap_brain_elevator_back",
+        "front": "scrap_brain_elevator_front",
+        "inside": "scrap_brain_bottom"
+      },
+      "name": "bottom"
+    }
+  }
+}

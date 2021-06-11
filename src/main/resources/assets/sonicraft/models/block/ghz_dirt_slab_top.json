@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "sonicraft:blocks/green_hill_dirt",
+    "top": "sonicraft:blocks/green_hill_dirt",
+    "side": "sonicraft:blocks/green_hill_dirt"
+  }
+}

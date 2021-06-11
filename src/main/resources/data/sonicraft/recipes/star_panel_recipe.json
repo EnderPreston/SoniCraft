@@ -1,0 +1,42 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone"
+    },
+    "1": {
+      "item": "minecraft:blue_dye"
+    },
+    "2": {
+      "item": "minecraft:redstone"
+    },
+    "3": {
+      "item": "minecraft:blue_dye"
+    },
+    "4": {
+      "item": "minecraft:quartz"
+    },
+    "5": {
+      "item": "minecraft:blue_dye"
+    },
+    "6": {
+      "item": "minecraft:redstone"
+    },
+    "7": {
+      "item": "minecraft:blue_dye"
+    },
+    "8": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "sonicraft:star_panel",
+    "count": 2
+  }
+}

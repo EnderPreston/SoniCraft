@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hornet_van"
+      },
+      "name": "default"
+    }
+  }
+}

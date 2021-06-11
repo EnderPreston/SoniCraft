@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft:block/studiopolis_spin_club_sign"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/studiopolis_spin_club_sign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft:block/studiopolis_spin_club_sign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft:block/studiopolis_spin_club_sign",
+      "y": 270
+    }
+  }
+}

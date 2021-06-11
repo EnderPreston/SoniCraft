@@ -1,0 +1,7 @@
+{
+  "parent": "sonicraft:custom/sega_genesis_cartridge",
+  "textures": {
+    "cartridge": "sonicraft:blocks/cartridge_sonic_2",
+    "particle": "sonicraft:items/monitor_tails"
+  }
+}

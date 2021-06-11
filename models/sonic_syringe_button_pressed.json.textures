@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "capsule_button_side",
+        "top": "capsule_button_top",
+        "inner_part": "chemical_plant_syringe_inside"
+      },
+      "name": "default"
+    }
+  }
+}

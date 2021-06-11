@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/scrapbrain_labyrinthblock_smooth",
+    "up": "sonicraft:blocks/scrapbrain_labyrinthblock_smooth",
+    "north": "sonicraft:blocks/scrapbrain_labyrinthblock_1",
+    "east": "sonicraft:blocks/scrapbrain_labyrinthblock_2",
+    "south": "sonicraft:blocks/scrapbrain_labyrinthblock_4",
+    "west": "sonicraft:blocks/scrapbrain_labyrinthblock_3",
+    "particle": "sonicraft:blocks/scrapbrain_labyrinthblock_smooth"
+  }
+}

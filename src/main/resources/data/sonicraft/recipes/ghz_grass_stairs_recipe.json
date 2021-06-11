@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:ghz_grass"
+    },
+    "3": {
+      "item": "sonicraft:ghz_grass"
+    },
+    "4": {
+      "item": "sonicraft:ghz_grass"
+    },
+    "6": {
+      "item": "sonicraft:ghz_grass"
+    },
+    "7": {
+      "item": "sonicraft:ghz_grass"
+    },
+    "8": {
+      "item": "sonicraft:ghz_grass"
+    }
+  },
+  "result": {
+    "item": "sonicraft:ghz_grass_stairs",
+    "count": 4
+  }
+}

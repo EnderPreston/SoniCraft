@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/6_direction_cross",
+  "textures": {
+    "all": "sonicraft:blocks/labyrinthcrystal_pink",
+    "particle": "sonicraft:blocks/labyrinthcrystal_pink",
+    "0": "sonicraft:blocks/labyrinthcrystal_pink"
+  }
+}

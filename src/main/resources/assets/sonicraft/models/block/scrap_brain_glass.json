@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/scrap_brain_glass",
+    "particle": "sonicraft:blocks/scrap_brain_glass"
+  }
+}

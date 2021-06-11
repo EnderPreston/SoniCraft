@@ -1,0 +1,7 @@
+{
+  "parent": "sonicraft:custom/cyclone_mech_leg",
+  "textures": {
+    "0": "sonicraft:blocks/cyclone_mech",
+    "particle": "sonicraft:items/cyclone_leg"
+  }
+}

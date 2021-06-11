@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/green_hill_palm_leaf_bottom",
+    "up": "sonicraft:blocks/green_hill_palm_leaf_top",
+    "north": "sonicraft:blocks/green_hill_palm_leaf_side",
+    "east": "sonicraft:blocks/green_hill_palm_leaf_side",
+    "south": "sonicraft:blocks/green_hill_palm_leaf_side",
+    "west": "sonicraft:blocks/green_hill_palm_leaf_side",
+    "particle": "sonicraft:blocks/green_hill_palm_leaf_bottom"
+  }
+}

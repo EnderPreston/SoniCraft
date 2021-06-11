@@ -1,0 +1,9 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "sonicraft:casino_night_stone"
+  },
+  "result": "sonicraft:casino_night_stone_pillar"
+}

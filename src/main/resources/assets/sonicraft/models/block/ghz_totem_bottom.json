@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/green_hill_totem_bottom",
+    "up": "sonicraft:blocks/green_hill_totem_top",
+    "north": "sonicraft:blocks/green_hill_totem_face_3",
+    "east": "sonicraft:blocks/green_hill_totem_side",
+    "south": "sonicraft:blocks/green_hill_totem_side",
+    "west": "sonicraft:blocks/green_hill_totem_side",
+    "particle": "sonicraft:blocks/green_hill_totem_side"
+  }
+}

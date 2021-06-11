@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:death_egg_floor"
+    },
+    "3": {
+      "item": "sonicraft:death_egg_floor"
+    },
+    "4": {
+      "item": "sonicraft:death_egg_floor"
+    },
+    "6": {
+      "item": "sonicraft:death_egg_floor"
+    },
+    "7": {
+      "item": "sonicraft:death_egg_floor"
+    },
+    "8": {
+      "item": "sonicraft:death_egg_floor"
+    }
+  },
+  "result": {
+    "item": "sonicraft:death_egg_floor_stairs",
+    "count": 4
+  }
+}

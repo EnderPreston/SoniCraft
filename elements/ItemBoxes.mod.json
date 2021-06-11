@@ -1,0 +1,47 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:ItemBox"
+      },
+      {
+        "value": "CUSTOM:ItemBoxRings"
+      },
+      {
+        "value": "CUSTOM:ItemBoxSpeedShoes"
+      },
+      {
+        "value": "CUSTOM:ItemBoxInvincibility"
+      },
+      {
+        "value": "CUSTOM:ItemBoxSonic"
+      },
+      {
+        "value": "CUSTOM:ItemBoxTails"
+      },
+      {
+        "value": "CUSTOM:ItemBoxKnuckles"
+      },
+      {
+        "value": "CUSTOM:ItemBoxShield"
+      },
+      {
+        "value": "CUSTOM:ItemBoxAmy"
+      },
+      {
+        "value": "CUSTOM:ItemBoxShadow"
+      },
+      {
+        "value": "CUSTOM:ItemBoxRouge"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "item_boxes",
+    "namespace": "forge"
+  }
+}

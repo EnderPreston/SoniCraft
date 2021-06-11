@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Chaostone"
+      },
+      {
+        "value": "CUSTOM:ChaostoneBricks"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "chaostone_stonecutter",
+    "namespace": "mod"
+  }
+}

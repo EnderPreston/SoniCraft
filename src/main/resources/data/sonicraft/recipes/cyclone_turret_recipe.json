@@ -1,0 +1,36 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:emerald"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "minecraft:dispenser"
+    },
+    "4": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "5": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "7": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "8": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "sonicraft:cyclone_turret",
+    "count": 1
+  }
+}

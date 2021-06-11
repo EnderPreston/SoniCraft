@@ -1,0 +1,22 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:death_egg_floor"
+    },
+    "1": {
+      "item": "sonicraft:death_egg_floor"
+    },
+    "2": {
+      "item": "sonicraft:death_egg_floor"
+    }
+  },
+  "result": {
+    "item": "sonicraft:death_egg_floor_slab",
+    "count": 6
+  }
+}

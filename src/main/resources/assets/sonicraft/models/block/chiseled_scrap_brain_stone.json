@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/scrapbrain_labyrinthstone_chiseled",
+    "particle": "sonicraft:blocks/scrapbrain_labyrinthstone_chiseled"
+  }
+}

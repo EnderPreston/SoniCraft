@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:cpz_road"
+    },
+    "3": {
+      "item": "sonicraft:cpz_road"
+    },
+    "4": {
+      "item": "sonicraft:cpz_road"
+    },
+    "6": {
+      "item": "sonicraft:cpz_road"
+    },
+    "7": {
+      "item": "sonicraft:cpz_road"
+    },
+    "8": {
+      "item": "sonicraft:cpz_road"
+    }
+  },
+  "result": {
+    "item": "sonicraft:cpz_road_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "chemical_plant_syringe",
+        "top": "chemical_plant_syringe_top",
+        "fluid": "blue_mega_mack"
+      },
+      "name": "default"
+    },
+    "green": {
+      "map": {
+        "side": "chemical_plant_syringe",
+        "top": "chemical_plant_syringe_top",
+        "fluid": "green_mega_mack"
+      },
+      "name": "green"
+    },
+    "light_blue": {
+      "map": {
+        "side": "chemical_plant_syringe",
+        "top": "chemical_plant_syringe_top",
+        "fluid": "light_blue_mega_mack"
+      },
+      "name": "light_blue"
+    }
+  }
+}

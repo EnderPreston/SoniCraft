@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft:block/green_hill_palm_slab"
+    },
+    "type=top": {
+      "model": "sonicraft:block/green_hill_palm_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft:block/green_hill_palm_slab_full"
+    }
+  }
+}

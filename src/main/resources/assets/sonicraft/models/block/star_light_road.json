@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/star_light_road_bottom",
+    "up": "sonicraft:blocks/star_light_road_top",
+    "north": "sonicraft:blocks/star_light_road_side",
+    "east": "sonicraft:blocks/star_light_road_side",
+    "south": "sonicraft:blocks/star_light_road_side",
+    "west": "sonicraft:blocks/star_light_road_side",
+    "particle": "sonicraft:blocks/star_light_road_bottom"
+  }
+}

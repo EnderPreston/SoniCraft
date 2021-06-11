@@ -1,0 +1,157 @@
+{
+  "_fv": 18,
+  "_type": "block",
+  "definition": {
+    "texture": "scrap_brain_electric_trap_effect",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "sparking_conduit:active",
+    "rotationMode": 5,
+    "emissiveRendering": false,
+    "displayFluidOverlay": true,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 2.0,
+        "my": 0.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 3.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 5.0,
+        "my": 3.0,
+        "mz": 5.0,
+        "Mx": 11.0,
+        "My": 7.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
+        "mx": 6.0,
+        "my": 7.0,
+        "mz": 6.0,
+        "Mx": 10.0,
+        "My": 11.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 11.0,
+        "mz": 3.0,
+        "Mx": 13.0,
+        "My": 13.0,
+        "Mz": 13.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.5,
+        "my": 13.0,
+        "mz": 3.5,
+        "Mx": 12.5,
+        "My": 17.5,
+        "Mz": 12.5,
+        "subtract": false
+      }
+    ],
+    "name": "Scrap Brain Sparking Conduit",
+    "specialInfo": [],
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": true,
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": "CUSTOM:ScrapBrainSparkingConduit"
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": true,
+    "lightOpacity": 0,
+    "material": {
+      "value": "ROCK"
+    },
+    "tickRate": 10,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "PURPLE",
+    "creativePickItem": {
+      "value": "CUSTOM:ScrapBrainSparkingConduit"
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": true,
+    "soundOnStep": {
+      "value": "ANVIL"
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:InvincibilityStars"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onEntityCollides": {
+      "name": "ScrapBrainSparkingConduitActiveEntityCollidesInTheBlock"
+    },
+    "onRedstoneOn": {
+      "name": "ScrapBrainSparkingConduitRedstoneOn"
+    },
+    "onRedstoneOff": {
+      "name": "ScrapBrainSparkingConduitActiveRedstoneOff"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

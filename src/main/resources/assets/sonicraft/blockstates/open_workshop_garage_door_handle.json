@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft:block/open_workshop_garage_door_handle"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/open_workshop_garage_door_handle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft:block/open_workshop_garage_door_handle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft:block/open_workshop_garage_door_handle",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/studiopolis_fan",
+    "particle": "sonicraft:blocks/studiopolis_fan"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/studiopolis_road_bottom",
+    "up": "sonicraft:blocks/studiopolis_road_top",
+    "north": "sonicraft:blocks/studiopolis_clapperboard_platform",
+    "east": "sonicraft:blocks/studiopolis_clapperboard_platform",
+    "south": "sonicraft:blocks/studiopolis_clapperboard_platform",
+    "west": "sonicraft:blocks/studiopolis_clapperboard_platform",
+    "particle": "sonicraft:blocks/studiopolis_road_bottom"
+  }
+}

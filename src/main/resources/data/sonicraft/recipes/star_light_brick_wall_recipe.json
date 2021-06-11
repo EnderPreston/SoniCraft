@@ -1,0 +1,32 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:star_light_bricks"
+    },
+    "1": {
+      "item": "sonicraft:star_light_bricks"
+    },
+    "2": {
+      "item": "sonicraft:star_light_bricks"
+    },
+    "3": {
+      "item": "sonicraft:star_light_bricks"
+    },
+    "4": {
+      "item": "sonicraft:star_light_bricks"
+    },
+    "5": {
+      "item": "sonicraft:star_light_bricks"
+    }
+  },
+  "result": {
+    "item": "sonicraft:star_light_brick_wall",
+    "count": 6
+  }
+}

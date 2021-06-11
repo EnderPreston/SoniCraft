@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "chemical_plant_syringe_needle"
+      },
+      "name": "default"
+    }
+  }
+}

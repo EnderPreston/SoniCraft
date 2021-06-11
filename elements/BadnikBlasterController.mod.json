@@ -1,0 +1,37 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "badnik_bullet",
+    "customModelName": "Normal",
+    "name": "item.badnikblastercontroller.name",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 10000,
+    "actionSound": {
+      "value": "CUSTOM:mod.eggman.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.1,
+    "bulletDamage": 0.9,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:BadnikBlasterController"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

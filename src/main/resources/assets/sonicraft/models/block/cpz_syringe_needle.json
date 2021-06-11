@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/sonic_syringe_needle",
+  "textures": {
+    "all": "sonicraft:blocks/chemical_plant_syringe_needle",
+    "particle": "sonicraft:blocks/chemical_plant_syringe_needle",
+    "0": "sonicraft:blocks/chemical_plant_syringe_needle"
+  }
+}

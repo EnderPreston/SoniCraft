@@ -1,0 +1,42 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:gold_ring"
+    },
+    "1": {
+      "item": "sonicraft:gold_ring"
+    },
+    "2": {
+      "item": "sonicraft:gold_ring"
+    },
+    "3": {
+      "item": "sonicraft:gold_ring"
+    },
+    "4": {
+      "item": "sonicraft:item_box"
+    },
+    "5": {
+      "item": "sonicraft:gold_ring"
+    },
+    "6": {
+      "item": "sonicraft:gold_ring"
+    },
+    "7": {
+      "item": "sonicraft:gold_ring"
+    },
+    "8": {
+      "item": "sonicraft:gold_ring"
+    }
+  },
+  "result": {
+    "item": "sonicraft:item_box_rings",
+    "count": 1
+  }
+}

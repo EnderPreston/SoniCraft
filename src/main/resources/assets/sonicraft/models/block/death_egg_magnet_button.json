@@ -1,0 +1,11 @@
+{
+  "parent": "sonicraft:custom/death_egg_magnet_button",
+  "textures": {
+    "all": "sonicraft:blocks/death_egg_magnet_button",
+    "particle": "sonicraft:blocks/death_egg_magnet_button",
+    "side": "sonicraft:blocks/scrap_brain_side",
+    "3": "sonicraft:blocks/death_egg_magnet_button",
+    "top": "sonicraft:blocks/scrap_brain_top",
+    "bottom": "sonicraft:blocks/scrap_brain_bottom"
+  }
+}

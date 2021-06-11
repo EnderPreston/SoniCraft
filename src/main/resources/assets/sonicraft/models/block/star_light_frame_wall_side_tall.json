@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "sonicraft:blocks/star_light_frame_wall",
+    "particle": "sonicraft:blocks/star_light_frame_wall"
+  }
+}

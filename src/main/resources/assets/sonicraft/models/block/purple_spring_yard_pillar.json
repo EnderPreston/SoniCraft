@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/spring_yard_purple_pillar_bottom",
+    "up": "sonicraft:blocks/spring_yard_purple_pillar_top",
+    "north": "sonicraft:blocks/spring_yard_purple_pillar",
+    "east": "sonicraft:blocks/spring_yard_purple_pillar",
+    "south": "sonicraft:blocks/spring_yard_purple_pillar",
+    "west": "sonicraft:blocks/spring_yard_purple_pillar",
+    "particle": "sonicraft:blocks/spring_yard_purple_pillar_bottom"
+  }
+}

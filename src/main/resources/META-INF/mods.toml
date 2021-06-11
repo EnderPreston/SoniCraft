@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Creative Commons Attribution-NonCommercial 3.0"
+
+[[mods]]
+modId="sonicraft"
+version="1.1.0"
+displayName="SoniCraft"
+credits="All Sonic assets belong to Sega. No infringement was intended."
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="EnderPreston"
+description='''
+The blue blur is back in Minecraft, now faster and cooler than ever! In addition to the blue blur himself, this mod also adds Sonic's friends (and foes), Sonic's world, and dozens of objects and items that you would see or hear of in the various Sonic The Hedgehog games!
+'''
+
+[[dependencies.sonicraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

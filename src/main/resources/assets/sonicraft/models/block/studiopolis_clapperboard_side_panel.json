@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/studiopolis_sign",
+  "textures": {
+    "all": "sonicraft:blocks/studiopolis_clapperboard_cover",
+    "particle": "sonicraft:blocks/studiopolis_clapperboard_cover",
+    "0": "sonicraft:blocks/studiopolis_clapperboard_cover"
+  }
+}

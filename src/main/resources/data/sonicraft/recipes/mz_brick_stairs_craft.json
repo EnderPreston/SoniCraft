@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:marble_zone_bricks"
+    },
+    "3": {
+      "item": "sonicraft:marble_zone_bricks"
+    },
+    "4": {
+      "item": "sonicraft:marble_zone_bricks"
+    },
+    "6": {
+      "item": "sonicraft:marble_zone_bricks"
+    },
+    "7": {
+      "item": "sonicraft:marble_zone_bricks"
+    },
+    "8": {
+      "item": "sonicraft:marble_zone_bricks"
+    }
+  },
+  "result": {
+    "item": "sonicraft:marble_zone_brick_stairs",
+    "count": 4
+  }
+}

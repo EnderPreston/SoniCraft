@@ -1,0 +1,22 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:casino_night_stone"
+    },
+    "1": {
+      "item": "sonicraft:casino_night_stone"
+    },
+    "2": {
+      "item": "sonicraft:casino_night_stone"
+    }
+  },
+  "result": {
+    "item": "sonicraft:casino_night_stone_slab",
+    "count": 6
+  }
+}

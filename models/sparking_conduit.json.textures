@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "effect": "nothing",
+        "conduit": "scrap_brain_electric_trap"
+      },
+      "name": "default"
+    },
+    "active": {
+      "map": {
+        "effect": "scrap_brain_electric_trap_effect",
+        "conduit": "scrap_brain_electric_trap"
+      },
+      "name": "active"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/sonic_ring",
+  "textures": {
+    "all": "sonicraft:blocks/gold_ring",
+    "particle": "sonicraft:blocks/ringtexturefront",
+    "0": "sonicraft:blocks/gold_ring"
+  }
+}

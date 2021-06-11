@@ -1,0 +1,38 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Signpost"
+      },
+      {
+        "value": "CUSTOM:SignpostSonic"
+      },
+      {
+        "value": "CUSTOM:SignpostTails"
+      },
+      {
+        "value": "CUSTOM:SignpostKnuckles"
+      },
+      {
+        "value": "CUSTOM:SignpostPlayer"
+      },
+      {
+        "value": "CUSTOM:SignpostAmy"
+      },
+      {
+        "value": "CUSTOM:SignpostShadow"
+      },
+      {
+        "value": "CUSTOM:SignpostRouge"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "goal_plates",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ChaosEmeraldYellow"
+      },
+      {
+        "value": "CUSTOM:ChaosEmeraldGreen"
+      },
+      {
+        "value": "CUSTOM:ChaosEmeraldBlue"
+      },
+      {
+        "value": "CUSTOM:ChaosEmeraldWhite"
+      },
+      {
+        "value": "CUSTOM:ChaosEmeraldPurple"
+      },
+      {
+        "value": "CUSTOM:ChaosEmeraldLightBlue"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChaosEmeraldRed"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SuperFormEmeralds"
+    },
+    "name": "super_form_recipe",
+    "namespace": "mod"
+  }
+}

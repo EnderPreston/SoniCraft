@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_carpet"
+    },
+    "1": {
+      "item": "minecraft:red_carpet"
+    },
+    "2": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "3": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "4": {
+      "item": "minecraft:gold_ingot"
+    },
+    "5": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "sonicraft:casino_night_road",
+    "count": 2
+  }
+}

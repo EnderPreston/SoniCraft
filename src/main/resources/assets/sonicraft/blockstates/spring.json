@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sonicraft:block/spring"
+    },
+    "facing=east": {
+      "model": "sonicraft:block/spring",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sonicraft:block/spring",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sonicraft:block/spring",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "sonicraft:block/spring",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "sonicraft:block/spring",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:ghz_dirt"
+    },
+    "3": {
+      "item": "sonicraft:ghz_dirt"
+    },
+    "4": {
+      "item": "sonicraft:ghz_dirt"
+    },
+    "6": {
+      "item": "sonicraft:ghz_dirt"
+    },
+    "7": {
+      "item": "sonicraft:ghz_dirt"
+    },
+    "8": {
+      "item": "sonicraft:ghz_dirt"
+    }
+  },
+  "result": {
+    "item": "sonicraft:ghz_dirt_stairs",
+    "count": 4
+  }
+}

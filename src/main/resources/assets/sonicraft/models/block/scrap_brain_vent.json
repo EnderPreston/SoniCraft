@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/custom_carpet",
+  "textures": {
+    "all": "sonicraft:blocks/scrap_brain_vent",
+    "particle": "sonicraft:blocks/scrap_brain_vent",
+    "wool": "sonicraft:blocks/scrap_brain_vent"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "console": "sega_genesis",
+        "cartridge": "nothing"
+      },
+      "name": "default"
+    },
+    "sonic_2": {
+      "map": {
+        "console": "sega_genesis",
+        "cartridge": "cartridge_sonic_2"
+      },
+      "name": "sonic_2"
+    },
+    "sonic_1": {
+      "map": {
+        "console": "sega_genesis",
+        "cartridge": "cartridge_sonic_1"
+      },
+      "name": "sonic_1"
+    },
+    "sonic_3": {
+      "map": {
+        "console": "sega_genesis",
+        "cartridge": "cartridge_sonic_3"
+      },
+      "name": "sonic_3"
+    }
+  }
+}

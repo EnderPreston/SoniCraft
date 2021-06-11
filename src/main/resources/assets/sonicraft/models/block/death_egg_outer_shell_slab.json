@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "sonicraft:blocks/death_egg_outer_shell",
+    "top": "sonicraft:blocks/death_egg_outer_shell",
+    "side": "sonicraft:blocks/death_egg_outer_shell"
+  }
+}

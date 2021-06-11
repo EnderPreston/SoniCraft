@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft:block/ghz_dirt_slab"
+    },
+    "type=top": {
+      "model": "sonicraft:block/ghz_dirt_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft:block/ghz_dirt_slab_full"
+    }
+  }
+}

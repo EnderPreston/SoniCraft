@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "death_egg_outer_shell_smooth"
+      },
+      "name": "default"
+    }
+  }
+}

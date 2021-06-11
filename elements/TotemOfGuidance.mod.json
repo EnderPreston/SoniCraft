@@ -1,0 +1,48 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 1,
+    "texture": "totem_of_guidance",
+    "customModelName": "totem_of_guidance:default",
+    "name": "§eTotem Of Guidance",
+    "specialInfo": [
+      "§9Throw this to summon Tikal!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SonicraftMisc"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 1,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "block",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "TotemOfGuidanceRangedItemUsed"
+    },
+    "bulletPower": 0.6,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:TotemOfGuidanceActivated"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "TotemOfGuidanceBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "TotemOfGuidanceBulletHitsBlock"
+    }
+  }
+}

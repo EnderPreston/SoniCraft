@@ -1,0 +1,10 @@
+{
+  "parent": "sonicraft:custom/sonic_syringe_button",
+  "textures": {
+    "all": "sonicraft:blocks/chemical_plant_syringe_inside",
+    "particle": "sonicraft:blocks/chemical_plant_syringe_inside",
+    "side": "sonicraft:blocks/capsule_button_side",
+    "top": "sonicraft:blocks/capsule_button_top",
+    "inner_part": "sonicraft:blocks/chemical_plant_syringe_inside"
+  }
+}

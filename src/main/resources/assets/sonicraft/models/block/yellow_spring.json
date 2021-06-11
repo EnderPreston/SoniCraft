@@ -1,0 +1,9 @@
+{
+  "parent": "sonicraft:custom/springblock",
+  "textures": {
+    "all": "sonicraft:blocks/yellow_spring_top",
+    "particle": "sonicraft:blocks/yellow_spring",
+    "spring": "sonicraft:blocks/yellow_spring",
+    "top": "sonicraft:blocks/yellow_spring_top"
+  }
+}

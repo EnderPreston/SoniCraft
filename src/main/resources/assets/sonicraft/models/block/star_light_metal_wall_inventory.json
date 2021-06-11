@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "sonicraft:blocks/star_light_road_bottom",
+    "particle": "sonicraft:blocks/star_light_road_bottom"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GHZSunflower"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "tall_flowers",
+    "namespace": "minecraft"
+  }
+}

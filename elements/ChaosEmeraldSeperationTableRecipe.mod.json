@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.STAINED_GLASS#5"
+      },
+      {
+        "value": "CUSTOM:GoldRing"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS#5"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Blocks.CRAFTING_TABLE"
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChaosEmeraldSeperationTable"
+    },
+    "name": "chaos_emerald_seperation_table_recipe",
+    "namespace": "mod"
+  }
+}

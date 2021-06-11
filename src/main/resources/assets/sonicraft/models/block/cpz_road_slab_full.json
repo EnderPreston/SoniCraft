@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "sonicraft:blocks/chemical_plant_road_side",
+    "bottom": "sonicraft:blocks/chemical_plant_road_bottom",
+    "top": "sonicraft:blocks/chemical_plant_road_top",
+    "side": "sonicraft:blocks/chemical_plant_road_stairs"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "_fv": 18,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:GreenHillZone"
+      },
+      {
+        "value": "CUSTOM:MarbleZone"
+      },
+      {
+        "value": "CUSTOM:SpringYard"
+      },
+      {
+        "value": "CUSTOM:StarLightZone"
+      },
+      {
+        "value": "CUSTOM:ScrapBrainZone"
+      },
+      {
+        "value": "CUSTOM:ChemicalPlantZone"
+      },
+      {
+        "value": "CUSTOM:AquaticRuinZone"
+      },
+      {
+        "value": "CUSTOM:CasinoNightZone"
+      },
+      {
+        "value": "CUSTOM:StudiopolisZone"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Chaostone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "onPlayerEntersDimension": {
+      "name": "MobiusPlayerEntersDimension"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "MobiusPlayerLeavesDimension"
+    },
+    "portalFrame": {
+      "value": "Blocks.GOLD_BLOCK"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:SuperStars"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": ""
+    },
+    "igniterName": "Flint and Ring",
+    "igniterTab": {
+      "value": "CUSTOM:SonicraftMisc"
+    },
+    "texture": "flint_and_ring",
+    "portalTexture": "mobius_portal",
+    "enablePortal": true,
+    "whenPortaTriggerlUsed": {
+      "name": "MobiusPortalTriggerUsed"
+    }
+  }
+}

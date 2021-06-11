@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "sonicraft:marble_zone_iron_block",
+    "sonicraft:cpz_iron_block",
+    "sonicraft:cpz_decorative_iron_block",
+    "sonicraft:workshop_iron_block",
+    "sonicraft:smooth_workshop_iron_block",
+    "sonicraft:chiseled_workshop_iron_block",
+    "sonicraft:workshop_floor_block",
+    "sonicraft:workshop_floor_stairs",
+    "sonicraft:workshop_floor_slab",
+    "sonicraft:scrap_brain_iron_block",
+    "sonicraft:decorative_scrap_brain_iron_block",
+    "sonicraft:scrap_brain_iron_stairs",
+    "sonicraft:scrap_brain_iron_slab",
+    "sonicraft:red_iron_block"
+  ]
+}

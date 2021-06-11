@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "sonicraft:blocks/studiopolis_cable_side",
+    "top": "sonicraft:blocks/studiopolis_cable_side",
+    "side": "sonicraft:blocks/studiopolis_cable_side"
+  }
+}

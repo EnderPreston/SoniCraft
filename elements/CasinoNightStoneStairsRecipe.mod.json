@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CasinoNightStone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CasinoNightStone"
+      },
+      {
+        "value": "CUSTOM:CasinoNightStone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CasinoNightStone"
+      },
+      {
+        "value": "CUSTOM:CasinoNightStone"
+      },
+      {
+        "value": "CUSTOM:CasinoNightStone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CasinoNightStoneStairs"
+    },
+    "name": "casino_night_stone_stairs_recipe",
+    "namespace": "mod"
+  }
+}

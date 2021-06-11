@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GoldRing"
+      },
+      {
+        "value": "CUSTOM:SpecialStageKey"
+      },
+      {
+        "value": "CUSTOM:Mobius"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "piglin_loved",
+    "namespace": "minecraft"
+  }
+}

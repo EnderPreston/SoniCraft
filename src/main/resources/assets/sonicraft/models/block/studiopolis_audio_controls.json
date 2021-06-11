@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/studiopolis_gold_block",
+    "up": "sonicraft:blocks/studiopolis_gold_block",
+    "north": "sonicraft:blocks/studiopolis_audio_controls",
+    "east": "sonicraft:blocks/studiopolis_audio_controls",
+    "south": "sonicraft:blocks/studiopolis_audio_controls",
+    "west": "sonicraft:blocks/studiopolis_audio_controls",
+    "particle": "sonicraft:blocks/studiopolis_gold_block"
+  }
+}

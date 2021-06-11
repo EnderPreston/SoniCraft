@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:star_light_road"
+    },
+    "3": {
+      "item": "sonicraft:star_light_road"
+    },
+    "4": {
+      "item": "sonicraft:star_light_road"
+    },
+    "6": {
+      "item": "sonicraft:star_light_road"
+    },
+    "7": {
+      "item": "sonicraft:star_light_road"
+    },
+    "8": {
+      "item": "sonicraft:star_light_road"
+    }
+  },
+  "result": {
+    "item": "sonicraft:star_light_road_stairs",
+    "count": 4
+  }
+}

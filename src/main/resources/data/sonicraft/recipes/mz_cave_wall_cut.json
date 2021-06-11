@@ -1,0 +1,9 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "sonicraft:marble_zone_stone"
+  },
+  "result": "sonicraft:marble_zone_cave_wall"
+}

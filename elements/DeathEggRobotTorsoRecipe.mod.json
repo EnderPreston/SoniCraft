@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "Items.REPEATER"
+      },
+      {
+        "value": "CUSTOM:DeathEggRobotTorso"
+      },
+      {
+        "value": "Items.REPEATER"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": "Items.MINECART"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RepairedDeathEggRobotTorso"
+    },
+    "name": "death_egg_robot_torso_recipe",
+    "namespace": "mod"
+  }
+}

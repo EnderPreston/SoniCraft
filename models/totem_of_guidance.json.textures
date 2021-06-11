@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "totem_of_guidance"
+      },
+      "name": "default"
+    }
+  }
+}

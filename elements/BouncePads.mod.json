@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Spring"
+      },
+      {
+        "value": "CUSTOM:YellowSpring"
+      },
+      {
+        "value": "CUSTOM:RedSpring"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "bounce_pads",
+    "namespace": "forge"
+  }
+}

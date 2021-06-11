@@ -1,0 +1,34 @@
+{
+  "_fv": 18,
+  "_type": "structure",
+  "definition": {
+    "structure": "popcorn_shop",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 50000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -15,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:Mobius"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:StudiopolisRoad"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:StudiopolisZone"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "StudiopolisSkyscraperAdditionalGenerationCondition"
+    }
+  }
+}

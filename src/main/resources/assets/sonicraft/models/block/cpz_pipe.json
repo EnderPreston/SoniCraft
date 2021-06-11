@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/chemical_plant_pipe_top",
+    "up": "sonicraft:blocks/chemical_plant_pipe_top",
+    "north": "sonicraft:blocks/chemical_plant_pipe",
+    "east": "sonicraft:blocks/chemical_plant_pipe",
+    "south": "sonicraft:blocks/chemical_plant_pipe",
+    "west": "sonicraft:blocks/chemical_plant_pipe",
+    "particle": "sonicraft:blocks/chemical_plant_pipe_top"
+  }
+}

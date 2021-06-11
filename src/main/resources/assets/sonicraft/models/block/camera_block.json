@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/camera_bottom",
+    "up": "sonicraft:blocks/camera_top",
+    "north": "sonicraft:blocks/camera_front",
+    "east": "sonicraft:blocks/camera_side",
+    "south": "sonicraft:blocks/camera_back",
+    "west": "sonicraft:blocks/camera_side",
+    "particle": "sonicraft:blocks/camera_side"
+  }
+}

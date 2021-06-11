@@ -1,0 +1,9 @@
+{
+  "parent": "sonicraft:custom/silver_sonic_chamber",
+  "textures": {
+    "all": "sonicraft:blocks/chemical_plant_robot_chamber",
+    "particle": "sonicraft:blocks/chemical_plant_robot_chamber",
+    "chamber": "sonicraft:blocks/chemical_plant_robot_chamber",
+    "silver_sonic": "sonicraft:blocks/silver_sonic"
+  }
+}

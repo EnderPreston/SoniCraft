@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/blast_processing_bottom",
+    "up": "sonicraft:blocks/blast_processing_top",
+    "north": "sonicraft:blocks/blast_processing_side",
+    "east": "sonicraft:blocks/blast_processing_side",
+    "south": "sonicraft:blocks/blast_processing_side",
+    "west": "sonicraft:blocks/blast_processing_side",
+    "particle": "sonicraft:blocks/blast_processing_bottom"
+  }
+}

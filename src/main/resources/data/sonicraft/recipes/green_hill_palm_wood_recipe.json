@@ -1,0 +1,26 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:green_hill_palm_log"
+    },
+    "1": {
+      "item": "sonicraft:green_hill_palm_log"
+    },
+    "2": {
+      "item": "sonicraft:green_hill_palm_log"
+    },
+    "3": {
+      "item": "sonicraft:green_hill_palm_log"
+    }
+  },
+  "result": {
+    "item": "sonicraft:green_hill_palm_wood",
+    "count": 3
+  }
+}

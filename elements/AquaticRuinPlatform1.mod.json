@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "structure",
+  "definition": {
+    "structure": "aquatic_ruin_platform_1",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 200000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -2,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:Mobius"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:AquaticRuinGrass"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AquaticRuinZone"
+      }
+    ],
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
+  }
+}

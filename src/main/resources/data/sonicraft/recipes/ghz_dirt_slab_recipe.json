@@ -1,0 +1,22 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:ghz_dirt"
+    },
+    "1": {
+      "item": "sonicraft:ghz_dirt"
+    },
+    "2": {
+      "item": "sonicraft:ghz_dirt"
+    }
+  },
+  "result": {
+    "item": "sonicraft:ghz_dirt_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CasinoNightSlotWheel"
+      },
+      {
+        "value": "CUSTOM:CasinoNightSlotWheelRings"
+      },
+      {
+        "value": "CUSTOM:CasinoNightSlotWheelShield"
+      },
+      {
+        "value": "CUSTOM:CasinoNightSlotWheelShoes"
+      },
+      {
+        "value": "CUSTOM:CasinoNightSlotWheelNetherite"
+      },
+      {
+        "value": "CUSTOM:CasinoNightSlotWheelEggman"
+      },
+      {
+        "value": "CUSTOM:CasinoNightSlotWheelJackpot"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "slot_wheels",
+    "namespace": "mod"
+  }
+}

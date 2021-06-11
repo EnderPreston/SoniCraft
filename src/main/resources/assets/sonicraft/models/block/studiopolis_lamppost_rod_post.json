@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "sonicraft:blocks/studiopolis_lamppost_rod",
+    "particle": "sonicraft:blocks/studiopolis_lamppost_rod"
+  }
+}

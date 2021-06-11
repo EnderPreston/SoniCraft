@@ -1,0 +1,16 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sonicraft:item_box"
+    },
+    {
+      "item": "sonicraft:speed_shoes_boots"
+    }
+  ],
+  "result": {
+    "item": "sonicraft:item_box_speed_shoes",
+    "count": 1
+  }
+}

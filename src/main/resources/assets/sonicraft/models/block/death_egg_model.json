@@ -1,0 +1,12 @@
+{
+  "parent": "sonicraft:custom/death_egg_model",
+  "textures": {
+    "all": "sonicraft:blocks/death_egg_model_inside_flat",
+    "particle": "sonicraft:blocks/death_egg_model_inside_flat",
+    "eye": "sonicraft:blocks/death_egg_eye",
+    "side": "sonicraft:blocks/death_egg_model_side",
+    "bottom": "sonicraft:blocks/death_egg_model_bottom",
+    "missing": "sonicraft:blocks/death_egg_model_bottom",
+    "inside": "sonicraft:blocks/death_egg_model_inside"
+  }
+}

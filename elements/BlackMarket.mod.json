@@ -1,0 +1,234 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 338,
+    "height": 200,
+    "inventoryOffsetX": 81,
+    "inventoryOffsetY": 15,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Place your rings here!",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Place your rings here!",
+          "x": 240,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "35",
+          "onClick": {
+            "name": "BlackMarketBuyChaoEgg"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "35",
+          "x": 78,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "5",
+          "onClick": {
+            "name": "BlackMarketBuyPumpkin"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "5",
+          "x": 78,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "15",
+          "onClick": {
+            "name": "BlackMarketBuySkull"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "15",
+          "x": 78,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "5",
+          "onClick": {
+            "name": "BlackMarketBuyApple"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "5",
+          "x": 78,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "8",
+          "onClick": {
+            "name": "BlackMarketBuyFlowerPot"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "8",
+          "x": 78,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "5",
+          "onClick": {
+            "name": "BlackMarketBuyLog"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "5",
+          "x": 78,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "8",
+          "onClick": {
+            "name": "BlackMarketBuyFruit"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "8",
+          "x": 159,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "15",
+          "onClick": {
+            "name": "BlackMarketBuyBucket"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "15",
+          "x": 159,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "5",
+          "onClick": {
+            "name": "BlackMarketBuyMelon"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "5",
+          "x": 159,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "45",
+          "onClick": {
+            "name": "BlackMarketBuyNameTag"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "45",
+          "x": 159,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "64",
+          "onClick": {
+            "name": "BlackMarketBuySpeedShoes"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "64",
+          "x": 159,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "64",
+          "onClick": {
+            "name": "BlackMarketBuyHammer"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "64",
+          "x": 159,
+          "y": 179
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:GoldRing"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 285,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "black_market_gui.png",
+          "use1Xscale": false,
+          "name": "black_market_gui.png",
+          "x": 44,
+          "y": 20
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "X",
+          "onClick": {
+            "name": "MilesElectricInterfaceWhileThisGUIIsOpenTick"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "X",
+          "x": 348,
+          "y": 21
+        }
+      }
+    ]
+  }
+}

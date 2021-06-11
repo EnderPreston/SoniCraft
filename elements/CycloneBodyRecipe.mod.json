@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.DISPENSER"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "CUSTOM:CycloneWing"
+      },
+      {
+        "value": "Items.MINECART"
+      },
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CycloneBody"
+    },
+    "name": "cyclone_body_recipe",
+    "namespace": "mod"
+  }
+}

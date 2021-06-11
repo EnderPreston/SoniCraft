@@ -1,0 +1,130 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 238,
+    "height": 208,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 18,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:SuperFormEmeralds"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 205,
+          "y": 53
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #1",
+          "x": 124,
+          "y": 107
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #2",
+          "x": 151,
+          "y": 107
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #3",
+          "x": 178,
+          "y": 107
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #4",
+          "x": 205,
+          "y": 107
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #5",
+          "x": 232,
+          "y": 107
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #6",
+          "x": 259,
+          "y": 107
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #7",
+          "x": 286,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Seperate!",
+          "onClick": {
+            "name": "SeperatorButtonClicked"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "Seperate!",
+          "x": 177,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chaos_emerald_seperation_gui.png",
+          "use1Xscale": false,
+          "name": "chaos_emerald_seperation_gui.png",
+          "x": 94,
+          "y": 16
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wechnia_block"
+      },
+      "name": "default"
+    },
+    "pink_crystal": {
+      "map": {
+        "0": "labyrinthcrystal_pink"
+      },
+      "name": "pink_crystal"
+    },
+    "green_crystal": {
+      "map": {
+        "0": "labyrinthcrystal_green"
+      },
+      "name": "green_crystal"
+    },
+    "blue_crystal": {
+      "map": {
+        "0": "labyrinthcrystal_blue"
+      },
+      "name": "blue_crystal"
+    },
+    "light_blue_crystal": {
+      "map": {
+        "0": "labyrinthcrystal_lightblue"
+      },
+      "name": "light_blue_crystal"
+    },
+    "studiopolis_microphone": {
+      "map": {
+        "0": "studiopolis_microphone"
+      },
+      "name": "studiopolis_microphone"
+    }
+  }
+}

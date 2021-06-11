@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "structure",
+  "definition": {
+    "structure": "star_light_girder",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 300000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 1,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:Mobius"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:StarLightRoad"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:StarLightZone"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

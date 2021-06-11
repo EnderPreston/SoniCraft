@@ -1,0 +1,26 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:marble_zone_bricks"
+    },
+    "1": {
+      "item": "sonicraft:marble_zone_bricks"
+    },
+    "2": {
+      "item": "sonicraft:marble_zone_bricks"
+    },
+    "3": {
+      "item": "sonicraft:marble_zone_bricks"
+    }
+  },
+  "result": {
+    "item": "sonicraft:marble_zone_brick_tiles",
+    "count": 4
+  }
+}

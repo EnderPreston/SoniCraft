@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/chaos_emerald_seperation_table_bottom",
+    "up": "sonicraft:blocks/chaos_emerald_seperation_table_top",
+    "north": "sonicraft:blocks/chaos_emerald_seperation_table_side",
+    "east": "sonicraft:blocks/chaos_emerald_seperation_table_side",
+    "south": "sonicraft:blocks/chaos_emerald_seperation_table_side",
+    "west": "sonicraft:blocks/chaos_emerald_seperation_table_side",
+    "particle": "sonicraft:blocks/chaos_emerald_seperation_table_bottom"
+  }
+}

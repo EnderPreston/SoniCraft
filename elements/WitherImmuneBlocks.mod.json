@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:NullSpaceStone"
+      },
+      {
+        "value": "CUSTOM:NullSpacePillar"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "wither_immune",
+    "namespace": "minecraft"
+  }
+}

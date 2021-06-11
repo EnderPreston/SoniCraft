@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "camera_side",
+        "top": "camera_top",
+        "4": "camera_bottom",
+        "back": "camera_back",
+        "front": "camera_front"
+      },
+      "name": "default"
+    }
+  }
+}

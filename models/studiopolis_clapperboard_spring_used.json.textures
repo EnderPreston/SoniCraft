@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hinge": "studiopolis_clapperboard_spring_side_hinge",
+        "side": "studiopolis_clapperboard_spring_side",
+        "top": "studiopolis_smooth_top_interior",
+        "side_alt": "studiopolis_clapperboard_spring_side_alt",
+        "missing": "nothing"
+      },
+      "name": "default"
+    }
+  }
+}

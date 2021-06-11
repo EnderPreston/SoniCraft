@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "sonicraft:blocks/scrapbrain_labyrinthblock_smooth",
+    "top": "sonicraft:blocks/scrapbrain_labyrinthblock_smooth",
+    "side": "sonicraft:blocks/scrapbrain_labyrinthblock_2"
+  }
+}

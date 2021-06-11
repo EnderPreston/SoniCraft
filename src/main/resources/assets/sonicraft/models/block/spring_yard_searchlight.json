@@ -1,0 +1,10 @@
+{
+  "parent": "sonicraft:custom/spring_yard_searchlight",
+  "textures": {
+    "all": "sonicraft:blocks/spring_yard_searchlight_side",
+    "particle": "sonicraft:blocks/spring_yard_searchlight_side",
+    "side": "sonicraft:blocks/spring_yard_searchlight_side",
+    "top": "sonicraft:blocks/spring_yard_searchlight_top",
+    "light": "sonicraft:blocks/spring_yard_searchlight_bulb"
+  }
+}

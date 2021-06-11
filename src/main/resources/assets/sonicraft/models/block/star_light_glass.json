@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/star_light_glass",
+    "particle": "sonicraft:blocks/star_light_glass"
+  }
+}

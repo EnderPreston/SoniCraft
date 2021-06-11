@@ -1,0 +1,10 @@
+{
+  "parent": "sonicraft:custom/sonic_syringe_tube",
+  "textures": {
+    "all": "sonicraft:blocks/green_mega_mack",
+    "particle": "sonicraft:blocks/chemical_plant_syringe",
+    "side": "sonicraft:blocks/chemical_plant_syringe",
+    "top": "sonicraft:blocks/chemical_plant_syringe_top",
+    "fluid": "sonicraft:blocks/green_mega_mack"
+  }
+}

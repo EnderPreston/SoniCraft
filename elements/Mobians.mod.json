@@ -1,0 +1,32 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:Sonic"
+      },
+      {
+        "value": "CUSTOM:Tails"
+      },
+      {
+        "value": "CUSTOM:TailsFlying"
+      },
+      {
+        "value": "CUSTOM:Knuckles"
+      },
+      {
+        "value": "CUSTOM:AmyRose"
+      },
+      {
+        "value": "CUSTOM:Shadow"
+      }
+    ],
+    "name": "mobians",
+    "namespace": "mod"
+  }
+}

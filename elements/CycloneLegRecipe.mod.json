@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "CUSTOM:CycloneWing"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.NETHERITE_BLOCK"
+      },
+      {
+        "value": "CUSTOM:CycloneWing"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Blocks.LAPIS_BLOCK"
+      },
+      {
+        "value": "CUSTOM:CycloneWheel"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CycloneLeg"
+    },
+    "name": "cyclone_leg_recipe",
+    "namespace": "mod"
+  }
+}

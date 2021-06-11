@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"4": "sonicraft:blocks/camera_bottom",
+		"particle": "sonicraft:blocks/camera_back",
+		"back": "sonicraft:blocks/camera_back",
+		"front": "sonicraft:blocks/camera_front",
+		"side": "sonicraft:blocks/camera_side",
+		"top": "sonicraft:blocks/camera_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#front"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#back"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#4"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2, 1.5],
+			"scale": [0.35, 0.35, 0.35]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2, 1.5],
+			"scale": [0.35, 0.35, 0.35]
+		},
+		"firstperson_righthand": {
+			"translation": [-1, 5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"translation": [-1, 5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [35, 136, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"fixed": {
+			"translation": [0, 0, -2.25],
+			"scale": [1, 1, 0.2]
+		}
+	}
+}

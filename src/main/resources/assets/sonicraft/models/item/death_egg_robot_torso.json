@@ -1,0 +1,7 @@
+{
+  "parent": "sonicraft:custom/death_egg_robot_torso",
+  "textures": {
+    "0": "sonicraft:blocks/death_egg_robot_damaged",
+    "particle": "sonicraft:items/boss_trigger"
+  }
+}

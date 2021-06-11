@@ -1,0 +1,11 @@
+{
+  "parent": "sonicraft:custom/death_egg_magnet_button",
+  "textures": {
+    "all": "sonicraft:blocks/chemical_plant_button",
+    "particle": "sonicraft:blocks/chemical_plant_button",
+    "side": "sonicraft:blocks/chemical_plant_iron_block",
+    "3": "sonicraft:blocks/chemical_plant_button",
+    "top": "sonicraft:blocks/chemical_plant_iron_block",
+    "bottom": "sonicraft:blocks/chemical_plant_iron_block"
+  }
+}

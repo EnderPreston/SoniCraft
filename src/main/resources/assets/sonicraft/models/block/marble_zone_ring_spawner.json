@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/marble_zone_stone",
+    "up": "sonicraft:blocks/green_hill_grass_block_top_ring",
+    "north": "sonicraft:blocks/marble_zone_grass",
+    "east": "sonicraft:blocks/marble_zone_grass",
+    "south": "sonicraft:blocks/marble_zone_grass",
+    "west": "sonicraft:blocks/marble_zone_grass",
+    "particle": "sonicraft:blocks/marble_zone_stone"
+  }
+}

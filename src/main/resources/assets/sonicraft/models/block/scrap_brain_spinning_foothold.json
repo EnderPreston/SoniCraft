@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/scrap_brain_foothold",
+  "textures": {
+    "all": "sonicraft:blocks/foothold_spinning",
+    "particle": "sonicraft:blocks/foothold_normal",
+    "0": "sonicraft:blocks/scrap_brain_spinning_foothold"
+  }
+}

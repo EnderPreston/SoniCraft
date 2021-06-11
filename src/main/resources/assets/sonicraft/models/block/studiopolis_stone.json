@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/studiopolis_road_top",
+    "particle": "sonicraft:blocks/studiopolis_road_top"
+  }
+}

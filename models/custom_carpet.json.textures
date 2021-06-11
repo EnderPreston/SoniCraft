@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "wool": "wechnia_block"
+      },
+      "name": "default"
+    },
+    "scrap_brain_vent": {
+      "map": {
+        "wool": "scrap_brain_vent"
+      },
+      "name": "scrap_brain_vent"
+    }
+  }
+}

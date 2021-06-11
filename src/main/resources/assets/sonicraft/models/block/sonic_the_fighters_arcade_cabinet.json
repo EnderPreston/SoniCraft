@@ -1,0 +1,9 @@
+{
+  "parent": "sonicraft:custom/arcade_machine",
+  "textures": {
+    "all": "sonicraft:blocks/arcade_screen_sonic_the_fighters",
+    "particle": "sonicraft:blocks/arcade_screen_sonic_the_fighters",
+    "machine": "sonicraft:blocks/arcade_machine_sonic_the_fighters",
+    "screen": "sonicraft:blocks/arcade_screen_sonic_the_fighters"
+  }
+}

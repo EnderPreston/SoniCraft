@@ -1,0 +1,11 @@
+{
+  "parent": "sonicraft:custom/chaos_emerald_power_generator",
+  "textures": {
+    "all": "sonicraft:blocks/chaos_emerald_green",
+    "particle": "sonicraft:blocks/chaos_emerald_power_generator",
+    "side": "sonicraft:blocks/chaos_emerald_power_generator",
+    "top": "sonicraft:blocks/chaos_emerald_power_generator_top",
+    "bottom": "sonicraft:blocks/chaos_emerald_power_generator_bottom",
+    "emerald": "sonicraft:blocks/chaos_emerald_green"
+  }
+}

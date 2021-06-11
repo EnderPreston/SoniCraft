@@ -1,0 +1,133 @@
+{
+  "_fv": 18,
+  "_type": "biome",
+  "definition": {
+    "name": "Scrap Brain Zone",
+    "groundBlock": {
+      "value": "CUSTOM:ScrapBrainIronBlock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:ScrapBrainIronBlock"
+    },
+    "airColor": {
+      "value": -8623854,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -10591165,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -1954309,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -4587330,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -8650570,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "CUSTOM:music.game.scrapbrain"
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:InvincibilityStars"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "biomeType": "WARM",
+    "spawnBiome": false,
+    "biomeWeight": 20,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 7,
+    "maxWaterDepth": 0,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "FrozenTopLayer",
+      "Ores"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Pocky"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Rocky"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Caterkiller"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

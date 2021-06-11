@@ -1,0 +1,7 @@
+{
+  "parent": "sonicraft:custom/death_egg_robot_arm",
+  "textures": {
+    "0": "sonicraft:blocks/death_egg_robot_player",
+    "particle": "sonicraft:items/cyclone_turret"
+  }
+}

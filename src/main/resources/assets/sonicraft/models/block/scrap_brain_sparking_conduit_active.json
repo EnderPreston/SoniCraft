@@ -1,0 +1,9 @@
+{
+  "parent": "sonicraft:custom/sparking_conduit",
+  "textures": {
+    "all": "sonicraft:blocks/scrap_brain_electric_trap_effect",
+    "particle": "sonicraft:blocks/scrap_brain_electric_trap_effect",
+    "effect": "sonicraft:blocks/scrap_brain_electric_trap_effect",
+    "conduit": "sonicraft:blocks/scrap_brain_electric_trap"
+  }
+}

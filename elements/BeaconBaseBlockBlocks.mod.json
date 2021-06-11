@@ -1,0 +1,56 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:MarbleZoneIronBlock"
+      },
+      {
+        "value": "CUSTOM:CPZIronBlock"
+      },
+      {
+        "value": "CUSTOM:CPZDecorativeIronBlock"
+      },
+      {
+        "value": "CUSTOM:WorkshopIronBlock"
+      },
+      {
+        "value": "CUSTOM:SmoothWorkshopIronBlock"
+      },
+      {
+        "value": "CUSTOM:ChiseledWorkshopIronBlock"
+      },
+      {
+        "value": "CUSTOM:WorkshopFloorBlock"
+      },
+      {
+        "value": "CUSTOM:WorkshopFloorStairs"
+      },
+      {
+        "value": "CUSTOM:WorkshopFloorSlab"
+      },
+      {
+        "value": "CUSTOM:ScrapBrainIronBlock"
+      },
+      {
+        "value": "CUSTOM:DecorativeScrapBrainIronBlock"
+      },
+      {
+        "value": "CUSTOM:ScrapBrainIronStairs"
+      },
+      {
+        "value": "CUSTOM:ScrapBrainIronSlab"
+      },
+      {
+        "value": "CUSTOM:RedIronBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "beacon_base_blocks",
+    "namespace": "minecraft"
+  }
+}

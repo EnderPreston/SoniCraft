@@ -1,0 +1,13 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sonicraft:mega_mack_block_light_blue"
+    }
+  ],
+  "result": {
+    "item": "sonicraft:mega_mack_ball",
+    "count": 9
+  }
+}

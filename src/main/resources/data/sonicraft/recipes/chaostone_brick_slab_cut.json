@@ -1,0 +1,9 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "tag": "sonicraft:chaostone_stonecutter"
+  },
+  "result": "sonicraft:chaostone_brick_slab"
+}

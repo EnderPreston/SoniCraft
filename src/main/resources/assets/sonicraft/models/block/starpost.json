@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/sonic_starpost",
+  "textures": {
+    "all": "sonicraft:blocks/starpost",
+    "particle": "sonicraft:blocks/starpost",
+    "0": "sonicraft:blocks/starpost"
+  }
+}

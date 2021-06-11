@@ -1,0 +1,10 @@
+{
+  "parent": "sonicraft:custom/slot_wheel_spinning",
+  "textures": {
+    "all": "sonicraft:blocks/casino_night_slot_wheel_spinning",
+    "particle": "sonicraft:blocks/casino_night_slot_wheel_spinning",
+    "wheel_side": "sonicraft:blocks/casino_night_slot_wheel_side_spinning",
+    "wheel": "sonicraft:blocks/casino_night_slot_wheel_spinning",
+    "sides": "sonicraft:blocks/casino_night_slot_wheel_blank"
+  }
+}

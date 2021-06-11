@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/miles_electric",
+  "textures": {
+    "back": "sonicraft:blocks/miles_electric_back",
+    "front": "sonicraft:blocks/miles_electric",
+    "particle": "sonicraft:items/miles_electric"
+  }
+}

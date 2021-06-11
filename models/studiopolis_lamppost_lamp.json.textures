@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "studiopolis_lamppost_glass_side",
+        "top": "studiopolis_lamppost_glass_top",
+        "light": "studiopolis_lamppost_light",
+        "ring": "studiopolis_lamppost_ring"
+      },
+      "name": "default"
+    }
+  }
+}

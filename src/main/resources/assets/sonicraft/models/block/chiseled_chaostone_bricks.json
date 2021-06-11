@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/chaostone_bricks_chiseled",
+    "particle": "sonicraft:blocks/chaostone_bricks_chiseled"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wechnia_block"
+      },
+      "name": "default"
+    },
+    "ghz_sunflower": {
+      "map": {
+        "0": "green_hill_sunflower"
+      },
+      "name": "ghz_sunflower"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "2": {
+      "item": "sonicraft:cyclone_turret"
+    },
+    "3": {
+      "item": "sonicraft:miles_electric"
+    },
+    "4": {
+      "item": "sonicraft:cyclone_body"
+    },
+    "5": {
+      "item": "minecraft:blast_furnace"
+    },
+    "7": {
+      "item": "sonicraft:cyclone_leg"
+    },
+    "8": {
+      "item": "sonicraft:cyclone_leg"
+    }
+  },
+  "result": {
+    "item": "sonicraft:cyclone_item",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:scrap_brain_stone"
+    },
+    "3": {
+      "item": "sonicraft:scrap_brain_stone"
+    },
+    "4": {
+      "item": "sonicraft:scrap_brain_stone"
+    },
+    "6": {
+      "item": "sonicraft:scrap_brain_stone"
+    },
+    "7": {
+      "item": "sonicraft:scrap_brain_stone"
+    },
+    "8": {
+      "item": "sonicraft:scrap_brain_stone"
+    }
+  },
+  "result": {
+    "item": "sonicraft:scrap_brain_stone_stairs",
+    "count": 4
+  }
+}

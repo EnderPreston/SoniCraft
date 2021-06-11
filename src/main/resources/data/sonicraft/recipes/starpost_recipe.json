@@ -1,0 +1,30 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:ender_pearl"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
+      "item": "minecraft:gold_ingot"
+    },
+    "7": {
+      "item": "sonicraft:star_panel"
+    },
+    "8": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "sonicraft:starpost",
+    "count": 1
+  }
+}

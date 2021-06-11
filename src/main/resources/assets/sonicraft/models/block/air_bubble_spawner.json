@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "sonicraft:blocks/air_bubble",
+    "particle": "sonicraft:blocks/air_bubble"
+  }
+}

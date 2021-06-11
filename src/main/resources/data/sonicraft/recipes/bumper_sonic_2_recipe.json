@@ -1,0 +1,26 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:star_panel"
+    },
+    "1": {
+      "item": "sonicraft:star_panel"
+    },
+    "2": {
+      "item": "sonicraft:star_panel"
+    },
+    "3": {
+      "item": "sonicraft:star_panel"
+    }
+  },
+  "result": {
+    "item": "sonicraft:bumper_sonic_2",
+    "count": 2
+  }
+}

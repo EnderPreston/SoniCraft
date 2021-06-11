@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "sonicraft:block/studiopolis_lamppost_rod_post"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "sonicraft:block/studiopolis_lamppost_rod",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "sonicraft:block/studiopolis_lamppost_rod",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "sonicraft:block/studiopolis_lamppost_rod",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "sonicraft:block/studiopolis_lamppost_rod",
+        "y": 90,
+        "uvlock": true
+      }
+    }
+  ]
+}

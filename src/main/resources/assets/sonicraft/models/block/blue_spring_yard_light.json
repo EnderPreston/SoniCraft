@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/spring_yard_light",
+  "textures": {
+    "all": "sonicraft:blocks/spring_yard_blue_flashing_light",
+    "particle": "sonicraft:blocks/spring_yard_blue_flashing_light",
+    "0": "sonicraft:blocks/spring_yard_blue_flashing_light"
+  }
+}

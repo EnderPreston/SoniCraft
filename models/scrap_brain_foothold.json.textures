@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "scrap_brain_foothold"
+      },
+      "name": "default"
+    },
+    "spinning": {
+      "map": {
+        "0": "scrap_brain_spinning_foothold"
+      },
+      "name": "spinning"
+    }
+  }
+}

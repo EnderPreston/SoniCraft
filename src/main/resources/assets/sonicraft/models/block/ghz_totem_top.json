@@ -1,0 +1,12 @@
+{
+  "parent": "sonicraft:custom/sonic_totem_top",
+  "textures": {
+    "all": "sonicraft:blocks/green_hill_totem_face_2",
+    "particle": "sonicraft:blocks/green_hill_totem_side",
+    "face": "sonicraft:blocks/green_hill_totem_face_2",
+    "side": "sonicraft:blocks/green_hill_totem_side",
+    "top": "sonicraft:blocks/green_hill_totem_top",
+    "bottom": "sonicraft:blocks/green_hill_totem_bottom",
+    "wing": "sonicraft:blocks/green_hill_totem_wing"
+  }
+}

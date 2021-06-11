@@ -1,0 +1,13 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sonicraft:marble_zone_stone"
+    }
+  ],
+  "result": {
+    "item": "sonicraft:marble_zone_cave_wall",
+    "count": 1
+  }
+}

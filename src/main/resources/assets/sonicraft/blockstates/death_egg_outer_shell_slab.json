@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft:block/death_egg_outer_shell_slab"
+    },
+    "type=top": {
+      "model": "sonicraft:block/death_egg_outer_shell_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft:block/death_egg_outer_shell_slab_full"
+    }
+  }
+}

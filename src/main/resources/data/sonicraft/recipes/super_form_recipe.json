@@ -1,0 +1,31 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sonicraft:chaos_emerald_yellow"
+    },
+    {
+      "item": "sonicraft:chaos_emerald_green"
+    },
+    {
+      "item": "sonicraft:chaos_emerald_blue"
+    },
+    {
+      "item": "sonicraft:chaos_emerald_white"
+    },
+    {
+      "item": "sonicraft:chaos_emerald_purple"
+    },
+    {
+      "item": "sonicraft:chaos_emerald_light_blue"
+    },
+    {
+      "item": "sonicraft:chaos_emerald_red"
+    }
+  ],
+  "result": {
+    "item": "sonicraft:super_form_emeralds",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass"
+    },
+    "1": {
+      "item": "minecraft:glass"
+    },
+    "2": {
+      "item": "minecraft:glass"
+    },
+    "3": {
+      "item": "minecraft:repeater"
+    },
+    "4": {
+      "item": "sonicraft:death_egg_robot_torso"
+    },
+    "5": {
+      "item": "minecraft:repeater"
+    },
+    "6": {
+      "item": "minecraft:iron_block"
+    },
+    "7": {
+      "item": "minecraft:minecart"
+    },
+    "8": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "sonicraft:repaired_death_egg_robot_torso",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "sonicraft:studiopolis_checkerboard_neon"
+    },
+    "1": {
+      "item": "sonicraft:studiopolis_checkerboard_neon"
+    },
+    "2": {
+      "item": "sonicraft:studiopolis_checkerboard_neon"
+    },
+    "3": {
+      "item": "sonicraft:studiopolis_checkerboard_neon"
+    }
+  },
+  "result": {
+    "item": "sonicraft:studiopolis_disco_floor",
+    "count": 4
+  }
+}
