@@ -25,8 +25,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "§9You can't eat this",
-      "but you CAN place it."
+      "§9You can't eat this,",
+      "§9but you CAN place it."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

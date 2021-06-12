@@ -61,8 +61,8 @@ public class ChunkOfPopcornItem extends SonicraftModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A79You can't eat this"));
-			list.add(new StringTextComponent("but you CAN place it."));
+			list.add(new StringTextComponent("\u00A79You can't eat this,"));
+			list.add(new StringTextComponent("\u00A79but you CAN place it."));
 		}
 
 		@Override
