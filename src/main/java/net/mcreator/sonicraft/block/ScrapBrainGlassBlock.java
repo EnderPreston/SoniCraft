@@ -29,7 +29,6 @@ import net.minecraft.tileentity.LockableLootTileEntity;
 import net.minecraft.network.play.server.SUpdateTileEntityPacket;
 import net.minecraft.network.NetworkManager;
 import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -57,9 +56,7 @@ import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
 import java.util.Map;
-import java.util.List;
 import java.util.HashMap;
-import java.util.Collections;
 
 @SonicraftModElements.ModElement.Tag
 public class ScrapBrainGlassBlock extends SonicraftModElements.ModElement {
@@ -68,7 +65,7 @@ public class ScrapBrainGlassBlock extends SonicraftModElements.ModElement {
 	@ObjectHolder("sonicraft:scrap_brain_glass")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public ScrapBrainGlassBlock(SonicraftModElements instance) {
-		super(instance, 292);
+		super(instance, 293);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -115,14 +112,6 @@ public class ScrapBrainGlassBlock extends SonicraftModElements.ModElement {
 		@Override
 		public MaterialColor getMaterialColor() {
 			return MaterialColor.CYAN;
-		}
-
-		@Override
-		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-			if (!dropsOriginal.isEmpty())
-				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
 		}
 
 		@Override

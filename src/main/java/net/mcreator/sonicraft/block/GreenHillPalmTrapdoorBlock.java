@@ -33,7 +33,7 @@ public class GreenHillPalmTrapdoorBlock extends SonicraftModElements.ModElement 
 	@ObjectHolder("sonicraft:green_hill_palm_trapdoor")
 	public static final Block block = null;
 	public GreenHillPalmTrapdoorBlock(SonicraftModElements instance) {
-		super(instance, 11);
+		super(instance, 12);
 	}
 
 	@Override

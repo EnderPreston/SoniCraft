@@ -38,7 +38,7 @@ public class ScrapBrainBossArenaStructure extends SonicraftModElements.ModElemen
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	public ScrapBrainBossArenaStructure(SonicraftModElements instance) {
-		super(instance, 748);
+		super(instance, 747);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

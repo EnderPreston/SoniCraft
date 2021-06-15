@@ -20,6 +20,13 @@
         "top": "yellow_spring_top"
       },
       "name": "yellow"
+    },
+    "scrapbrain": {
+      "map": {
+        "spring": "scrap_brain_spring",
+        "top": "scrap_brain_spring_top"
+      },
+      "name": "scrapbrain"
     }
   }
 }

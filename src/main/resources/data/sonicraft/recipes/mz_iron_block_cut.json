@@ -1,9 +1,0 @@
-{
-  "group": "sonicraft",
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:iron_block"
-  },
-  "result": "sonicraft:marble_zone_iron_block"
-}

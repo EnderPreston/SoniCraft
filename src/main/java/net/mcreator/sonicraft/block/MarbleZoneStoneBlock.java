@@ -4,30 +4,20 @@ package net.mcreator.sonicraft.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockRayTraceResult;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Hand;
-import net.minecraft.util.Direction;
-import net.minecraft.util.ActionResultType;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.sonicraft.procedures.MarbleZoneStoneOnBlockRightClickedProcedure;
 import net.mcreator.sonicraft.itemgroup.SonicraftBlocksItemGroup;
 import net.mcreator.sonicraft.SonicraftModElements;
 
-import java.util.Map;
 import java.util.List;
-import java.util.HashMap;
 import java.util.Collections;
 
 @SonicraftModElements.ModElement.Tag
@@ -35,7 +25,7 @@ public class MarbleZoneStoneBlock extends SonicraftModElements.ModElement {
 	@ObjectHolder("sonicraft:marble_zone_stone")
 	public static final Block block = null;
 	public MarbleZoneStoneBlock(SonicraftModElements instance) {
-		super(instance, 197);
+		super(instance, 198);
 	}
 
 	@Override
@@ -62,26 +52,6 @@ public class MarbleZoneStoneBlock extends SonicraftModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
-		}
-
-		@Override
-		public ActionResultType onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand,
-				BlockRayTraceResult hit) {
-			super.onBlockActivated(state, world, pos, entity, hand, hit);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			Direction direction = hit.getFace();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				MarbleZoneStoneOnBlockRightClickedProcedure.executeProcedure($_dependencies);
-			}
-			return ActionResultType.SUCCESS;
 		}
 	}
 }

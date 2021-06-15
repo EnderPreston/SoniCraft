@@ -35,7 +35,7 @@ public class GreenHillPalmDoorBlock extends SonicraftModElements.ModElement {
 	@ObjectHolder("sonicraft:green_hill_palm_door")
 	public static final Block block = null;
 	public GreenHillPalmDoorBlock(SonicraftModElements instance) {
-		super(instance, 10);
+		super(instance, 11);
 	}
 
 	@Override

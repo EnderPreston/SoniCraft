@@ -1,0 +1,9 @@
+{
+  "parent": "sonicraft:custom/springblockused",
+  "textures": {
+    "all": "sonicraft:blocks/scrap_brain_spring",
+    "particle": "sonicraft:blocks/scrap_brain_spring",
+    "spring": "sonicraft:blocks/scrap_brain_spring",
+    "top": "sonicraft:blocks/scrap_brain_spring_top"
+  }
+}

@@ -9,8 +9,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.IBlockDisplayReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
-import net.minecraft.loot.LootContext;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.fluid.FluidState;
@@ -25,15 +23,12 @@ import net.minecraft.block.Block;
 import net.mcreator.sonicraft.itemgroup.SonicraftMiscItemGroup;
 import net.mcreator.sonicraft.SonicraftModElements;
 
-import java.util.List;
-import java.util.Collections;
-
 @SonicraftModElements.ModElement.Tag
 public class CapsuleGlassBlock extends SonicraftModElements.ModElement {
 	@ObjectHolder("sonicraft:capsule_glass")
 	public static final Block block = null;
 	public CapsuleGlassBlock(SonicraftModElements instance) {
-		super(instance, 24);
+		super(instance, 25);
 	}
 
 	@Override
@@ -68,14 +63,6 @@ public class CapsuleGlassBlock extends SonicraftModElements.ModElement {
 		@Override
 		public MaterialColor getMaterialColor() {
 			return MaterialColor.BLUE;
-		}
-
-		@Override
-		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-			if (!dropsOriginal.isEmpty())
-				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 }
