@@ -33,8 +33,8 @@ public class CycloneShootOnKeyPressedProcedure extends SonicraftModElements.ModE
 						CycloneTurretItem.shoot(_ent.world, (LivingEntity) (entity.getRidingEntity()), new Random(), (float) 1.2, (float) 5, (int) 2);
 					}
 				}
+				(entity.getRidingEntity()).getPersistentData().putDouble("cycloneShot", 1);
 			}
-			(entity.getRidingEntity()).getPersistentData().putDouble("cycloneShot", 1);
 		}
 	}
 }

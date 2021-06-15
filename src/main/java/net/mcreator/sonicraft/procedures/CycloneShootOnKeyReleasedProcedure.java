@@ -3,6 +3,7 @@ package net.mcreator.sonicraft.procedures;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.sonicraft.entity.CycloneEntity;
 import net.mcreator.sonicraft.SonicraftModElements;
 import net.mcreator.sonicraft.SonicraftMod;
 
@@ -22,7 +23,9 @@ public class CycloneShootOnKeyReleasedProcedure extends SonicraftModElements.Mod
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((entity instanceof PlayerEntity)) {
-			(entity.getRidingEntity()).getPersistentData().putDouble("cycloneShot", 0);
+			if (((entity.getRidingEntity()) instanceof CycloneEntity.CustomEntity)) {
+				(entity.getRidingEntity()).getPersistentData().putDouble("cycloneShot", 0);
+			}
 		}
 	}
 }

@@ -51,14 +51,15 @@ public class SpikeSoundEffectProcedure extends SonicraftModElements.ModElement {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == SpikesBlock.block.getDefaultState().getBlock())) {
+		if ((((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == SpikesBlock.block.getDefaultState().getBlock())
+				|| ((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == SpikesBlock.block.getDefaultState().getBlock()))) {
 			if (world instanceof World && !world.isRemote()) {
 				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("sonicraft:mod.spike.hurt")),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("sonicraft:spike.hurt")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1);
 			} else {
 				((World) world).playSound(x, y, z,
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("sonicraft:mod.spike.hurt")),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("sonicraft:spike.hurt")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 			}
 		}
