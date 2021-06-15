@@ -2,6 +2,7 @@
 package net.mcreator.sonicraft.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.common.IPlantable;
 
 import net.minecraft.world.IBlockReader;
@@ -30,7 +31,7 @@ public class GHZGrassSlabBlock extends SonicraftModElements.ModElement {
 	@ObjectHolder("sonicraft:ghz_grass_slab")
 	public static final Block block = null;
 	public GHZGrassSlabBlock(SonicraftModElements instance) {
-		super(instance, 169);
+		super(instance, 170);
 	}
 
 	@Override
@@ -41,7 +42,8 @@ public class GHZGrassSlabBlock extends SonicraftModElements.ModElement {
 	}
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.PLANT).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.PLANT).hardnessAndResistance(0.5f, 5f).setLightLevel(s -> 0)
+					.harvestLevel(0).harvestTool(ToolType.SHOVEL).setRequiresTool());
 			setRegistryName("ghz_grass_slab");
 		}
 

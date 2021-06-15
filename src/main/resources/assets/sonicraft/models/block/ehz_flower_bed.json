@@ -1,0 +1,8 @@
+{
+  "parent": "sonicraft:custom/emerald_hill_flower_bed",
+  "textures": {
+    "all": "sonicraft:blocks/emerald_hill_flower_bed",
+    "particle": "sonicraft:blocks/emerald_hill_flower_bed",
+    "wool": "sonicraft:blocks/emerald_hill_flower_bed"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "wool": "emerald_hill_flower_bed"
+      },
+      "name": "default"
+    }
+  }
+}

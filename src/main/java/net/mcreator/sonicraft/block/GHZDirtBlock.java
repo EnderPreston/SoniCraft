@@ -2,6 +2,7 @@
 package net.mcreator.sonicraft.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.common.IPlantable;
 
 import net.minecraft.world.server.ServerWorld;
@@ -33,7 +34,7 @@ public class GHZDirtBlock extends SonicraftModElements.ModElement {
 	@ObjectHolder("sonicraft:ghz_dirt")
 	public static final Block block = null;
 	public GHZDirtBlock(SonicraftModElements instance) {
-		super(instance, 170);
+		super(instance, 171);
 	}
 
 	@Override
@@ -44,8 +45,8 @@ public class GHZDirtBlock extends SonicraftModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
-					.tickRandomly());
+			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(0.5f, 5f).setLightLevel(s -> 0)
+					.harvestLevel(0).harvestTool(ToolType.SHOVEL).setRequiresTool().tickRandomly());
 			setRegistryName("ghz_dirt");
 		}
 

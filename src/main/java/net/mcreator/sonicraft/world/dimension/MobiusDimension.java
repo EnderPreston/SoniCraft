@@ -81,7 +81,7 @@ public class MobiusDimension extends SonicraftModElements.ModElement {
 	@ObjectHolder("sonicraft:mobius_portal")
 	public static final CustomPortalBlock portal = null;
 	public MobiusDimension(SonicraftModElements instance) {
-		super(instance, 140);
+		super(instance, 141);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}

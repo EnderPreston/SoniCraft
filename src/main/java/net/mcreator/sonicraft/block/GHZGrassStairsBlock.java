@@ -2,6 +2,7 @@
 package net.mcreator.sonicraft.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.common.IPlantable;
 
 import net.minecraft.world.IBlockReader;
@@ -29,7 +30,7 @@ public class GHZGrassStairsBlock extends SonicraftModElements.ModElement {
 	@ObjectHolder("sonicraft:ghz_grass_stairs")
 	public static final Block block = null;
 	public GHZGrassStairsBlock(SonicraftModElements instance) {
-		super(instance, 168);
+		super(instance, 169);
 	}
 
 	@Override
@@ -40,10 +41,10 @@ public class GHZGrassStairsBlock extends SonicraftModElements.ModElement {
 	}
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(() -> new Block(
-					Block.Properties.create(Material.ORGANIC).sound(SoundType.PLANT).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0))
-							.getDefaultState(),
-					Block.Properties.create(Material.ORGANIC).sound(SoundType.PLANT).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(() -> new Block(Block.Properties.create(Material.ORGANIC).sound(SoundType.PLANT).hardnessAndResistance(0.5f, 5f)
+					.setLightLevel(s -> 0).harvestLevel(0).harvestTool(ToolType.SHOVEL).setRequiresTool()).getDefaultState(),
+					Block.Properties.create(Material.ORGANIC).sound(SoundType.PLANT).hardnessAndResistance(0.5f, 5f).setLightLevel(s -> 0)
+							.harvestLevel(0).harvestTool(ToolType.SHOVEL).setRequiresTool());
 			setRegistryName("ghz_grass_stairs");
 		}
 

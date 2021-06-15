@@ -102,6 +102,8 @@ public class PalmTreeStructure extends SonicraftModElements.ModElement {
 		boolean biomeCriteria = false;
 		if (new ResourceLocation("sonicraft:green_hill_zone").equals(event.getName()))
 			biomeCriteria = true;
+		if (new ResourceLocation("sonicraft:emerald_hill_zone").equals(event.getName()))
+			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.SURFACE_STRUCTURES).add(() -> configuredFeature);

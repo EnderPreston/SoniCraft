@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EHZGrass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EHZGrass"
+      },
+      {
+        "value": "CUSTOM:EHZGrass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EHZGrass"
+      },
+      {
+        "value": "CUSTOM:EHZGrass"
+      },
+      {
+        "value": "CUSTOM:EHZGrass"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EHZGrassStairs"
+    },
+    "name": "ehz_grass_stairs_recipe",
+    "namespace": "mod"
+  }
+}

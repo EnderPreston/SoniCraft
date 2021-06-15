@@ -1001,5 +1001,14 @@
         "stream": true
       }
     ]
+  },
+  "music.game.emeraldhill": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "sonicraft:emerald_hill",
+        "stream": true
+      }
+    ]
   }
 }

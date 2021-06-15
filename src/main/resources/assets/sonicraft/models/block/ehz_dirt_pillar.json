@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sonicraft:blocks/emerald_hill_dirt_pillar_top",
+    "up": "sonicraft:blocks/emerald_hill_dirt_pillar_top",
+    "north": "sonicraft:blocks/emerald_hill_dirt_pillar",
+    "east": "sonicraft:blocks/emerald_hill_dirt_pillar",
+    "south": "sonicraft:blocks/emerald_hill_dirt_pillar",
+    "west": "sonicraft:blocks/emerald_hill_dirt_pillar",
+    "particle": "sonicraft:blocks/emerald_hill_dirt_pillar_top"
+  }
+}

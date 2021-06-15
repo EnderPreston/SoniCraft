@@ -6,6 +6,21 @@
     "items": [
       {
         "value": "CUSTOM:GHZFlower"
+      },
+      {
+        "value": "CUSTOM:EHZFlowerSpinning"
+      },
+      {
+        "value": "CUSTOM:EHZFlowerCurling"
+      },
+      {
+        "value": "CUSTOM:EHZFlowerBouncing"
+      },
+      {
+        "value": "CUSTOM:EHZFlowerBlooming"
+      },
+      {
+        "value": "CUSTOM:EHZFlowerBed"
       }
     ],
     "blocks": [],

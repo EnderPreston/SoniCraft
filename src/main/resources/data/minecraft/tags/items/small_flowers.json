@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "sonicraft:ghz_flower"
+    "sonicraft:ghz_flower",
+    "sonicraft:ehz_flower_spinning",
+    "sonicraft:ehz_flower_curling",
+    "sonicraft:ehz_flower_bouncing",
+    "sonicraft:ehz_flower_blooming",
+    "sonicraft:ehz_flower_bed"
   ]
 }

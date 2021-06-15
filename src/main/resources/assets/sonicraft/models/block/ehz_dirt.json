@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sonicraft:blocks/emerald_hill_dirt",
+    "particle": "sonicraft:blocks/emerald_hill_dirt"
+  }
+}

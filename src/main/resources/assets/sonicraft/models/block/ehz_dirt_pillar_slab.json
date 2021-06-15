@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "sonicraft:blocks/emerald_hill_dirt_pillar_top",
+    "top": "sonicraft:blocks/emerald_hill_dirt_pillar_top",
+    "side": "sonicraft:blocks/emerald_hill_dirt_pillar_slab"
+  }
+}

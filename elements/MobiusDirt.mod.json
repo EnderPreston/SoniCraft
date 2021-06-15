@@ -73,6 +73,24 @@
       },
       {
         "value": "CUSTOM:AquaticRuinPlatformSlab"
+      },
+      {
+        "value": "CUSTOM:EHZGrass"
+      },
+      {
+        "value": "CUSTOM:ScrapBrainIronBlock"
+      },
+      {
+        "value": "CUSTOM:CasinoNightRoad"
+      },
+      {
+        "value": "CUSTOM:EHZGrassStairs"
+      },
+      {
+        "value": "CUSTOM:EHZGrassSlab"
+      },
+      {
+        "value": "CUSTOM:StarLightRoad"
       }
     ],
     "functions": [],

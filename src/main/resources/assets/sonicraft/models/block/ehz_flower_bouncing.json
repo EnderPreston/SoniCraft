@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "sonicraft:blocks/emerald_hill_flower_bouncing",
+    "particle": "sonicraft:blocks/emerald_hill_flower_bouncing"
+  }
+}

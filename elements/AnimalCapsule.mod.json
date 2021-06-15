@@ -25,6 +25,27 @@
       },
       {
         "value": "CUSTOM:CPZRoad"
+      },
+      {
+        "value": "CUSTOM:SpringYardRoad"
+      },
+      {
+        "value": "CUSTOM:CasinoNightRoad"
+      },
+      {
+        "value": "CUSTOM:SpringYardRoad"
+      },
+      {
+        "value": "CUSTOM:CasinoNightRoad"
+      },
+      {
+        "value": "CUSTOM:StarLightRoad"
+      },
+      {
+        "value": "CUSTOM:StudiopolisRoad"
+      },
+      {
+        "value": "CUSTOM:EHZGrass"
       }
     ],
     "restrictionBiomes": [
@@ -36,6 +57,21 @@
       },
       {
         "value": "CUSTOM:ChemicalPlantZone"
+      },
+      {
+        "value": "CUSTOM:SpringYard"
+      },
+      {
+        "value": "CUSTOM:CasinoNightZone"
+      },
+      {
+        "value": "CUSTOM:StarLightZone"
+      },
+      {
+        "value": "CUSTOM:StudiopolisZone"
+      },
+      {
+        "value": "CUSTOM:EmeraldHillZone"
       }
     ],
     "ignoreBlocks": "STRUCTURE_BLOCK"

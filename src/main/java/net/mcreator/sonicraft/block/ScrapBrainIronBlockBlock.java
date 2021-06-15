@@ -25,7 +25,7 @@ public class ScrapBrainIronBlockBlock extends SonicraftModElements.ModElement {
 	@ObjectHolder("sonicraft:scrap_brain_iron_block")
 	public static final Block block = null;
 	public ScrapBrainIronBlockBlock(SonicraftModElements instance) {
-		super(instance, 283);
+		super(instance, 284);
 	}
 
 	@Override
@@ -36,8 +36,8 @@ public class ScrapBrainIronBlockBlock extends SonicraftModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(1f, 30f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.METAL).hardnessAndResistance(1f, 30f).setLightLevel(s -> 0)
+					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("scrap_brain_iron_block");
 		}
 

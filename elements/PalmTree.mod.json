@@ -24,6 +24,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:GreenHillZone"
+      },
+      {
+        "value": "CUSTOM:EmeraldHillZone"
       }
     ],
     "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"

@@ -30,8 +30,13 @@ import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Mirror;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.sonicraft.block.StudiopolisRoadBlock;
+import net.mcreator.sonicraft.block.StarLightRoadBlock;
+import net.mcreator.sonicraft.block.SpringYardRoadBlock;
 import net.mcreator.sonicraft.block.MarbleZoneGrassBlock;
 import net.mcreator.sonicraft.block.GHZGrassBlock;
+import net.mcreator.sonicraft.block.EHZGrassBlock;
+import net.mcreator.sonicraft.block.CasinoNightRoadBlock;
 import net.mcreator.sonicraft.block.CPZRoadBlock;
 import net.mcreator.sonicraft.SonicraftModElements;
 
@@ -77,6 +82,20 @@ public class AnimalCapsuleStructure extends SonicraftModElements.ModElement {
 								blockCriteria = true;
 							if (blockAt.getBlock() == CPZRoadBlock.block.getDefaultState().getBlock())
 								blockCriteria = true;
+							if (blockAt.getBlock() == SpringYardRoadBlock.block.getDefaultState().getBlock())
+								blockCriteria = true;
+							if (blockAt.getBlock() == CasinoNightRoadBlock.block.getDefaultState().getBlock())
+								blockCriteria = true;
+							if (blockAt.getBlock() == SpringYardRoadBlock.block.getDefaultState().getBlock())
+								blockCriteria = true;
+							if (blockAt.getBlock() == CasinoNightRoadBlock.block.getDefaultState().getBlock())
+								blockCriteria = true;
+							if (blockAt.getBlock() == StarLightRoadBlock.block.getDefaultState().getBlock())
+								blockCriteria = true;
+							if (blockAt.getBlock() == StudiopolisRoadBlock.block.getDefaultState().getBlock())
+								blockCriteria = true;
+							if (blockAt.getBlock() == EHZGrassBlock.block.getDefaultState().getBlock())
+								blockCriteria = true;
 							if (!blockCriteria)
 								continue;
 							Rotation rotation = Rotation.values()[random.nextInt(3)];
@@ -112,6 +131,16 @@ public class AnimalCapsuleStructure extends SonicraftModElements.ModElement {
 		if (new ResourceLocation("sonicraft:marble_zone").equals(event.getName()))
 			biomeCriteria = true;
 		if (new ResourceLocation("sonicraft:chemical_plant_zone").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("sonicraft:spring_yard").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("sonicraft:casino_night_zone").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("sonicraft:star_light_zone").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("sonicraft:studiopolis_zone").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("sonicraft:emerald_hill_zone").equals(event.getName()))
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;

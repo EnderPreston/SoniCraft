@@ -224,6 +224,8 @@ public class SonicraftModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("sonicraft", "camera.snap")));
 		sounds.put(new ResourceLocation("sonicraft", "music.game.studiopolis"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("sonicraft", "music.game.studiopolis")));
+		sounds.put(new ResourceLocation("sonicraft", "music.game.emeraldhill"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("sonicraft", "music.game.emeraldhill")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("sonicraft").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

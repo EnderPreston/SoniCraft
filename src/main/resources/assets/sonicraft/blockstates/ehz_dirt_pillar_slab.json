@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sonicraft:block/ehz_dirt_pillar_slab"
+    },
+    "type=top": {
+      "model": "sonicraft:block/ehz_dirt_pillar_slab_top"
+    },
+    "type=double": {
+      "model": "sonicraft:block/ehz_dirt_pillar_slab_full"
+    }
+  }
+}
