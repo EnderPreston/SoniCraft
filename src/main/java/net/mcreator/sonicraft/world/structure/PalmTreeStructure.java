@@ -31,6 +31,7 @@ import net.minecraft.util.Mirror;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.sonicraft.block.GHZGrassBlock;
+import net.mcreator.sonicraft.block.EHZGrassBlock;
 import net.mcreator.sonicraft.SonicraftModElements;
 
 import java.util.Random;
@@ -70,6 +71,8 @@ public class PalmTreeStructure extends SonicraftModElements.ModElement {
 							BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
 							boolean blockCriteria = false;
 							if (blockAt.getBlock() == GHZGrassBlock.block.getDefaultState().getBlock())
+								blockCriteria = true;
+							if (blockAt.getBlock() == EHZGrassBlock.block.getDefaultState().getBlock())
 								blockCriteria = true;
 							if (!blockCriteria)
 								continue;

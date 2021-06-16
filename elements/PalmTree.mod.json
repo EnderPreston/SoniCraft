@@ -19,6 +19,9 @@
     "restrictionBlocks": [
       {
         "value": "CUSTOM:GHZGrass"
+      },
+      {
+        "value": "CUSTOM:EHZGrass"
       }
     ],
     "restrictionBiomes": [

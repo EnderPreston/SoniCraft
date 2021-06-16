@@ -23,6 +23,7 @@ import net.minecraft.entity.EntityClassification;
 
 import net.mcreator.sonicraft.entity.PeckyEntity;
 import net.mcreator.sonicraft.entity.FlickyEntity;
+import net.mcreator.sonicraft.entity.ChopperEntity;
 import net.mcreator.sonicraft.block.AquaticRuinGrassBlock;
 import net.mcreator.sonicraft.block.AquaticRuinBricksBlock;
 import net.mcreator.sonicraft.SonicraftModElements;
@@ -31,7 +32,7 @@ import net.mcreator.sonicraft.SonicraftModElements;
 public class AquaticRuinZoneBiome extends SonicraftModElements.ModElement {
 	public static Biome biome;
 	public AquaticRuinZoneBiome(SonicraftModElements instance) {
-		super(instance, 718);
+		super(instance, 717);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {
@@ -54,6 +55,7 @@ public class AquaticRuinZoneBiome extends SonicraftModElements.ModElement {
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(FlickyEntity.entity, 1, 1, 1));
 				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(PeckyEntity.entity, 1, 1, 1));
+				mobSpawnInfo.withSpawner(EntityClassification.WATER_CREATURE, new MobSpawnInfo.Spawners(ChopperEntity.entity, 1, 1, 1));
 				biome = new Biome.Builder().precipitation(Biome.RainType.NONE).category(Biome.Category.NONE).depth(-0.5f).scale(0.1f)
 						.temperature(0.2f).downfall(0f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();

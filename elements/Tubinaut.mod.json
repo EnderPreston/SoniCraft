@@ -2,22 +2,22 @@
   "_fv": 18,
   "_type": "mob",
   "definition": {
-    "mobName": "Motobug",
+    "mobName": "Tubinaut",
     "mobLabel": "",
-    "mobModelName": "Modelmotobug",
-    "mobModelTexture": "motobug.png",
-    "mobModelGlowTexture": "",
+    "mobModelName": "Modelorbinaut",
+    "mobModelTexture": "orbinaut_studiopolis.png",
+    "mobModelGlowTexture": "orbinaut_studiopolis_glow.png",
     "modelWidth": 0.9,
     "modelHeight": 0.9,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -65536,
+      "value": -2390481,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -16737793,
+      "value": -5250561,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -99,11 +99,14 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "whenMobDies": {
-      "name": "MotobugEntityDies"
+      "name": "OrbinautEntityDies"
+    },
+    "onPlayerCollidesWith": {
+      "name": "CaterkillerBodyPlayerCollidesWithThisEntity"
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"429\" y=\"79\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">CUSTOM:Sonic</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">BadnikAttackCondition,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">BadnikProvokedCondition,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"409\" y=\"69\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],

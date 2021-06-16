@@ -119,6 +119,15 @@
         "maxGroup": 1,
         "weight": 1,
         "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Chopper"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "waterCreature"
       }
     ]
   }

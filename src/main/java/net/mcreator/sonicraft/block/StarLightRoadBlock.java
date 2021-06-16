@@ -25,7 +25,7 @@ public class StarLightRoadBlock extends SonicraftModElements.ModElement {
 	@ObjectHolder("sonicraft:star_light_road")
 	public static final Block block = null;
 	public StarLightRoadBlock(SonicraftModElements instance) {
-		super(instance, 258);
+		super(instance, 259);
 	}
 
 	@Override
@@ -36,7 +36,7 @@ public class StarLightRoadBlock extends SonicraftModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(1.25f, 15f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.METAL).hardnessAndResistance(1.25f, 15f).setLightLevel(s -> 0)
 					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("star_light_road");
 		}

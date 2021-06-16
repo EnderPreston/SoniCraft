@@ -18,6 +18,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.EntityClassification;
 
 import net.mcreator.sonicraft.entity.PickyEntity;
+import net.mcreator.sonicraft.entity.OrbinautEntity;
 import net.mcreator.sonicraft.entity.FlickyEntity;
 import net.mcreator.sonicraft.block.StarLightRoadBlock;
 import net.mcreator.sonicraft.block.StarLightMetalBlockBlock;
@@ -27,7 +28,7 @@ import net.mcreator.sonicraft.SonicraftModElements;
 public class StarLightZoneBiome extends SonicraftModElements.ModElement {
 	public static Biome biome;
 	public StarLightZoneBiome(SonicraftModElements instance) {
-		super(instance, 883);
+		super(instance, 882);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {
@@ -46,6 +47,7 @@ public class StarLightZoneBiome extends SonicraftModElements.ModElement {
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(FlickyEntity.entity, 1, 1, 1));
 				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(PickyEntity.entity, 1, 1, 1));
+				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(OrbinautEntity.entity, 1, 1, 1));
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.NONE).depth(0.2f).scale(0.1f).temperature(0.5f)
 						.downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();

@@ -25,7 +25,7 @@ public class StudiopolisRoadBlock extends SonicraftModElements.ModElement {
 	@ObjectHolder("sonicraft:studiopolis_road")
 	public static final Block block = null;
 	public StudiopolisRoadBlock(SonicraftModElements instance) {
-		super(instance, 336);
+		super(instance, 337);
 	}
 
 	@Override
@@ -36,8 +36,8 @@ public class StudiopolisRoadBlock extends SonicraftModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(0)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
+					.harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("studiopolis_road");
 		}
 

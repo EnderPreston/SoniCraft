@@ -19,6 +19,7 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.Item;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
@@ -37,6 +38,8 @@ import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.block.material.Material;
 
 import net.mcreator.sonicraft.procedures.MotobugEntityDiesProcedure;
+import net.mcreator.sonicraft.procedures.BadnikProvokedConditionProcedure;
+import net.mcreator.sonicraft.procedures.BadnikAttackConditionProcedure;
 import net.mcreator.sonicraft.itemgroup.SonicraftMiscItemGroup;
 import net.mcreator.sonicraft.entity.renderer.MotobugRenderer;
 import net.mcreator.sonicraft.SonicraftModElements;
@@ -44,13 +47,15 @@ import net.mcreator.sonicraft.SonicraftModElements;
 import java.util.Map;
 import java.util.HashMap;
 
+import com.google.common.collect.ImmutableMap;
+
 @SonicraftModElements.ModElement.Tag
 public class MotobugEntity extends SonicraftModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(0.9f, 0.9f)).build("motobug").setRegistryName("motobug");
 	public MotobugEntity(SonicraftModElements instance) {
-		super(instance, 159);
+		super(instance, 160);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MotobugRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
@@ -113,11 +118,30 @@ public class MotobugEntity extends SonicraftModElements.ModElement {
 		protected void registerGoals() {
 			super.registerGoals();
 			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, SonicEntity.CustomEntity.class, false, false));
-			this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1, false));
-			this.goalSelector.addGoal(3, new RandomWalkingGoal(this, 1));
-			this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
-			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(6, new SwimGoal(this));
+			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false) {
+				@Override
+				public boolean shouldExecute() {
+					double x = CustomEntity.this.getPosX();
+					double y = CustomEntity.this.getPosY();
+					double z = CustomEntity.this.getPosZ();
+					Entity entity = CustomEntity.this;
+					return super.shouldExecute() && BadnikAttackConditionProcedure.executeProcedure(ImmutableMap.of("world", world));
+				}
+			});
+			this.targetSelector.addGoal(3, new HurtByTargetGoal(this) {
+				@Override
+				public boolean shouldExecute() {
+					double x = CustomEntity.this.getPosX();
+					double y = CustomEntity.this.getPosY();
+					double z = CustomEntity.this.getPosZ();
+					Entity entity = CustomEntity.this;
+					return super.shouldExecute() && BadnikProvokedConditionProcedure.executeProcedure(ImmutableMap.of("entity", entity));
+				}
+			});
+			this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1, false));
+			this.goalSelector.addGoal(5, new RandomWalkingGoal(this, 1));
+			this.goalSelector.addGoal(6, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(7, new SwimGoal(this));
 		}
 
 		@Override

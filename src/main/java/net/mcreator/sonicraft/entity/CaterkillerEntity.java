@@ -38,6 +38,7 @@ import net.minecraft.block.material.Material;
 
 import net.mcreator.sonicraft.procedures.CaterkillerPlayerCollidesWithThisEntityProcedure;
 import net.mcreator.sonicraft.procedures.CaterkillerEntityDiesProcedure;
+import net.mcreator.sonicraft.procedures.BadnikProvokedConditionProcedure;
 import net.mcreator.sonicraft.itemgroup.SonicraftMiscItemGroup;
 import net.mcreator.sonicraft.entity.renderer.CaterkillerRenderer;
 import net.mcreator.sonicraft.SonicraftModElements;
@@ -45,13 +46,15 @@ import net.mcreator.sonicraft.SonicraftModElements;
 import java.util.Map;
 import java.util.HashMap;
 
+import com.google.common.collect.ImmutableMap;
+
 @SonicraftModElements.ModElement.Tag
 public class CaterkillerEntity extends SonicraftModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(1.1f, 0.9f)).build("caterkiller").setRegistryName("caterkiller");
 	public CaterkillerEntity(SonicraftModElements instance) {
-		super(instance, 162);
+		super(instance, 163);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CaterkillerRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
@@ -116,7 +119,16 @@ public class CaterkillerEntity extends SonicraftModElements.ModElement {
 			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1, false));
 			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, SonicEntity.CustomEntity.class, false, false));
 			this.goalSelector.addGoal(3, new RandomWalkingGoal(this, 1));
-			this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
+			this.targetSelector.addGoal(4, new HurtByTargetGoal(this) {
+				@Override
+				public boolean shouldExecute() {
+					double x = CustomEntity.this.getPosX();
+					double y = CustomEntity.this.getPosY();
+					double z = CustomEntity.this.getPosZ();
+					Entity entity = CustomEntity.this;
+					return super.shouldExecute() && BadnikProvokedConditionProcedure.executeProcedure(ImmutableMap.of("entity", entity));
+				}
+			});
 			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));
 		}
 

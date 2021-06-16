@@ -117,6 +117,15 @@
         "maxGroup": 1,
         "weight": 1,
         "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Orbinaut"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "creature"
       }
     ]
   }
