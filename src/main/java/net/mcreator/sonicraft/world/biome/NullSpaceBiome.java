@@ -11,7 +11,6 @@ import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.biome.SoundAdditionsAmbience;
 import net.minecraft.world.biome.MobSpawnInfo;
-import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
 import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
@@ -24,7 +23,7 @@ import net.mcreator.sonicraft.SonicraftModElements;
 public class NullSpaceBiome extends SonicraftModElements.ModElement {
 	public static Biome biome;
 	public NullSpaceBiome(SonicraftModElements instance) {
-		super(instance, 685);
+		super(instance, 699);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 	private static class BiomeRegisterHandler {
@@ -41,7 +40,6 @@ public class NullSpaceBiome extends SonicraftModElements.ModElement {
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(NullSpaceStoneBlock.block.getDefaultState(),
 								NullSpaceStoneBlock.block.getDefaultState(), NullSpaceStoneBlock.block.getDefaultState())));
-				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				biome = new Biome.Builder().precipitation(Biome.RainType.NONE).category(Biome.Category.NONE).depth(0f).scale(0f).temperature(0f)
 						.downfall(0f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())

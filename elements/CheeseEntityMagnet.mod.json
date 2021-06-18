@@ -2,10 +2,10 @@
   "_fv": 18,
   "_type": "mob",
   "definition": {
-    "mobName": "Tails",
+    "mobName": "entity.sonicraft.cheese_entity_magnet",
     "mobLabel": "",
-    "mobModelName": "Modeltails_swipe",
-    "mobModelTexture": "tails_texture.png",
+    "mobModelName": "Modeltikal",
+    "mobModelTexture": "equals_p.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.2,
     "modelHeight": 0.0,
@@ -13,7 +13,7 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": false,
     "spawnEggBaseColor": {
-      "value": -26368,
+      "value": -1,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
@@ -49,10 +49,10 @@
     "attackStrength": 3,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.6,
+    "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 32,
+    "health": 1,
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": true,
@@ -98,12 +98,15 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
+    "whenMobDies": {
+      "name": "CheeseEntityMagnetEntityDies"
+    },
     "onMobTickUpdate": {
-      "name": "TailsSwipeOnEntityTickUpdate"
+      "name": "CheeseEntityMagnetOnEntityTickUpdate"
     },
     "hasAI": false,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"381\" y=\"23\"></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"326\" y=\"80\"></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -115,7 +118,7 @@
     "spawnThisMob": false,
     "doesDespawnWhenIdle": false,
     "spawningProbability": 20,
-    "mobSpawningType": "creature",
+    "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [],

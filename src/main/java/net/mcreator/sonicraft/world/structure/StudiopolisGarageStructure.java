@@ -43,7 +43,7 @@ public class StudiopolisGarageStructure extends SonicraftModElements.ModElement 
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	public StudiopolisGarageStructure(SonicraftModElements instance) {
-		super(instance, 987);
+		super(instance, 1001);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

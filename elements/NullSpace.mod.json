@@ -80,9 +80,7 @@
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "oceanRuinType": "NONE",
-    "defaultFeatures": [
-      "FrozenTopLayer"
-    ],
+    "defaultFeatures": [],
     "spawnEntries": []
   }
 }

@@ -40,7 +40,7 @@ public class ScrapBrainBossTriggerBlock extends SonicraftModElements.ModElement 
 	@ObjectHolder("sonicraft:scrap_brain_boss_trigger")
 	public static final Block block = null;
 	public ScrapBrainBossTriggerBlock(SonicraftModElements instance) {
-		super(instance, 743);
+		super(instance, 757);
 	}
 
 	@Override

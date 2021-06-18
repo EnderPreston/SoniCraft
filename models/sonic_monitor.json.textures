@@ -169,6 +169,16 @@
         "front": "monitor_front"
       },
       "name": "sonic_3"
+    },
+    "cream": {
+      "map": {
+        "side": "monitor_side",
+        "top": "monitor_top",
+        "bottom": "monitor_bottom",
+        "screen": "monitor_cream",
+        "front": "monitor_front"
+      },
+      "name": "cream"
     }
   }
 }

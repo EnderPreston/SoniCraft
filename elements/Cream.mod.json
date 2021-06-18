@@ -2,26 +2,26 @@
   "_fv": 18,
   "_type": "mob",
   "definition": {
-    "mobName": "Tails",
+    "mobName": "Cream",
     "mobLabel": "",
-    "mobModelName": "Modeltails_swipe",
-    "mobModelTexture": "tails_texture.png",
+    "mobModelName": "Modelcream",
+    "mobModelTexture": "cream_texture.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 0.2,
-    "modelHeight": 0.0,
-    "modelShadowSize": 0.0,
+    "modelWidth": 0.6,
+    "modelHeight": 1.0,
+    "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
-    "hasSpawnEgg": false,
+    "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -26368,
+      "value": -7244,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -15518,
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:SonicraftMisc"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -49,33 +49,33 @@
     "attackStrength": 3,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.6,
+    "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "health": 32,
     "xpAmount": 0,
     "waterMob": false,
-    "flyingMob": true,
+    "flyingMob": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "disableCollisions": true,
+    "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": true,
-    "immuneToArrows": true,
+    "immuneToFire": false,
+    "immuneToArrows": false,
     "immuneToFallDamage": true,
-    "immuneToCactus": true,
-    "immuneToDrowning": true,
-    "immuneToLightning": true,
-    "immuneToPotions": true,
-    "immuneToPlayer": true,
-    "immuneToExplosion": true,
-    "immuneToTrident": true,
-    "immuneToAnvil": true,
-    "immuneToWither": true,
-    "immuneToDragonBreath": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
     "mobDrop": {
       "value": ""
     },
@@ -83,10 +83,10 @@
       "value": ""
     },
     "hurtSound": {
-      "value": ""
+      "value": "entity.generic.hurt"
     },
     "deathSound": {
-      "value": ""
+      "value": "entity.generic.death"
     },
     "stepSound": {
       "value": ""
@@ -98,12 +98,15 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "onMobTickUpdate": {
-      "name": "TailsSwipeOnEntityTickUpdate"
+    "onRightClickedOn": {
+      "name": "AmyRoseRightClickedOnEntity"
     },
-    "hasAI": false,
+    "onInitialSpawn": {
+      "name": "CreamOnInitialEntitySpawn"
+    },
+    "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"381\" y=\"23\"></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"405\" y=\"41\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><field name=\"condition\">null,null</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:SoftServeIceCream</field></block></value></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],

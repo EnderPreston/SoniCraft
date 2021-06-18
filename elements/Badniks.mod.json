@@ -24,6 +24,15 @@
       },
       {
         "value": "CUSTOM:CaterkillerBody"
+      },
+      {
+        "value": "CUSTOM:Orbinaut"
+      },
+      {
+        "value": "CUSTOM:Tubinaut"
+      },
+      {
+        "value": "CUSTOM:Chopper"
       }
     ],
     "name": "badniks",

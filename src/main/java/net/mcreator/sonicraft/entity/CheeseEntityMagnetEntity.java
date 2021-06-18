@@ -29,21 +29,22 @@ import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.sonicraft.procedures.TailsSwipeOnEntityTickUpdateProcedure;
-import net.mcreator.sonicraft.entity.renderer.TailsSwipeRenderer;
+import net.mcreator.sonicraft.procedures.CheeseEntityMagnetOnEntityTickUpdateProcedure;
+import net.mcreator.sonicraft.procedures.CheeseEntityMagnetEntityDiesProcedure;
+import net.mcreator.sonicraft.entity.renderer.CheeseEntityMagnetRenderer;
 import net.mcreator.sonicraft.SonicraftModElements;
 
 import java.util.Map;
 import java.util.HashMap;
 
 @SonicraftModElements.ModElement.Tag
-public class TailsSwipeEntity extends SonicraftModElements.ModElement {
-	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE)
+public class CheeseEntityMagnetEntity extends SonicraftModElements.ModElement {
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
-			.size(0.2f, 0f)).build("tails_swipe").setRegistryName("tails_swipe");
-	public TailsSwipeEntity(SonicraftModElements instance) {
-		super(instance, 1008);
-		FMLJavaModLoadingContext.get().getModEventBus().register(new TailsSwipeRenderer.ModelRegisterHandler());
+			.size(0.2f, 0f)).build("cheese_entity_magnet").setRegistryName("cheese_entity_magnet");
+	public CheeseEntityMagnetEntity(SonicraftModElements instance) {
+		super(instance, 1045);
+		FMLJavaModLoadingContext.get().getModEventBus().register(new CheeseEntityMagnetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}
 
@@ -59,11 +60,11 @@ public class TailsSwipeEntity extends SonicraftModElements.ModElement {
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.6);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 32);
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 1);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
-			ammma = ammma.createMutableAttribute(Attributes.FLYING_SPEED, 0.6);
+			ammma = ammma.createMutableAttribute(Attributes.FLYING_SPEED, 0.3);
 			event.put(entity, ammma.create());
 		}
 	}
@@ -144,6 +145,25 @@ public class TailsSwipeEntity extends SonicraftModElements.ModElement {
 		}
 
 		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity sourceentity = source.getTrueSource();
+			Entity entity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				CheeseEntityMagnetEntityDiesProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
 		public void baseTick() {
 			super.baseTick();
 			double x = this.getPosX();
@@ -157,7 +177,7 @@ public class TailsSwipeEntity extends SonicraftModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				TailsSwipeOnEntityTickUpdateProcedure.executeProcedure($_dependencies);
+				CheeseEntityMagnetOnEntityTickUpdateProcedure.executeProcedure($_dependencies);
 			}
 		}
 

@@ -23,7 +23,6 @@ import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.passive.IronGolemEntity;
-import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
@@ -35,6 +34,7 @@ import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.block.BlockState;
 
@@ -54,7 +54,7 @@ public class DeathEggRobotEntity extends SonicraftModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
 			.size(1.7999999999999998f, 9f)).build("death_egg_robot").setRegistryName("death_egg_robot");
 	public DeathEggRobotEntity(SonicraftModElements instance) {
-		super(instance, 165);
+		super(instance, 175);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DeathEggRobotRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}
@@ -83,7 +83,7 @@ public class DeathEggRobotEntity extends SonicraftModElements.ModElement {
 		}
 	}
 
-	public static class CustomEntity extends MonsterEntity {
+	public static class CustomEntity extends CreatureEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}

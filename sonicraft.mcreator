@@ -14995,6 +14995,203 @@
           }
         ]
       }
+    },
+    {
+      "name": "Cream",
+      "type": "mob",
+      "sortid": 1038,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cream"
+    },
+    {
+      "name": "ItemBoxCream",
+      "type": "block",
+      "sortid": 1039,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_box_cream"
+    },
+    {
+      "name": "SignpostCream",
+      "type": "block",
+      "sortid": 1040,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "signpost_cream"
+    },
+    {
+      "name": "ItemBoxCreamEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 1041,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_box_cream_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cheese",
+      "type": "mob",
+      "sortid": 1042,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cheese"
+    },
+    {
+      "name": "CreamOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 1043,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cream_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheeseOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 1044,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cheese_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CheeseEntityMagnet",
+      "type": "mob",
+      "sortid": 1045,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cheese_entity_magnet"
+    },
+    {
+      "name": "CheeseEntityMagnetOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 1046,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cheese_entity_magnet_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheeseOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 1047,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cheese_on_entity_tick_update",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CheeseEntityMagnetEntityDies",
+      "type": "procedure",
+      "sortid": 1048,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cheese_entity_magnet_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -15860,8 +16057,8 @@
       "block.sonicraft.casino_night_slot_wheel_spinning": "Casino Night Slot Wheel (Spinning)",
       "block.sonicraft.studiopolis_lamppost_rod": "Studiopolis Lamppost Rod",
       "block.sonicraft.casino_night_road": "Casino Night Road",
-      "item.sonicraft.orbinaut_spawn_egg": "Orbinaut Spawn Egg",
       "block.sonicraft.death_egg_wall": "Death Egg Wall",
+      "item.sonicraft.orbinaut_spawn_egg": "Orbinaut Spawn Egg",
       "block.sonicraft.star_light_glass": "Star Light Glass",
       "block.sonicraft.eggman_despawn_trigger": "Eggman Despawn Trigger",
       "item.sonicraft.rocky_spawn_egg": "Rocky Spawn Egg",
@@ -15917,6 +16114,7 @@
       "block.sonicraft.star_light_metal_wall": "Star Light Lamppost Base",
       "item.sonicraft.orange_chao_fruit": "Orange Chao Fruit",
       "item.sonicraft.null_space_dimension": "Null Space Dimension Portal Igniter",
+      "item.sonicraft.cheese_spawn_egg": "Cheese Spawn Egg",
       "block.sonicraft.death_egg_pipe": "Death Egg Pipe",
       "block.sonicraft.cpz_iron_block": "Chemical Plant Block of Iron",
       "block.sonicraft.chao_egg": "Chao Egg",
@@ -16048,6 +16246,7 @@
       "block.sonicraft.studiopolis_popcorn_shop_awning": "Studiopolis Popcorn Shop Awning",
       "block.sonicraft.ehz_flower_bouncing": "Bouncing Emerald Hill Flower",
       "block.sonicraft.pink_studiopolis_glass": "Pink Studiopolis Glass",
+      "item.sonicraft.cream_spawn_egg": "Cream Spawn Egg",
       "entity.sonicraft.air_bubble": "Air Bubble",
       "block.sonicraft.studiopolis_checkerboard_neon": "Studiopolis Checkerboard Neon",
       "block.sonicraft.cpz_caution_pillar": "Chemical Plant Caution Pillar",
@@ -16088,6 +16287,7 @@
       "item.sonicraft.black_market_chao_spawn_egg": "Black Market Chao Spawn Egg",
       "block.sonicraft.item_box_tails": "Tails Item Box",
       "biome.sonicraft.emerald_hill_zone": "Emerald Hill Zone",
+      "block.sonicraft.signpost_cream": "Goal Plate (Cream)",
       "entity.sonicraft.death_egg_robot": "Death Egg Robot",
       "block.sonicraft.death_egg_interior_wall": "Death Egg Interior Wall",
       "item.sonicraft.blue_chao_fruit": "Blue Chao Fruit",
@@ -16186,7 +16386,7 @@
       "block.sonicraft.fake_cpz_iron_block": "Fake Chemical Plant Block of Iron",
       "item.sonicraft.ricky_spawn_egg": "Ricky Spawn Egg",
       "block.sonicraft.studiopolis_lamppost_antenna": "Studiopolis Lamppost Antenna",
-      "block.sonicraft.ehz_flower_bed": "Spinning Emerald Hill Flower",
+      "block.sonicraft.ehz_flower_bed": "Emerald Hill Flower Bed",
       "block.sonicraft.signpost_knuckles": "Goal Plate (Knuckles)",
       "item.minecraft.splash_potion.effect.shield_effect": "Splash Shield",
       "itemGroup.tabsonicraft_misc": "SoniCraft Items",
@@ -16236,6 +16436,7 @@
       "block.sonicraft.spring_yard_pillar": "Spring Yard Pillar",
       "item.sonicraft.cpz_metal_sonic_death_trigger_spawn_egg": "entity.sonicraft.cpz_metal_sonic_death_trigger Spawn Egg",
       "entity.sonicraft.eggman_boss": "Eggman",
+      "entity.sonicraft.cream": "Cream",
       "item.sonicraft.tails_flying_spawn_egg": "Tails Spawn Egg",
       "entity.sonicraft.flicky": "Flicky",
       "block.sonicraft.workshop_roof_stairs": "Workshop Roof Stairs",
@@ -16313,6 +16514,7 @@
       "item.sonicraft.replica_shadow_spawn_egg": "Shadow Spawn Egg",
       "item.sonicraft.infinite_spawn_egg": "Infinite Spawn Egg",
       "block.sonicraft.casino_night_road_slab": "Casino Night Road Slab",
+      "item.sonicraft.cheese_entity_magnet_spawn_egg": "entity.sonicraft.cheese_entity_magnet Spawn Egg",
       "block.sonicraft.null_space_pillar": "Null Space Pillar",
       "block.sonicraft.casino_night_horizonal_line_light": "Casino Night Horizontal Line Light",
       "effect.shield_effect": "Shield",
@@ -16332,6 +16534,7 @@
       "block.sonicraft.green_hill_palm_planks": "Neo Palm Planks",
       "entity.sonicraft.replica_metal_sonic": "Metal Sonic",
       "entity.sonicraft.sonic_ball_form": "Sonic",
+      "entity.sonicraft.cheese": "Cheese",
       "item.sonicraft.shadow_outfit_boots": "Shadow\u0027s Shoes",
       "item.sonicraft.tails_outfit_chestplate": "Tails Hoodie",
       "item.sonicraft.knuckles_outfit_helmet": "Knuckles\u0027 Hat",
@@ -16340,6 +16543,7 @@
       "block.sonicraft.studiopolis_clapperboard_side_panel": "Studiopolis Clapperboard Side Panel",
       "item.sonicraft.escaping_eggman_spawn_egg": "Eggman Spawn Egg",
       "entity.sonicraft.magnet_effect": "Magnet Effect",
+      "block.sonicraft.item_box_cream": "Cream Item Box",
       "biome.sonicraft.studiopolis_zone": "Studiopolis Zone",
       "block.sonicraft.spinning_starpost": "Starpost",
       "item.sonicraft.scrap_brain_eggman_spawn_egg": "Eggman Spawn Egg",
@@ -16359,6 +16563,7 @@
       "item.sonicraft.mobius": "Flint and Ring",
       "block.sonicraft.ghz_dirt": "Green Hill Dirt",
       "block.sonicraft.marble_zone_grass": "Marble Grass",
+      "entity.sonicraft.cheese_entity_magnet": "entity.sonicraft.cheese_entity_magnet",
       "item.sonicraft.eggman_outfit_boots": "",
       "item.sonicraft.death_egg_robot_torso": "Death Egg Robot Torso",
       "block.sonicraft.item_box": "Item Box",
@@ -16521,6 +16726,7 @@
       "block.sonicraft.star_light_metal_wall": "Star Light Lamppost Base",
       "item.sonicraft.orange_chao_fruit": "Orange Chao Fruit",
       "item.sonicraft.null_space_dimension": "Null Space Dimension Portal Igniter",
+      "item.sonicraft.cheese_spawn_egg": "Cheese Spawn Egg",
       "block.sonicraft.death_egg_pipe": "Death Egg Pipe",
       "block.sonicraft.cpz_iron_block": "Chemical Plant Block of Iron",
       "block.sonicraft.chao_egg": "Chao Egg",
@@ -16652,6 +16858,7 @@
       "block.sonicraft.studiopolis_popcorn_shop_awning": "Studiopolis Popcorn Shop Awning",
       "block.sonicraft.ehz_flower_bouncing": "Bouncing Emerald Hill Flower",
       "block.sonicraft.pink_studiopolis_glass": "Pink Studiopolis Glass",
+      "item.sonicraft.cream_spawn_egg": "Cream Spawn Egg",
       "entity.sonicraft.air_bubble": "Air Bubble",
       "block.sonicraft.studiopolis_checkerboard_neon": "Studiopolis Checkerboard Neon",
       "block.sonicraft.cpz_caution_pillar": "Chemical Plant Caution Pillar",
@@ -16692,6 +16899,7 @@
       "item.sonicraft.black_market_chao_spawn_egg": "Black Market Chao Spawn Egg",
       "block.sonicraft.item_box_tails": "Tails Item Box",
       "biome.sonicraft.emerald_hill_zone": "Emerald Hill Zone",
+      "block.sonicraft.signpost_cream": "Goal Plate (Cream)",
       "entity.sonicraft.death_egg_robot": "Death Egg Robot",
       "block.sonicraft.death_egg_interior_wall": "Death Egg Interior Wall",
       "item.sonicraft.blue_chao_fruit": "Blue Chao Fruit",
@@ -16840,6 +17048,7 @@
       "block.sonicraft.spring_yard_pillar": "Spring Yard Pillar",
       "item.sonicraft.cpz_metal_sonic_death_trigger_spawn_egg": "entity.sonicraft.cpz_metal_sonic_death_trigger Spawn Egg",
       "entity.sonicraft.eggman_boss": "Eggman",
+      "entity.sonicraft.cream": "Cream",
       "item.sonicraft.tails_flying_spawn_egg": "Tails Spawn Egg",
       "entity.sonicraft.flicky": "Flicky",
       "block.sonicraft.workshop_roof_stairs": "Workshop Roof Stairs",
@@ -16917,6 +17126,7 @@
       "item.sonicraft.replica_shadow_spawn_egg": "Shadow Spawn Egg",
       "item.sonicraft.infinite_spawn_egg": "Infinite Spawn Egg",
       "block.sonicraft.casino_night_road_slab": "Casino Night Road Slab",
+      "item.sonicraft.cheese_entity_magnet_spawn_egg": "entity.sonicraft.cheese_entity_magnet Spawn Egg",
       "block.sonicraft.null_space_pillar": "Null Space Pillar",
       "block.sonicraft.casino_night_horizonal_line_light": "Casino Night Horizontal Line Light",
       "effect.shield_effect": "Shield",
@@ -16936,6 +17146,7 @@
       "block.sonicraft.green_hill_palm_planks": "Neo Palm Planks",
       "entity.sonicraft.replica_metal_sonic": "Metal Sonic",
       "entity.sonicraft.sonic_ball_form": "Sonic",
+      "entity.sonicraft.cheese": "Cheese",
       "item.sonicraft.shadow_outfit_boots": "Shadow\u0027s Shoes",
       "item.sonicraft.tails_outfit_chestplate": "Tails Hoodie",
       "item.sonicraft.knuckles_outfit_helmet": "Knuckles\u0027 Hat",
@@ -16944,6 +17155,7 @@
       "block.sonicraft.studiopolis_clapperboard_side_panel": "Studiopolis Clapperboard Side Panel",
       "item.sonicraft.escaping_eggman_spawn_egg": "Eggman Spawn Egg",
       "entity.sonicraft.magnet_effect": "Magnet Effect",
+      "block.sonicraft.item_box_cream": "Cream Item Box",
       "biome.sonicraft.studiopolis_zone": "Studiopolis Zone",
       "block.sonicraft.spinning_starpost": "Starpost",
       "item.sonicraft.scrap_brain_eggman_spawn_egg": "Eggman Spawn Egg",
@@ -16963,6 +17175,7 @@
       "item.sonicraft.mobius": "Flint and Ring",
       "block.sonicraft.ghz_dirt": "Green Hill Dirt",
       "block.sonicraft.marble_zone_grass": "Marble Grass",
+      "entity.sonicraft.cheese_entity_magnet": "entity.sonicraft.cheese_entity_magnet",
       "item.sonicraft.eggman_outfit_boots": "",
       "item.sonicraft.death_egg_robot_torso": "Death Egg Robot Torso",
       "block.sonicraft.item_box": "Item Box",

@@ -13,7 +13,7 @@ import net.minecraft.entity.ILivingEntityData;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
-import net.mcreator.sonicraft.entity.EggmanEntity;
+import net.mcreator.sonicraft.entity.ScrapBrainEggmanEntity;
 import net.mcreator.sonicraft.entity.EggmanBossEntity;
 import net.mcreator.sonicraft.SonicraftModElements;
 import net.mcreator.sonicraft.SonicraftMod;
@@ -25,7 +25,7 @@ import java.util.Comparator;
 @SonicraftModElements.ModElement.Tag
 public class ScrapBrainBossTriggerEntityCollidesInTheBlockProcedure extends SonicraftModElements.ModElement {
 	public ScrapBrainBossTriggerEntityCollidesInTheBlockProcedure(SonicraftModElements instance) {
-		super(instance, 742);
+		super(instance, 756);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -63,22 +63,31 @@ public class ScrapBrainBossTriggerEntityCollidesInTheBlockProcedure extends Soni
 				world.addEntity(entityToSpawn);
 			}
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
-			if (!((Entity) world
-					.getEntitiesWithinAABB(EggmanEntity.CustomEntity.class,
+			if ((((Entity) world
+					.getEntitiesWithinAABB(ScrapBrainEggmanEntity.CustomEntity.class,
 							new AxisAlignedBB(x - (32 / 2d), y - (32 / 2d), z - (32 / 2d), x + (32 / 2d), y + (32 / 2d), z + (32 / 2d)), null)
 					.stream().sorted(new Object() {
 						Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 							return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
 						}
-					}.compareDistOf(x, y, z)).findFirst().orElse(null)).world.isRemote())
-				((Entity) world
-						.getEntitiesWithinAABB(EggmanEntity.CustomEntity.class,
+					}.compareDistOf(x, y, z)).findFirst().orElse(null)) != null)) {
+				if (!((Entity) world
+						.getEntitiesWithinAABB(ScrapBrainEggmanEntity.CustomEntity.class,
 								new AxisAlignedBB(x - (32 / 2d), y - (32 / 2d), z - (32 / 2d), x + (32 / 2d), y + (32 / 2d), z + (32 / 2d)), null)
 						.stream().sorted(new Object() {
 							Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 								return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
 							}
-						}.compareDistOf(x, y, z)).findFirst().orElse(null)).remove();
+						}.compareDistOf(x, y, z)).findFirst().orElse(null)).world.isRemote())
+					((Entity) world
+							.getEntitiesWithinAABB(ScrapBrainEggmanEntity.CustomEntity.class,
+									new AxisAlignedBB(x - (32 / 2d), y - (32 / 2d), z - (32 / 2d), x + (32 / 2d), y + (32 / 2d), z + (32 / 2d)), null)
+							.stream().sorted(new Object() {
+								Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+									return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
+								}
+							}.compareDistOf(x, y, z)).findFirst().orElse(null)).remove();
+			}
 		}
 	}
 }
