@@ -84,12 +84,12 @@ public class CheeseEntity extends SonicraftModElements.ModElement {
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.4);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 20);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 9);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 0.2);
-			ammma = ammma.createMutableAttribute(Attributes.FLYING_SPEED, 0.3);
+			ammma = ammma.createMutableAttribute(Attributes.FLYING_SPEED, 0.4);
 			event.put(entity, ammma.create());
 		}
 	}
@@ -118,11 +118,16 @@ public class CheeseEntity extends SonicraftModElements.ModElement {
 			super.registerGoals();
 			this.targetSelector.addGoal(1, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2, false));
-			this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, CheeseEntityMagnetEntity.CustomEntity.class, false, false));
-			this.goalSelector.addGoal(4, new LookAtGoal(this, CreamEntity.CustomEntity.class, (float) 16));
-			this.goalSelector.addGoal(5, new OwnerHurtByTargetGoal(this));
-			this.goalSelector.addGoal(6, new FollowOwnerGoal(this, 1, (float) 10, (float) 2, false));
-			this.goalSelector.addGoal(7, new RandomWalkingGoal(this, 0.8, 20) {
+			this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, MotobugEntity.CustomEntity.class, false, false));
+			this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, BuzzBomberEntity.CustomEntity.class, false, false));
+			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, CrabmeatEntity.CustomEntity.class, false, false));
+			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, EggmanBossEntity.CustomEntity.class, false, false));
+			this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, MetalSonicEntity.CustomEntity.class, false, false));
+			this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, CheeseEntityMagnetEntity.CustomEntity.class, false, false));
+			this.goalSelector.addGoal(9, new LookAtGoal(this, CreamEntity.CustomEntity.class, (float) 16));
+			this.goalSelector.addGoal(10, new OwnerHurtByTargetGoal(this));
+			this.goalSelector.addGoal(11, new FollowOwnerGoal(this, 1, (float) 10, (float) 2, false));
+			this.goalSelector.addGoal(12, new RandomWalkingGoal(this, 0.8, 20) {
 				@Override
 				protected Vector3d getPosition() {
 					Random random = CustomEntity.this.getRNG();
@@ -132,9 +137,9 @@ public class CheeseEntity extends SonicraftModElements.ModElement {
 					return new Vector3d(dir_x, dir_y, dir_z);
 				}
 			});
-			this.goalSelector.addGoal(8, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(9, new SwimGoal(this));
-			this.goalSelector.addGoal(10, new LeapAtTargetGoal(this, (float) 0.5));
+			this.goalSelector.addGoal(13, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(14, new SwimGoal(this));
+			this.goalSelector.addGoal(15, new LeapAtTargetGoal(this, (float) 0.5));
 		}
 
 		@Override
