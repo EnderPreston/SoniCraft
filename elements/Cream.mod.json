@@ -80,13 +80,13 @@
       "value": ""
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:mob.creamidle"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:mob.creamhurt"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "CUSTOM:mob.creamdie"
     },
     "stepSound": {
       "value": ""

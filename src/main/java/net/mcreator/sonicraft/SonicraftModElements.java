@@ -226,6 +226,12 @@ public class SonicraftModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("sonicraft", "music.game.studiopolis")));
 		sounds.put(new ResourceLocation("sonicraft", "music.game.emeraldhill"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("sonicraft", "music.game.emeraldhill")));
+		sounds.put(new ResourceLocation("sonicraft", "mob.creamidle"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("sonicraft", "mob.creamidle")));
+		sounds.put(new ResourceLocation("sonicraft", "mob.creamhurt"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("sonicraft", "mob.creamhurt")));
+		sounds.put(new ResourceLocation("sonicraft", "mob.creamdie"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("sonicraft", "mob.creamdie")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("sonicraft").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

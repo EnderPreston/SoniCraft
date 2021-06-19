@@ -1010,5 +1010,44 @@
         "stream": true
       }
     ]
+  },
+  "mob.creamidle": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sonicraft:entity.cream.idle1",
+        "stream": false
+      },
+      {
+        "name": "sonicraft:entity.cream.idle2",
+        "stream": false
+      },
+      {
+        "name": "sonicraft:entity.cream.idle3",
+        "stream": false
+      },
+      {
+        "name": "sonicraft:entity.cream.idle4",
+        "stream": false
+      }
+    ]
+  },
+  "mob.creamhurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sonicraft:entity.cream.hurt",
+        "stream": false
+      }
+    ]
+  },
+  "mob.creamdie": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sonicraft:entity.cream.die",
+        "stream": false
+      }
+    ]
   }
 }
